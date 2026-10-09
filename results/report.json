@@ -1,0 +1,558 @@
+{
+  "generated": "2026-10-09T00:57:39.124132+00:00",
+  "config": {
+    "version": "2.0.0",
+    "seed": 20261009,
+    "symbols": [
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT",
+      "SOLUSDT",
+      "XRPUSDT",
+      "DOGEUSDT",
+      "ADAUSDT",
+      "LINKUSDT",
+      "AVAXUSDT",
+      "TRXUSDT",
+      "DOTUSDT",
+      "LTCUSDT",
+      "BCHUSDT",
+      "UNIUSDT",
+      "ATOMUSDT",
+      "NEARUSDT",
+      "APTUSDT",
+      "ARBUSDT",
+      "OPUSDT",
+      "FILUSDT",
+      "ETCUSDT",
+      "ICPUSDT",
+      "INJUSDT",
+      "SUIUSDT",
+      "AAVEUSDT",
+      "MATICUSDT",
+      "RNDRUSDT",
+      "EOSUSDT",
+      "FTTUSDT",
+      "LUNAUSDT"
+    ],
+    "start": "2024-01-01",
+    "end_exclusive": "2026-01-01",
+    "discovery_end": "2025-01-01",
+    "validation_end": "2025-07-01",
+    "historical_holdout_end": "2026-01-01",
+    "initial_brl": 500,
+    "brl_per_usdt": 5.0119,
+    "fee": 0.001,
+    "spread_half": 0.0005,
+    "slippage": 0.0005,
+    "risk": 0.005,
+    "daily_loss": 0.02,
+    "max_drawdown": 0.1,
+    "position_cap": 0.25,
+    "aggregate_cap": 0.5,
+    "aggregate_risk": 0.01,
+    "max_positions": 2,
+    "max_orders_day": 20,
+    "latency_bars": 1,
+    "fill_fraction": 1.0,
+    "participation_cap": 0.001,
+    "max_archive_bytes": 2500000000,
+    "max_disk_bytes": 8000000000,
+    "download_workers": 4,
+    "max_download_seconds": 1800,
+    "max_experiments": 120,
+    "max_research_seconds": 1800,
+    "min_daily_quote_volume": 10000000,
+    "universe_top_n": 20,
+    "history_days": 30,
+    "research_interval": "15m",
+    "ml_symbols": [
+      "BTCUSDT",
+      "ETHUSDT",
+      "SOLUSDT"
+    ],
+    "ml_horizons_minutes": [
+      5,
+      15,
+      30,
+      60
+    ],
+    "ml_sample_stride": 15,
+    "ml_max_train_rows": 80000,
+    "ml_max_test_rows": 20000,
+    "news_enabled": false,
+    "real_trading_enabled": false,
+    "promotion_enabled": false,
+    "promotion_blockers": [
+      "Universo candidato manual e filtros historicos incompletos",
+      "Historico ja conhecido: final prospectivo ainda indisponivel",
+      "Paper prospectivo sem amostra suficiente"
+    ]
+  },
+  "config_hash": "82989d60a6f96a06de358b5f9467390df94fd06da29a9368796f422838d60b9a",
+  "symbols_observed": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BNBUSDT",
+    "SOLUSDT",
+    "XRPUSDT",
+    "DOGEUSDT",
+    "ADAUSDT",
+    "LINKUSDT",
+    "AVAXUSDT",
+    "TRXUSDT",
+    "DOTUSDT",
+    "LTCUSDT",
+    "BCHUSDT",
+    "UNIUSDT",
+    "ATOMUSDT",
+    "NEARUSDT",
+    "APTUSDT",
+    "ARBUSDT",
+    "OPUSDT",
+    "FILUSDT",
+    "ETCUSDT",
+    "ICPUSDT",
+    "INJUSDT",
+    "SUIUSDT",
+    "AAVEUSDT",
+    "MATICUSDT",
+    "RNDRUSDT",
+    "EOSUSDT",
+    "FTTUSDT",
+    "LUNAUSDT"
+  ],
+  "periods": {
+    "discovery": [
+      "2024-03-01",
+      "2025-01-01"
+    ],
+    "validation": [
+      "2025-01-01",
+      "2025-07-01"
+    ],
+    "retrospective_holdout": [
+      "2025-07-01",
+      "2026-01-01"
+    ]
+  },
+  "experiments_completed": 116,
+  "backtests": 80,
+  "model_fits": 36,
+  "cash": {
+    "net_return": 0.0,
+    "max_drawdown": 0.0,
+    "trades": 0
+  },
+  "buy_hold": {
+    "discovery": {
+      "trades": 3,
+      "net_return": 0.33909132829294575,
+      "net_pnl_brl": 169.54566414647286,
+      "ending_brl": 669.5456641464729,
+      "max_drawdown": -0.3935327711000507,
+      "profit_factor": 218.81338313511674,
+      "expectancy": 0.3403943609647113,
+      "ci95_block": null,
+      "ci_familywise": null,
+      "p_adjusted_bootstrap": null,
+      "bootstrap_block_days": 7,
+      "wins": 2,
+      "intrabar_ambiguous": 0,
+      "by_symbol": {
+        "BTCUSDT": {
+          "n": 1,
+          "net_pnl_brl": 86.97266517988169,
+          "expectancy": 0.5251592884575189
+        },
+        "ETHUSDT": {
+          "n": 1,
+          "net_pnl_brl": -0.7783987453208883,
+          "expectancy": -0.004692126396386895
+        },
+        "SOLUSDT": {
+          "n": 1,
+          "net_pnl_brl": 83.351397711912,
+          "expectancy": 0.5007159208330021
+        }
+      },
+      "by_regime": {},
+      "risk_halted": false,
+      "note": "Equal weight on causally eligible initial universe; min notional may leave all cash. Full allocation baseline differs from risk-capped candidates.",
+      "confidence_rule": "Few one-shot holdings are not an independent trade sample"
+    },
+    "validation": {
+      "trades": 3,
+      "net_return": -0.016603170276560997,
+      "net_pnl_brl": -8.301585138280473,
+      "ending_brl": 491.6984148617195,
+      "max_drawdown": -0.46146528079211524,
+      "profit_factor": 0.8063454355746424,
+      "expectancy": -0.016336787962185854,
+      "ci95_block": null,
+      "ci_familywise": null,
+      "p_adjusted_bootstrap": null,
+      "bootstrap_block_days": 7,
+      "wins": 2,
+      "intrabar_ambiguous": 0,
+      "by_symbol": {
+        "BTCUSDT": {
+          "n": 1,
+          "net_pnl_brl": 23.100706011856555,
+          "expectancy": 0.14059058522521403
+        },
+        "ETHUSDT": {
+          "n": 1,
+          "net_pnl_brl": -42.868006560621,
+          "expectancy": -0.25858517503112727
+        },
+        "XRPUSDT": {
+          "n": 1,
+          "net_pnl_brl": 11.465715410484009,
+          "expectancy": 0.06898422591935567
+        }
+      },
+      "by_regime": {},
+      "risk_halted": false,
+      "note": "Equal weight on causally eligible initial universe; min notional may leave all cash. Full allocation baseline differs from risk-capped candidates.",
+      "confidence_rule": "Few one-shot holdings are not an independent trade sample"
+    },
+    "retrospective_holdout": {
+      "trades": 3,
+      "net_return": -0.06238700166809685,
+      "net_pnl_brl": -31.19350083404845,
+      "ending_brl": 468.80649916595155,
+      "max_drawdown": -0.43055502110234145,
+      "profit_factor": 0.5038602048544144,
+      "expectancy": -0.06425211100675371,
+      "ci95_block": null,
+      "ci_familywise": null,
+      "p_adjusted_bootstrap": null,
+      "bootstrap_block_days": 7,
+      "wins": 1,
+      "intrabar_ambiguous": 0,
+      "by_symbol": {
+        "BTCUSDT": {
+          "n": 1,
+          "net_pnl_brl": -29.902856163101088,
+          "expectancy": -0.18542867655984882
+        },
+        "ETHUSDT": {
+          "n": 1,
+          "net_pnl_brl": 31.678901539752584,
+          "expectancy": 0.1910172912747793
+        },
+        "SOLUSDT": {
+          "n": 1,
+          "net_pnl_brl": -32.96954621069999,
+          "expectancy": -0.1983449477351916
+        }
+      },
+      "by_regime": {},
+      "risk_halted": false,
+      "note": "Equal weight on causally eligible initial universe; min notional may leave all cash. Full allocation baseline differs from risk-capped candidates.",
+      "confidence_rule": "Few one-shot holdings are not an independent trade sample"
+    }
+  },
+  "promotion": "BLOCKED",
+  "promotion_blockers": [
+    "Universo candidato manual e filtros historicos incompletos",
+    "Historico ja conhecido: final prospectivo ainda indisponivel",
+    "Paper prospectivo sem amostra suficiente"
+  ],
+  "prospective_final": {
+    "start_after": "2026-10-09T00:57:39.124132+00:00",
+    "status": "NO_OBSERVATIONS_YET",
+    "model_versions": "See registry; no active model"
+  },
+  "microstructure": "UNAVAILABLE: no historical book depth/spread",
+  "news": "DISABLED: no validated timestamped feed",
+  "pbo_dsr": "NOT_ESTIMATED: dependence and trial return matrix not sufficient for justified estimate",
+  "limitations": [
+    "Manual candidate universe: historical volume ranking reduces but does not eliminate selection bias",
+    "Current filters are proxies, not historically point-in-time filters",
+    "Historical spread/slippage/partial fills are scenario assumptions, not observed execution",
+    "Both intrabar barriers touched: stop wins and ambiguity logged; market gaps may exceed risk limit",
+    "2024-2025 has already been seen in V1; chronological holdout is retrospective and not pristine",
+    "No FX conversion cost, taxes, hosting or downtime of the PC priced into returns",
+    "ML sample cap and stride; conditional net payoff assumptions may change under a new regime",
+    "No full combinatorial purged CV or HMM; synchronized expanding folds with purge and embargo used",
+    "Block confidence and Bonferroni guard do not establish stationarity or guarantee future returns"
+  ],
+  "elapsed_seconds": 956.3090601000004,
+  "data_quality": {
+    "BTCUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "ETHUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "BNBUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "SOLUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "XRPUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "DOGEUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "ADAUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "LINKUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "AVAXUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "TRXUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "DOTUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "LTCUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "BCHUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "UNIUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "ATOMUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "NEARUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "APTUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "ARBUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "OPUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "FILUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "ETCUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "ICPUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "INJUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "SUIUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "AAVEUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "MATICUSDT": {
+      "rows": 364500,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1725937140000
+    },
+    "RNDRUSDT": {
+      "rows": 292500,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1721617140000
+    },
+    "EOSUSDT": {
+      "rows": 736020,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1748228340000
+    },
+    "FTTUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    },
+    "LUNAUSDT": {
+      "rows": 1052640,
+      "valid": true,
+      "errors": [],
+      "gaps": 0,
+      "missing_bars": 0,
+      "first": 1704067200000,
+      "last": 1767225540000
+    }
+  },
+  "statistics_recomputed": "2026-10-09T00:57:54.659700+00:00",
+  "statistics_sha256": "d104a877d0a5c73efe656b5f901789a49527faf70165fa3368efdf5ba1a2602b",
+  "confidence_minimum": "28 calendar days, 8 trading days; otherwise confidence unavailable"
+}

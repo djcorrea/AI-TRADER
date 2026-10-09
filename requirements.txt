@@ -1,0 +1,11 @@
+numpy
+pandas
+pyarrow
+duckdb
+scikit-learn
+lightgbm
+fastapi
+uvicorn
+websockets
+pytest
+httpx

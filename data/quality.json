@@ -1,0 +1,272 @@
+{
+  "BTCUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "ETHUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "BNBUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "SOLUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "XRPUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "DOGEUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "ADAUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "LINKUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "AVAXUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "TRXUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "DOTUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "LTCUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "BCHUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "UNIUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "ATOMUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "NEARUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "APTUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "ARBUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "OPUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "FILUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "ETCUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "ICPUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "INJUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "SUIUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "AAVEUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "MATICUSDT": {
+    "rows": 364500,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1725937140000
+  },
+  "RNDRUSDT": {
+    "rows": 292500,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1721617140000
+  },
+  "EOSUSDT": {
+    "rows": 736020,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1748228340000
+  },
+  "FTTUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  },
+  "LUNAUSDT": {
+    "rows": 1052640,
+    "valid": true,
+    "errors": [],
+    "gaps": 0,
+    "missing_bars": 0,
+    "first": 1704067200000,
+    "last": 1767225540000
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "at": "2026-10-09T01:01:54.406313+00:00",
+  "valid": true,
+  "errors": [],
+  "experiments_reconciled": 80,
+  "model_versions_verified": 36,
+  "evidence": [
+    {
+      "id": "001_trend_discovery",
+      "ending_brl": 455.78459673830406,
+      "sum_trade_pnl_brl": -44.215403261697155,
+      "rows": 118,
+      "trades_sha256": "caff8944a6188e9d253f19f9de064a96f54005cd03882b93f272b2359efc0398",
+      "equity_sha256": "bed79bd84f74a864c4950ca5e905504d35df8b9f72e757466c80c1906ba833b9"
+    },
+    {
+      "id": "002_trend_discovery",
+      "ending_brl": 459.6855652005631,
+      "sum_trade_pnl_brl": -40.314434799437606,
+      "rows": 125,
+      "trades_sha256": "42ac85616adcfb8bc5ecfd35c0d406619e5e3256aaa764bc3fd86d4770f5b486",
+      "equity_sha256": "f3e4fb0971e853fa730d563cd9b8de2ded5b5584434168f0328c0ef6000e8d98"
+    },
+    {
+      "id": "003_trend_discovery",
+      "ending_brl": 452.2003430234041,
+      "sum_trade_pnl_brl": -47.79965697659737,
+      "rows": 117,
+      "trades_sha256": "697ba6c6a0526dd26960a260e2bf9ef5da0c41778aec350e956b0c976bb0c572",
+      "equity_sha256": "5d9ec7f56869a0d6a2e02b3b88ff45d0a93fc36f9a75b3f435b4244aa84ab68b"
+    },
+    {
+      "id": "004_trend_validation",
+      "ending_brl": 458.798570448919,
+      "sum_trade_pnl_brl": -41.20142955108281,
+      "rows": 153,
+      "trades_sha256": "c3ed7adc644c2b3afaf4357d08839d3df76cf2d0e33b13a5811f7bbc858be275",
+      "equity_sha256": "85901c54c33dbd81029da0db74ce7591a4444869f5b44db8139504f1e36f9d84"
+    },
+    {
+      "id": "005_trend_retrospective_holdout",
+      "ending_brl": 449.62944074903265,
+      "sum_trade_pnl_brl": -50.3705592509685,
+      "rows": 98,
+      "trades_sha256": "516a0bdd944d0fbd6c896cf853e5990e824588d93dc8deb0a181e28495c2e427",
+      "equity_sha256": "747998d0264efaeb34612809a682b0c2688f45f8cd4d6ad0a2d48d087cd2c58f"
+    },
+    {
+      "id": "006_trend_retrospective_holdout",
+      "ending_brl": 449.85242670903415,
+      "sum_trade_pnl_brl": -50.14757329096622,
+      "rows": 120,
+      "trades_sha256": "b9b38156629ca63186da4c479de1190f08f3f5a2c8d82d7cd0d90607ce95a8dc",
+      "equity_sha256": "675d08a1052cd1bd70977aab7626344eba680dc5300e174a6bc70fc6c31a218e"
+    },
+    {
+      "id": "007_trend_retrospective_holdout",
+      "ending_brl": 449.6970645184651,
+      "sum_trade_pnl_brl": -50.302935481535805,
+      "rows": 89,
+      "trades_sha256": "4f11f8ad47868452bef7ea0f05384b1975f6a2b81adf5ac47a186023906997f0",
+      "equity_sha256": "16111f966378bc6441dbf78f19fc2f308c87b335f8cb796d783993b087314ac0"
+    },
+    {
+      "id": "008_pullback_discovery",
+      "ending_brl": 500.0,
+      "sum_trade_pnl_brl": 0.0,
+      "rows": 0,
+      "trades_sha256": "74c2ffa7bea3077c928dc76c593eef3efb6c933da14a442e2432fb8276e30b24",
+      "equity_sha256": "d0f81a9d2326fbcef02cac2d9331ba76d818c3c13ed12d15f18c7d539ab32c3f"
+    },
+    {
+      "id": "009_pullback_discovery",
+      "ending_brl": 499.413170261368,
+      "sum_trade_pnl_brl": -0.5868297386319807,
+      "rows": 1,
+      "trades_sha256": "f83952f09243ce2443a8e0fc94159e1e3495dedfecf77ae2eebc9bd3cc398d69",
+      "equity_sha256": "9913a7b77d5c482997cf503e5006e76c1f170e78c6e69c58df73d5fdbdca19d6"
+    },
+    {
+      "id": "010_pullback_discovery",
+      "ending_brl": 480.6252465004488,
+      "sum_trade_pnl_brl": -19.37475349955135,
+      "rows": 21,
+      "trades_sha256": "75b2d1907b3e2f2bfb9258708d6d886da55ae014a45598e707bd1db61b8d3df3",
+      "equity_sha256": "7f62fead43ba0b874fc70bf646512fa4f4aa5a5d34397aaa0d9aa849df6c2a9b"
+    },
+    {
+      "id": "011_pullback_validation",
+      "ending_brl": 497.7503347469452,
+      "sum_trade_pnl_brl": -2.249665253054733,
+      "rows": 5,
+      "trades_sha256": "e0dcdd219d1ae4b6b19f20d64beb73e74937635fbd1acb3e7bf099a732a4f040",
+      "equity_sha256": "e14fba8bfa7d4cad5a1edf7605621f2b3f63d0a999ac6eb1e5d069dc6faa119a"
+    },
+    {
+      "id": "012_pullback_retrospective_holdout",
+      "ending_brl": 498.02000929094237,
+      "sum_trade_pnl_brl": -1.9799907090576028,
+      "rows": 1,
+      "trades_sha256": "00bf83b87081901be7c2f28c152c3a00679a32b417c8618dcb093a266f8c9b06",
+      "equity_sha256": "45c83761cbb9e941639f0d2333a942ea64c6eec40e2390b6be84c96e49d8bc86"
+    },
+    {
+      "id": "013_pullback_retrospective_holdout",
+      "ending_brl": 499.0244545345515,
+      "sum_trade_pnl_brl": -0.9755454654484033,
+      "rows": 1,
+      "trades_sha256": "819088826eda4fc765a5bbd5d2cbb4117f7d7c43cf08fe38e7801bd89c44c110",
+      "equity_sha256": "11dd75e7bcd049020f0c448a835657564446519ad24fc9fccd4d653f77429af4"
+    },
+    {
+      "id": "014_pullback_retrospective_holdout",
+      "ending_brl": 501.53870141424,
+      "sum_trade_pnl_brl": 1.5387014142399968,
+      "rows": 1,
+      "trades_sha256": "c651f4cf83fea8441b41614bcdf93dc28959ae27f9178d8ded5558135838ad02",
+      "equity_sha256": "6fb685abba38912a56c3ce9f3596d7ee3c8dca4556c93893a8a8d71618d61bed"
+    },
+    {
+      "id": "015_breakout_discovery",
+      "ending_brl": 451.925843203517,
+      "sum_trade_pnl_brl": -48.07415679648396,
+      "rows": 159,
+      "trades_sha256": "1af560459cc0005b4095c6c79e51aa5bc8ba4bac12a37ad364fff869e6a5e022",
+      "equity_sha256": "f1777bf2228a2080e1d074b26130831aef242866a073cbe6483d2db64997beba"
+    },
+    {
+      "id": "016_breakout_discovery",
+      "ending_brl": 453.45058569089326,
+      "sum_trade_pnl_brl": -46.5494143091086,
+      "rows": 81,
+      "trades_sha256": "af280aa62a118cc6cda337cc61346108e1db961288ad2e895bd5e4742f1d6df6",
+      "equity_sha256": "9f9e67a8c778df48481c33a2624b3d72a7d169fb376367ffc0f7134e9fb0a950"
+    },
+    {
+      "id": "017_breakout_discovery",
+      "ending_brl": 452.9092106420606,
+      "sum_trade_pnl_brl": -47.09078935794106,
+      "rows": 136,
+      "trades_sha256": "57d8760385f86fdff7e59c5218b53530aabe911884b8a2daf95221f726aebb7c",
+      "equity_sha256": "864eb64ce15fdd0d4458b3e25113eb2e6b827e9fa64a65ebb13bf09e60ec84bd"
+    },
+    {
+      "id": "018_breakout_validation",
+      "ending_brl": 451.51261513233925,
+      "sum_trade_pnl_brl": -48.487384867661774,
+      "rows": 88,
+      "trades_sha256": "3bb995d9d76649ee777e6a5c5261b82e8693711cc9f0a3f024cb7d08db312824",
+      "equity_sha256": "c1605987b0938f86e9896153fd815bb7f23ef7840a9d21fc788025d6ed6394b2"
+    },
+    {
+      "id": "019_breakout_retrospective_holdout",
+      "ending_brl": 450.04691455506753,
+      "sum_trade_pnl_brl": -49.95308544493406,
+      "rows": 81,
+      "trades_sha256": "c977497040a050e7e26dc246696b6f6d5a7578dbc39a94928d2d74a240f3ad0e",
+      "equity_sha256": "a5c6871a0b927bdadd0129db707abe845ef0ef41a5acacde533c3fede1c5ebe1"
+    },
+    {
+      "id": "020_breakout_retrospective_holdout",
+      "ending_brl": 449.9068054699432,
+      "sum_trade_pnl_brl": -50.09319453005694,
+      "rows": 102,
+      "trades_sha256": "368c746994fa970772261e6e421170071fb24e84cfa41cc6d8aefb55fc51b7b5",
+      "equity_sha256": "5ea08278f411aa25ce9289ea8656cc0631207fda4e2a3cd6b7a9a56e92f9bed9"
+    },
+    {
+      "id": "021_breakout_retrospective_holdout",
+      "ending_brl": 448.7269104671159,
+      "sum_trade_pnl_brl": -51.27308953288522,
+      "rows": 90,
+      "trades_sha256": "407a963b701f2e64b2e8b223cfa164f9e6c8ebf4246f3a375b2e1671193432ac",
+      "equity_sha256": "b874e6653f62e1786fbd4924ea05db3ff06c97690fb826ae1b2bfa087d3e521a"
+    },
+    {
+      "id": "022_mean_regime_discovery",
+      "ending_brl": 452.62351056335046,
+      "sum_trade_pnl_brl": -47.37648943665121,
+      "rows": 139,
+      "trades_sha256": "6e0c03b89311aea81cc2c9e76f4019a603a127a5a9397d94055068a87836aceb",
+      "equity_sha256": "2049ed00dff996b09c6dbee31440748381c6ff4a110e25a7237f666ac3d47136"
+    },
+    {
+      "id": "023_mean_regime_discovery",
+      "ending_brl": 453.2149164528616,
+      "sum_trade_pnl_brl": -46.78508354713976,
+      "rows": 129,
+      "trades_sha256": "eb5d18cc19e51a06b8bf663a17e39fa235a25baa05296956053e439bc8afb2ba",
+      "equity_sha256": "85053ce21268ae3a61cfeb8757fa0222b99feffff01810b05bfbdd6f23018054"
+    },
+    {
+      "id": "024_mean_regime_discovery",
+      "ending_brl": 452.83038818553615,
+      "sum_trade_pnl_brl": -47.16961181446577,
+      "rows": 141,
+      "trades_sha256": "dbb82a9b15865e901ae41dc73e29165128c10ebc572d47aea49b8d6818411b0e",
+      "equity_sha256": "7a432c1ed8269da777d8c8b7aef54c24f52451b1119b5304fd507415ebb43095"
+    },
+    {
+      "id": "025_mean_regime_validation",
+      "ending_brl": 448.00847199892183,
+      "sum_trade_pnl_brl": -51.99152800107922,
+      "rows": 99,
+      "trades_sha256": "bf3375cf79113c8e10f774ea60df02eec0fd2c262210e04135a1efef49366cef",
+      "equity_sha256": "22d260cdbf45673344a74d13041aa1d5ad37263a5ad09b24c98bf8bdee0097b1"
+    },
+    {
+      "id": "026_mean_regime_retrospective_holdout",
+      "ending_brl": 449.49392102841233,
+      "sum_trade_pnl_brl": -50.50607897158814,
+      "rows": 79,
+      "trades_sha256": "4f985d8c0ce664615ad09144671fd0584e6eceee786e45037340b0be4c5594dd",
+      "equity_sha256": "4d04c6c45f0bbd9d64d70505424b718aacbf7a999dd9e433e60edc3018fc2a6c"
+    },
+    {
+      "id": "027_mean_regime_retrospective_holdout",
+      "ending_brl": 448.3368098222694,
+      "sum_trade_pnl_brl": -51.66319017773032,
+      "rows": 113,
+      "trades_sha256": "b13c47b99005b2d1633b04e81c23091eb9e124cdf82b3df144ee460837026058",
+      "equity_sha256": "06a81bd79e4418ae958d64c76b34380c75390b11253cd74b4ac051bb1f727c5b"
+    },
+    {
+      "id": "028_mean_regime_retrospective_holdout",
+      "ending_brl": 449.9639298804835,
+      "sum_trade_pnl_brl": -50.03607011951715,
+      "rows": 90,
+      "trades_sha256": "95225b6dbda8354f872d0b009a36798690c6a7ee42002b7fd50a8c413206ec18",
+      "equity_sha256": "990fdd3ce41530535b32786c8de1860186161f397d1ce4d0182a9d0d544420e5"
+    },
+    {
+      "id": "029_cross_momentum_discovery",
+      "ending_brl": 452.92699391124955,
+      "sum_trade_pnl_brl": -47.07300608875265,
+      "rows": 163,
+      "trades_sha256": "acb152edd8e621225fe2bafd7327fb1a71f95edc31d6f6873126283c74faff60",
+      "equity_sha256": "a40ff081d019b9b129ed3702e1b8b5419a66bf0da11bf05312bde8d07755b836"
+    },
+    {
+      "id": "030_cross_momentum_discovery",
+      "ending_brl": 457.06744595311744,
+      "sum_trade_pnl_brl": -42.93255404688357,
+      "rows": 83,
+      "trades_sha256": "aa9fef0493d3e2293fa363bcd6e0fe67f1a2ce3b76e80de5e2b24ab09897cde6",
+      "equity_sha256": "f6d569a48d4701fad591a7a0a2b36c4327d1308449f20adc1a6bd2bdded51be6"
+    },
+    {
+      "id": "031_cross_momentum_discovery",
+      "ending_brl": 457.9041231768879,
+      "sum_trade_pnl_brl": -42.095876823112775,
+      "rows": 80,
+      "trades_sha256": "0b6288a10a5c364a1850821382811b53c91a6d438573107e2c3cf16dce79129d",
+      "equity_sha256": "5eea5d512a3a0bf234abcab106dfa117854bb4fa0377f76c3afdad9f855d6e82"
+    },
+    {
+      "id": "032_cross_momentum_validation",
+      "ending_brl": 462.8385616216191,
+      "sum_trade_pnl_brl": -37.16143837838297,
+      "rows": 128,
+      "trades_sha256": "e0a301f7b442c7b20c227e42776441eabec4fb27c07e9950d35c1fbc064e4fde",
+      "equity_sha256": "89b553e5d0150dc7575786042ca16506993719b87d55de5a386208af1eac1ae3"
+    },
+    {
+      "id": "033_cross_momentum_retrospective_holdout",
+      "ending_brl": 452.08842956829886,
+      "sum_trade_pnl_brl": -47.911570431703254,
+      "rows": 175,
+      "trades_sha256": "5c4b3940c2a9ff645c68ef2e9c149687a655aa9761d28d87e26b550930f640ec",
+      "equity_sha256": "ca214d5f1af3086474c26fdf1abec86e735209d43b429a43f3b983f0993f3ce3"
+    },
+    {
+      "id": "034_cross_momentum_retrospective_holdout",
+      "ending_brl": 449.53341655131936,
+      "sum_trade_pnl_brl": -50.46658344868102,
+      "rows": 177,
+      "trades_sha256": "ddde8a0b1c4d1973e218ba88475649c0b8ff001eeae5948788948e0668565863",
+      "equity_sha256": "a6a4f341ea2873ff7fbab34f43029c61929bd01f58dd033f5e20c457b2163a38"
+    },
+    {
+      "id": "035_cross_momentum_retrospective_holdout",
+      "ending_brl": 450.8243889506599,
+      "sum_trade_pnl_brl": -49.17561104934198,
+      "rows": 123,
+      "trades_sha256": "e02d9651d7786eeb84493fcfed9275a78403e5a9cf8363a6085568bb50df201d",
+      "equity_sha256": "14412bf4888cd0c448a79962829bbd13f02a1395cf694aaa6c22f01b1ceaa112"
+    },
+    {
+      "id": "036_relative_btc_discovery",
+      "ending_brl": 459.825191140782,
+      "sum_trade_pnl_brl": -40.17480885921906,
+      "rows": 96,
+      "trades_sha256": "df3afcf2e05066d9374ea204d07b6cc55a7686f3a1762c3595bb4abc75c8c91a",
+      "equity_sha256": "32c47bc5843a302eada7d785188dc9673bd93b04dc792b1b7010d75cead13a63"
+    },
+    {
+      "id": "037_relative_btc_discovery",
+      "ending_brl": 464.2634343042171,
+      "sum_trade_pnl_brl": -35.73656569578361,
+      "rows": 101,
+      "trades_sha256": "44b78efeff1e7629d766c658634ecdb7ca3a34cc2a1388c34aa2758303f8dce2",
+      "equity_sha256": "67601511b2c8a31b165d8727811da5d84aa854dd998df16109a10166443248dc"
+    },
+    {
+      "id": "038_relative_btc_discovery",
+      "ending_brl": 461.16055693027477,
+      "sum_trade_pnl_brl": -38.83944306972646,
+      "rows": 177,
+      "trades_sha256": "88db1e0a4a63ae4fe930075e8972c9f8571e48f41f70d7088ecab7cf31b33ff6",
+      "equity_sha256": "2544762d844bbc32429624b2ea573210d6ce62d41c2fc160321436783546eaf8"
+    },
+    {
+      "id": "039_relative_btc_validation",
+      "ending_brl": 467.2521227086894,
+      "sum_trade_pnl_brl": -32.747877291311816,
+      "rows": 195,
+      "trades_sha256": "e5e480cbf5453c55131a1e48dcd3b64be9a6f743cfa4379380f04464c7cfac67",
+      "equity_sha256": "280bc0a81f2237c4781bfc9e1a1e60a8844c0eeeba25f223671fb2642032c132"
+    },
+    {
+      "id": "040_relative_btc_retrospective_holdout",
+      "ending_brl": 457.1322824205229,
+      "sum_trade_pnl_brl": -42.867717579478864,
+      "rows": 163,
+      "trades_sha256": "77d4282f4c0440e2bcd68131d4dbf29c0fc372b71ecdcea4a6eb7d4137af2621",
+      "equity_sha256": "c3d662dcbddc4996900d1599d693c4a413d2a448192ffebb10ea476519c483e1"
+    },
+    {
+      "id": "041_relative_btc_retrospective_holdout",
+      "ending_brl": 449.82195617936117,
+      "sum_trade_pnl_brl": -50.178043820639466,
+      "rows": 197,
+      "trades_sha256": "6b1a4b255693cdf56c46fc75a6b6a50835c5eeead6c0377f54e6f66c3edc0e38",
+      "equity_sha256": "c27cb1ec4da2851eb6bef22390af70ac961dccd3f11a9a620ef1afd6c524f270"
+    },
+    {
+      "id": "042_relative_btc_retrospective_holdout",
+      "ending_brl": 453.0374301268723,
+      "sum_trade_pnl_brl": -46.96256987312929,
+      "rows": 197,
+      "trades_sha256": "260092c479c52ccdda29739a042b2a6da484eb16c3525ccaac92fe49c0eccfa8",
+      "equity_sha256": "190b6646a8723f3ba428bc7fe3963e578d333d6e3cea419f22a6ed09878f0ca8"
+    },
+    {
+      "id": "043_compression_discovery",
+      "ending_brl": 449.5112402001722,
+      "sum_trade_pnl_brl": -50.488759799829246,
+      "rows": 92,
+      "trades_sha256": "5ea60934a3af517a66698f320bb2f6b6246bd6d5b3ad624adfbe264ea99bb708",
+      "equity_sha256": "c131d906b69ef906388399e8d3a11afff109b0a36dafd41c62c9b8a80398bf3a"
+    },
+    {
+      "id": "044_compression_discovery",
+      "ending_brl": 449.15677345389,
+      "sum_trade_pnl_brl": -50.84322654611124,
+      "rows": 89,
+      "trades_sha256": "063c63dfbceccab37e067d076636623e7ab767c923e29b71ed61d9a0468582fa",
+      "equity_sha256": "8e17b775aba4055c80d9863ddd158990195fe4b3d806793f9fa2aeddb19926d8"
+    },
+    {
+      "id": "045_compression_discovery",
+      "ending_brl": 449.5978472129506,
+      "sum_trade_pnl_brl": -50.402152787050724,
+      "rows": 108,
+      "trades_sha256": "0d67bbaf6463b6be1864c673414573e1474e848e522e5764a1392b1896790c30",
+      "equity_sha256": "75cf86f079c09b297b37c9fb51f7e086684742042a803e49281a85528f722899"
+    },
+    {
+      "id": "046_compression_validation",
+      "ending_brl": 448.3154955890912,
+      "sum_trade_pnl_brl": -51.684504410909554,
+      "rows": 107,
+      "trades_sha256": "f4d9f90ae36352b0efe0ccbea8c6071e0ff32d6dcfd159cd11647691785820eb",
+      "equity_sha256": "2b16c5328e17e8ad27ede6939f0f3bc06b64cf99e58be20d7b621d6b264a4078"
+    },
+    {
+      "id": "047_compression_retrospective_holdout",
+      "ending_brl": 449.4618130112733,
+      "sum_trade_pnl_brl": -50.5381869887281,
+      "rows": 96,
+      "trades_sha256": "53d7dc1317d8e73a365357df7ebd816835169780ac936cedc1d6126682af942d",
+      "equity_sha256": "a70551ee540bd185758b312e4dae5dcac1973cf1d8426fc73ddb0788bad7fdd8"
+    },
+    {
+      "id": "048_compression_retrospective_holdout",
+      "ending_brl": 449.70989689550635,
+      "sum_trade_pnl_brl": -50.29010310449354,
+      "rows": 119,
+      "trades_sha256": "15cc76fd4029eb31fb732c270a326b9ab223af158cb9bf97936ed95710151ec6",
+      "equity_sha256": "3a3824bc10bd6ba4729df86b6c1f6741f321b64ccb84ad8f9e37e7bd9906ac9a"
+    },
+    {
+      "id": "049_compression_retrospective_holdout",
+      "ending_brl": 449.0667048555988,
+      "sum_trade_pnl_brl": -50.933295144401946,
+      "rows": 94,
+      "trades_sha256": "91f4be78b2a9229ad8343f9459473ed8cbddabb6086a4923375694f90da1c19b",
+      "equity_sha256": "49a929d022e27f85d4449bdb6723540a421ef44fb8410ebbb9881adb7ffae8a1"
+    },
+    {
+      "id": "050_range_discovery",
+      "ending_brl": 450.77559638908804,
+      "sum_trade_pnl_brl": -49.22440361091403,
+      "rows": 166,
+      "trades_sha256": "66a2922275bbac1064bdb9b607706efdec31f61a16541dd889affbe337532c35",
+      "equity_sha256": "9b021e5e05493c0d714018f32a8edf33db88eefb6b00e49776287fb8764c55ad"
+    },
+    {
+      "id": "051_range_discovery",
+      "ending_brl": 453.20215856217624,
+      "sum_trade_pnl_brl": -46.797841437825404,
+      "rows": 163,
+      "trades_sha256": "819d8ef88f86acbe2c09e58a18dcc245712b1ca6c48fb7083abcfed8a417f319",
+      "equity_sha256": "910ef39eac418d4f5a1a9137204ea48bee4a31ce227b0464ee424b710c559a9d"
+    },
+    {
+      "id": "052_range_discovery",
+      "ending_brl": 452.1600017075389,
+      "sum_trade_pnl_brl": -47.83999829246236,
+      "rows": 151,
+      "trades_sha256": "afd2ed6622a06770175b94f3f5041f4500f136e06b4fea64a104006b040ca70b",
+      "equity_sha256": "27008e2dfc56d1233efcd972d24dc322385e525d662edfe7bdf690bcf125d6cb"
+    },
+    {
+      "id": "053_range_validation",
+      "ending_brl": 449.3954569738799,
+      "sum_trade_pnl_brl": -50.60454302612212,
+      "rows": 138,
+      "trades_sha256": "81f0954a710cd9370a04c46920cfc3bb0be5cf9d768616d0196aa47a50503a23",
+      "equity_sha256": "d5c04d808806a1f25320a1fb539643f5f7e19966be4df5b36add50e3f6d5a36e"
+    },
+    {
+      "id": "054_range_retrospective_holdout",
+      "ending_brl": 448.8277025071012,
+      "sum_trade_pnl_brl": -51.172297492900924,
+      "rows": 119,
+      "trades_sha256": "155f11c1f35be49becaee37b3504b6d0efa9b7026cb7b66aeb5d478bcfa3a3b0",
+      "equity_sha256": "f008cdb8d327978ea1c4d5f22e60ea1ac6de6abfe7d0010d1116c646bead27a6"
+    },
+    {
+      "id": "055_range_retrospective_holdout",
+      "ending_brl": 449.00597417852293,
+      "sum_trade_pnl_brl": -50.99402582147734,
+      "rows": 134,
+      "trades_sha256": "4f1f1a560bf7bf4b3e24ca2c21149b30ce43f4896e50f8385f59379cf783c907",
+      "equity_sha256": "6faff24a7c102522ebbc8f42dc7caaf6d0e993e37bfb46be168593e174edadd5"
+    },
+    {
+      "id": "056_range_retrospective_holdout",
+      "ending_brl": 449.2958800490022,
+      "sum_trade_pnl_brl": -50.704119950999356,
+      "rows": 104,
+      "trades_sha256": "e4f30fa01bcf04497c008fb518b93ba3d6bfdd32b51b353cfc0226144e8f8a27",
+      "equity_sha256": "3555530f5421a647dedefbf4d1a909d97197ba28922fd8b33bc25f874f7a6734"
+    },
+    {
+      "id": "057_volume_anomaly_discovery",
+      "ending_brl": 452.04752414704916,
+      "sum_trade_pnl_brl": -47.95247585295128,
+      "rows": 57,
+      "trades_sha256": "1e28b93a5252fd59c58cbf62ab3107290a2d4dd1bb96c245c636d3118b9e26de",
+      "equity_sha256": "794c88b6621f17f79b8bb2aecddc2643dd72838fb404fb3a42ed02a198f2ded9"
+    },
+    {
+      "id": "058_volume_anomaly_discovery",
+      "ending_brl": 451.87938588412453,
+      "sum_trade_pnl_brl": -48.12061411587596,
+      "rows": 66,
+      "trades_sha256": "698fbc21295240aa092db17f061525b2b5786dbb710ab87380b67f70c77e237e",
+      "equity_sha256": "1c416a327db11e82d2ceab28928bba69c1360092cb85d998dad2a62e399a070b"
+    },
+    {
+      "id": "059_volume_anomaly_discovery",
+      "ending_brl": 452.70708958010835,
+      "sum_trade_pnl_brl": -47.29291041989239,
+      "rows": 69,
+      "trades_sha256": "a18d0bda903ba3bb60c087784d0be4713f93be674a3994926a525c214bbbde3a",
+      "equity_sha256": "9d22985374f129a3d843b4ae40fd5e3679e7010c86e69af3e62db78c5858b9c3"
+    },
+    {
+      "id": "060_volume_anomaly_validation",
+      "ending_brl": 455.37636868892423,
+      "sum_trade_pnl_brl": -44.623631311078256,
+      "rows": 117,
+      "trades_sha256": "526a24605beadce0edc1f05d9aa82b1a10af92034554ee2c293184f17121ff41",
+      "equity_sha256": "31c814d13476745245e23238fa2cc4b1ed82137eb9494f58ba398eadab9775b4"
+    },
+    {
+      "id": "061_volume_anomaly_retrospective_holdout",
+      "ending_brl": 450.05931580596575,
+      "sum_trade_pnl_brl": -49.940684194035654,
+      "rows": 76,
+      "trades_sha256": "a7fdf805265b249dc114f8110866ae1d6adeef8d68e130f60728792c07dde2c2",
+      "equity_sha256": "c640f16fdf4f1137ddd0a647be4ce4bdce3b40cb6f210fa857cf6d746aa40d09"
+    },
+    {
+      "id": "062_volume_anomaly_retrospective_holdout",
+      "ending_brl": 449.5914886535096,
+      "sum_trade_pnl_brl": -50.40851134649034,
+      "rows": 106,
+      "trades_sha256": "00cbc9df82619457db12fea6841e64536af2226a5cd94eee1a85e3362ed73255",
+      "equity_sha256": "7d0fc599b1e456a1df548cfe9ff00515093b7a675c0f7f805ca58cfc0b94a229"
+    },
+    {
+      "id": "063_volume_anomaly_retrospective_holdout",
+      "ending_brl": 449.3862477980805,
+      "sum_trade_pnl_brl": -50.61375220192017,
+      "rows": 78,
+      "trades_sha256": "4af7c85c1caf38023f32d9068aa9a7017184d78bb047729c724d7b2d147faee7",
+      "equity_sha256": "0870c59575a844e8a087698be243a5b08fd0349410f1ae41fde286a02c6115cb"
+    },
+    {
+      "id": "064_hybrid_discovery",
+      "ending_brl": 451.018463853219,
+      "sum_trade_pnl_brl": -48.98153614678155,
+      "rows": 108,
+      "trades_sha256": "7073c412d965decde70ab2324c50316a344f9d64e9a3d8992827825095346f31",
+      "equity_sha256": "8f584a432a2005dfd06b431f75f487750c4ab5b096b31fe18c182afee8e4e3f0"
+    },
+    {
+      "id": "065_hybrid_discovery",
+      "ending_brl": 451.6791089467693,
+      "sum_trade_pnl_brl": -48.32089105323179,
+      "rows": 80,
+      "trades_sha256": "0fc13180f4aa0314eb83eff4d7a9d4267b77918e2f59a34ea0e971f8361fecbb",
+      "equity_sha256": "1f40b7c15ef38afe68a2e705a6148af5ba472a79eb111a5e41d18ba117830139"
+    },
+    {
+      "id": "066_hybrid_discovery",
+      "ending_brl": 450.97602238736516,
+      "sum_trade_pnl_brl": -49.02397761263572,
+      "rows": 101,
+      "trades_sha256": "794290151e13eeb6967b47a65c07e39be63c319ec84ddc07b3e6161384461f2a",
+      "equity_sha256": "40d468c4b4f020d2460da29434a1d079730f21fa1d9f019d4e41661a15b27370"
+    },
+    {
+      "id": "067_hybrid_validation",
+      "ending_brl": 461.8211226664027,
+      "sum_trade_pnl_brl": -38.17887733359889,
+      "rows": 138,
+      "trades_sha256": "5d2916d8721e34dc32688cd02e6bca7711b201cf63daeb8a36490f33ddc90dad",
+      "equity_sha256": "9e8c588f1ab6936a6a799c1b6d94be611420cc57f937728e0fe385b2d1da03e2"
+    },
+    {
+      "id": "068_hybrid_retrospective_holdout",
+      "ending_brl": 450.06433372375335,
+      "sum_trade_pnl_brl": -49.935666276247275,
+      "rows": 98,
+      "trades_sha256": "905dd6ad08ac0b7e69b3873405c4189a5869ec3c0dae170d698eac9c2a97be76",
+      "equity_sha256": "549b7c7987fb1b65f52d008619ffd308f2c5d1e7c0f8bbf6a725f082a4a91b55"
+    },
+    {
+      "id": "069_hybrid_retrospective_holdout",
+      "ending_brl": 450.05417434133204,
+      "sum_trade_pnl_brl": -49.94582565866734,
+      "rows": 153,
+      "trades_sha256": "b8dafd87046f8cfcfcae285f3b0c5b0ef15f5d1705a9de3968371fb93f855873",
+      "equity_sha256": "b662734793da32fc0e0918bf2a5b7be233c17f3bee85137b35bfd811cdc21bc3"
+    },
+    {
+      "id": "070_hybrid_retrospective_holdout",
+      "ending_brl": 449.5153321208213,
+      "sum_trade_pnl_brl": -50.48466787918126,
+      "rows": 152,
+      "trades_sha256": "4f1c9e3c4880f62f8a43ab30207ba7108f957ba839cd3aac58b1748a540197bc",
+      "equity_sha256": "abba0eb58ad14daea6ccdcbaf782ce662ec786400957511f8327e63a9afbc508"
+    },
+    {
+      "id": "071_random_validation",
+      "ending_brl": 449.6492097470341,
+      "sum_trade_pnl_brl": -50.35079025296675,
+      "rows": 98,
+      "trades_sha256": "4df6129c02bb39310d08da27d1ecc7d377309055a9c5c5a906e465c10e45225a",
+      "equity_sha256": "6a2e6d34472081c672f3a5c3c9fc0c168a54f61e8b6b89f0b59d27ad0c9d9777"
+    },
+    {
+      "id": "072_random_retrospective_holdout",
+      "ending_brl": 449.5914226142113,
+      "sum_trade_pnl_brl": -50.40857738579068,
+      "rows": 136,
+      "trades_sha256": "7dda055b7aa2f25d9b193d16c30960c85c5b4fc6a970e17102bae3624994b118",
+      "equity_sha256": "ebc49455bc566260026333722f37405ca0ac8b40725d9884ca748fff5369afca"
+    },
+    {
+      "id": "073_random_validation",
+      "ending_brl": 449.5821137702657,
+      "sum_trade_pnl_brl": -50.41788622973542,
+      "rows": 95,
+      "trades_sha256": "380fa47a3ffbd68b089db97d794b19655e9bfa506db51a1a2b5baae5b098a713",
+      "equity_sha256": "09b5b4b58e57a0fe2d7f2166564566f9dd67defe364846ce11a741c4662dd7f6"
+    },
+    {
+      "id": "074_random_retrospective_holdout",
+      "ending_brl": 449.7241919078574,
+      "sum_trade_pnl_brl": -50.27580809214451,
+      "rows": 144,
+      "trades_sha256": "caab9494fbba6ecb5ddc6ee0d3b1d12602aed6f78dcb967de0619eda1684d0da",
+      "equity_sha256": "42a6cbefc370d26ee39a99c34c881fef2b985424a6091fb7c8fbe3462826a37f"
+    },
+    {
+      "id": "075_random_validation",
+      "ending_brl": 451.0635853519075,
+      "sum_trade_pnl_brl": -48.93641464809393,
+      "rows": 118,
+      "trades_sha256": "1a8f15712acf69bfb355316613d6fb12ff7ccd353dee7d978cc2892317f2124a",
+      "equity_sha256": "18d0be3df81eca450de92de1de23eb670eb56c2d9a7c19b9f562eb38d6aa4644"
+    },
+    {
+      "id": "076_random_retrospective_holdout",
+      "ending_brl": 449.7945900170408,
+      "sum_trade_pnl_brl": -50.20540998296084,
+      "rows": 114,
+      "trades_sha256": "42005bc09b6f9091ce2c04b5a9ed889625008eaf35e4d13a81edef72c7a92729",
+      "equity_sha256": "f0f086aa57acb667bc2696d8e52526cf9c473e44f5c37a7b51ec056f29c13960"
+    },
+    {
+      "id": "113_ml_retrospective_holdout",
+      "ending_brl": 500.0,
+      "sum_trade_pnl_brl": 0.0,
+      "rows": 0,
+      "trades_sha256": "74c2ffa7bea3077c928dc76c593eef3efb6c933da14a442e2432fb8276e30b24",
+      "equity_sha256": "cbb2e84cbcd78d7c3e318773353731caffa7ba2f2964722a721bb6d64d0d63c7"
+    },
+    {
+      "id": "114_ml_retrospective_holdout",
+      "ending_brl": 500.0,
+      "sum_trade_pnl_brl": 0.0,
+      "rows": 0,
+      "trades_sha256": "74c2ffa7bea3077c928dc76c593eef3efb6c933da14a442e2432fb8276e30b24",
+      "equity_sha256": "cbb2e84cbcd78d7c3e318773353731caffa7ba2f2964722a721bb6d64d0d63c7"
+    },
+    {
+      "id": "115_ml_retrospective_holdout",
+      "ending_brl": 500.0,
+      "sum_trade_pnl_brl": 0.0,
+      "rows": 0,
+      "trades_sha256": "74c2ffa7bea3077c928dc76c593eef3efb6c933da14a442e2432fb8276e30b24",
+      "equity_sha256": "cbb2e84cbcd78d7c3e318773353731caffa7ba2f2964722a721bb6d64d0d63c7"
+    },
+    {
+      "id": "116_ml_retrospective_holdout",
+      "ending_brl": 500.0,
+      "sum_trade_pnl_brl": 0.0,
+      "rows": 0,
+      "trades_sha256": "74c2ffa7bea3077c928dc76c593eef3efb6c933da14a442e2432fb8276e30b24",
+      "equity_sha256": "cbb2e84cbcd78d7c3e318773353731caffa7ba2f2964722a721bb6d64d0d63c7"
+    }
+  ],
+  "what_is_verified": "Stored arithmetic, filters, duplicate fills, chronological label cutoff, hashes and disabled promotion",
+  "what_is_not_proven": "Historical fill realism, stationarity, complete survivorship or profitability"
+}

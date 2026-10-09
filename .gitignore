@@ -1,0 +1,50 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+*token*.json
+secrets/
+# Python/tool caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+.idea/
+.vscode/
+# Runtime state and databases
+paper/
+state/
+*.sqlite*
+*.db
+*.duckdb*
+data/retry_after.json
+research/checkpoint.json
+# Historical datasets (never commit candles)
+data/archives/
+data/parquet/
+data/derived/
+datasets/
+# Temporary output; curated results/models ARE intentionally versioned
+*.log
+*.tmp
+*.bak
+*.zip
+*.tar*
+reports/*tests.xml
+reports/paper*.json
+reports/source_manifest.json
+dist/
+build/
+htmlcov/
+.coverage*
+Thumbs.db
+.DS_Store

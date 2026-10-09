@@ -1,0 +1,33 @@
+{
+  "venue": "Binance Spot public market data",
+  "symbols": ["BTCUSDT", "ETHUSDT", "SOLUSDT"],
+  "interval": "1h",
+  "download_start_utc": "2021-01-01",
+  "development_end_utc": "2024-01-01",
+  "validation_end_utc": "2025-01-01",
+  "out_of_sample_start_utc": "2025-01-01",
+  "fees_per_side": 0.001,
+  "spread_per_side": 0.0005,
+  "slippage_per_side": 0.0005,
+  "signal_latency_bars": 1,
+  "risk_fraction_per_trade": 0.005,
+  "daily_loss_limit": 0.02,
+  "max_position_fraction": 0.25,
+  "simulated_data_outage_hours_per_30d": 6,
+  "simulated_data_outage_seed": 20261008,
+  "initial_capital_brl": 500,
+  "brl_per_usdt_reference": 5.0119,
+  "brl_per_usdt_reference_date": "2026-10-08",
+  "min_notional_usdt": 5.0,
+  "lot_step_by_symbol": {"BTCUSDT": 0.00001, "ETHUSDT": 0.0001, "SOLUSDT": 0.001},
+  "strategies": {
+    "momentum_pullback": {"ema_fast": 50, "ema_slow": 200, "rsi_period": 14, "rsi_cross": 40, "stop_atr": 2.0, "trail_atr": 3.0, "max_hold_bars": 72},
+    "volatility_breakout": {"breakout_lookback": 20, "atr_period": 14, "stop_atr": 2.0, "trail_atr": 3.0, "max_hold_bars": 48},
+    "mean_reversion": {"band_period": 20, "band_std": 2.0, "rsi_period": 14, "rsi_max": 30, "stop_atr": 2.0, "max_hold_bars": 36}
+  },
+  "periods_utc": {
+    "development": ["2021-01-01", "2024-01-01"],
+    "validation": ["2024-01-01", "2025-01-01"],
+    "out_of_sample": ["2025-01-01", "2026-10-08"]
+  }
+}
