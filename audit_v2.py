@@ -9,6 +9,8 @@ from lab.common import CFG, ROOT, dump, sha, utc
 
 
 def run():
+    data_summary=ROOT/'reports/v3_rebuild_summary.json'
+    rebuilt=json.loads(data_summary.read_text()) if data_summary.exists() else {}
     entries = json.loads((ROOT/'results/experiments.json').read_text())
     models = json.loads((ROOT/'results/models.json').read_text())['results']
     registry = json.loads((ROOT/'models/registry.json').read_text())
@@ -59,9 +61,10 @@ def run():
               'brier_improved_models': sum(x['brier'] < x['null_brier'] for x in models),
               'predictive_candidates': sum(x['candidates'] for x in models),
               'holdout_predictive_candidates': sum(x['candidates'] for x in models if x['fold'] == 2),
-              'historical_candles_verified_in_cloud': 0,
+              'historical_candles_verified_in_cloud': rebuilt.get('verified_rows',0),
+              'historical_data_audit_snapshot': rebuilt,
               'strategy_approval': 'NONE', 'real_capital_used_brl': 0,
-              'pending': ['Rebuild and verify original candle hashes',
+              'pending': ([] if rebuilt.get('baseline_reproduced') else ['Complete original candle rebuild and hash verification'])+[
                           'Measure the impact of integrity corrections on reruns',
                           'Current account fee, historical filters and order book are unverified',
                           'Unseen prospective observations and paper eligibility are pending'],
@@ -69,7 +72,7 @@ def run():
     dump(ROOT/'reports/v3_audit.json', report)
     if errors:
         raise RuntimeError(f'Audit failed: {errors[:3]}')
-    print(f"Partial audit: {len(entries)} backtests and {len(registry)} models verified; candles pending")
+    print(f"Partial audit: {len(entries)} backtests, {len(registry)} models, {rebuilt.get('verified_rows',0):,} recovered candles; full replay/prospective validation pending")
     return report
 
 

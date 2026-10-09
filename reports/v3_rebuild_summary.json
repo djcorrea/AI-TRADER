@@ -1,0 +1,4736 @@
+{
+  "status": "PARTIAL_REBUILD_AUDIT",
+  "generated": "2026-10-09T11:54:17.751811+00:00",
+  "baseline_manifest_sha256": "a9c1eb2c3e307b4c20b4d7a57b81e7542419abc25607af2d95490527f0f0b2c1",
+  "verified_pairs": 422,
+  "verified_rows": 18504000,
+  "missing_baseline_pairs": [
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2024-08"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2024-09"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2024-10"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2024-11"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2024-12"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2025-01"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2025-02"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2025-03"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2025-04"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2025-05"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2025-06"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2025-07"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2025-08"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2025-09"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2025-10"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2025-11"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "month": "2025-12"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-12"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2025-01"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2025-02"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2025-03"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2025-04"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2025-05"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2025-06"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2025-07"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2025-08"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2025-09"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2025-10"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2025-11"
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2025-12"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-08"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-09"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-10"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-11"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2024-12"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2025-01"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2025-02"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2025-03"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2025-04"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2025-05"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2025-06"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2025-07"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2025-08"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2025-09"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2025-10"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2025-11"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "month": "2025-12"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2024-08"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2024-09"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2024-10"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2024-11"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2024-12"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2025-01"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2025-02"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2025-03"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2025-04"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2025-05"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-08"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-09"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-10"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-11"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2024-12"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2025-01"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2025-02"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2025-03"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2025-04"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2025-05"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2025-06"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2025-07"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2025-08"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2025-09"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2025-10"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2025-11"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "month": "2025-12"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-08"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-09"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-10"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-11"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2024-12"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2025-01"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2025-02"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2025-03"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2025-04"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2025-05"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2025-06"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2025-07"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2025-08"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2025-09"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2025-10"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2025-11"
+    },
+    {
+      "symbol": "FILUSDT",
+      "month": "2025-12"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2024-08"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2024-09"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2024-10"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2024-11"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2024-12"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2025-01"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2025-02"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2025-03"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2025-04"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2025-05"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2025-06"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2025-07"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2025-08"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2025-09"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2025-10"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2025-11"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "month": "2025-12"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-08"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-09"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-10"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-11"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2024-12"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2025-01"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2025-02"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2025-03"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2025-04"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2025-05"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2025-06"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2025-07"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2025-08"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2025-09"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2025-10"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2025-11"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "month": "2025-12"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-08"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-09"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-10"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-11"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2024-12"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2025-01"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2025-02"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2025-03"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2025-04"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2025-05"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2025-06"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2025-07"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2025-08"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2025-09"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2025-10"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2025-11"
+    },
+    {
+      "symbol": "INJUSDT",
+      "month": "2025-12"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2024-08"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2024-09"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2024-10"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2024-11"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2024-12"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2025-01"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2025-02"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2025-03"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2025-04"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2025-05"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2025-06"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2025-07"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2025-08"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2025-09"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2025-10"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2025-11"
+    },
+    {
+      "symbol": "LUNAUSDT",
+      "month": "2025-12"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-08"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-09"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-08"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-09"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-10"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-11"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2024-12"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2025-01"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2025-02"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2025-03"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2025-04"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2025-05"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2025-06"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2025-07"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2025-08"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2025-09"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2025-10"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2025-11"
+    },
+    {
+      "symbol": "OPUSDT",
+      "month": "2025-12"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-01"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-02"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-03"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-04"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-05"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-06"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-07"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-08"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-09"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-10"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-11"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2024-12"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2025-01"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2025-02"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2025-03"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2025-04"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2025-05"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2025-06"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2025-07"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2025-08"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2025-09"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2025-10"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2025-11"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "month": "2025-12"
+    }
+  ],
+  "baseline_unavailable": [
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-10",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-11",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2024-12",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2025-01",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2025-02",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2025-03",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2025-04",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2025-05",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2025-06",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2025-07",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2025-08",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2025-09",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2025-10",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2025-11",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "MATICUSDT",
+      "month": "2025-12",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2024-08",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2024-09",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2024-10",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2024-11",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2024-12",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2025-01",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2025-02",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2025-03",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2025-04",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2025-05",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2025-06",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2025-07",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2025-08",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2025-09",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2025-10",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2025-11",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "RNDRUSDT",
+      "month": "2025-12",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2025-06",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2025-07",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2025-08",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2025-09",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2025-10",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2025-11",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "symbol": "EOSUSDT",
+      "month": "2025-12",
+      "status": "NOT_AVAILABLE"
+    }
+  ],
+  "boundary_gaps": [],
+  "errors": [],
+  "verified_subset_valid": true,
+  "baseline_reproduced": false,
+  "elapsed_seconds": 7.014973042001657,
+  "real_orders": false,
+  "verified_sources": [
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-01",
+      "archive_sha256": "f65615b5c4244ef885484c372def227b8c127f062050dd4da090a6dea61f076e",
+      "parquet_sha256": "a85cd7adebbc5d7b94458308f57468224a4435cf9e5778d2f0ef4bd38390c993",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-02",
+      "archive_sha256": "0b02182b31c82bbfbf4a3bb50e18af53a767b5a3f24777d3dbcd7cafda43a603",
+      "parquet_sha256": "bbea5d90b709836e571c835973bf0696b47ec484ea2415ca30148145c79d8ffc",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-03",
+      "archive_sha256": "7e84e7bb51313372076ba538edd35e499ac6167416c63342c35acc8d1eb31786",
+      "parquet_sha256": "7d0d59ae30fdb852e6081fa71588930447aeda556f040d8942a57eed7cdef1da",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-04",
+      "archive_sha256": "6aea39dc66a9648cddbcb8bb4dea0bc5e6b29216010f1d4d686b4450e492a5c9",
+      "parquet_sha256": "c0fb2dcc9d66a48d2ea35c42de36d436afaa0e70d8627506b8a5c34e58758fdb",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-05",
+      "archive_sha256": "0cda8b572ac65b62261cc327880e2d2faef1062f9d50fee2ca39e6aba243d10f",
+      "parquet_sha256": "ac7e9c633add411ccf0a355c44c88faabc1ffe9b829566ff54539c25defc1ad1",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-06",
+      "archive_sha256": "af21254df2aa6989fb1b1f67b4054fbd99d66ac5796214edea3d5b78f0942df3",
+      "parquet_sha256": "4a0962675c73b1d9895888e4b88c07099e19256fb0dc8a9ee67c4c2ddd14cf55",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-07",
+      "archive_sha256": "d8fccd2809cef40bd7ad88c926f32f506dc598860912aa8a5dac63f59822e71c",
+      "parquet_sha256": "cd8827c4b5437bd155abd038021d743a46e75fcbbd267e4ddeacdcee90dc0e0d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-08",
+      "archive_sha256": "af8d30208ada8d602722e3fda266ecd2ee7b3dd81267787c5cb4f12349ee3bf3",
+      "parquet_sha256": "aab7a899457fa16880af700209cb466001cdc2b3b234798bd8997f59c072048e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-09",
+      "archive_sha256": "5664e1a3d7d2af203712e8ad1b2b230992a83242de79095a88672a1d47a2a96c",
+      "parquet_sha256": "38beb6c18bbe5318ab7c5ae3044c82009679e3566f947bff7d4ce11ede1b89ca",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-10",
+      "archive_sha256": "62562940d4eb723a9fdcf6d5255fea368c98c9148bc9d827c9208d5b982bb674",
+      "parquet_sha256": "0dfd5695c093dedf9ec1a363c1aed216a4d83feb23898af1d35ab982505fa40a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-11",
+      "archive_sha256": "7215b7a9994b4a52c97ad0905d031c2d077ba8f6e51080e134327dc4e78453ab",
+      "parquet_sha256": "139567e44a81feaf678b72dcd6e15518b66f4fb7c2bbb56f73615ca249cacd79",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2024-12",
+      "archive_sha256": "91a8beee9d4255a912f494a9359e09fbd59af5bc01d04d6d7c18707e68160958",
+      "parquet_sha256": "cc7d33c56cf1f3984ead081dc571085ae03017f7b393ac5070cc85b9d48f4c49",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2025-01",
+      "archive_sha256": "80e78e6e4f32c208118f3bb33efc46f6352dff3907c929af2061a5b3a0327647",
+      "parquet_sha256": "c42a563bd3c0197a884b2d1d7f22bac530d53a999bd2bbfcab72a43be20c4dcf",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2025-02",
+      "archive_sha256": "211276878319052d5f8075ef3eba8707840bde271d71cff12e3f35c2308de50a",
+      "parquet_sha256": "b175508b21d826dd9eb4a8a0e1df5087f96748f7f46c07f33c381fd9e518750b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2025-03",
+      "archive_sha256": "0f65ae699a79d633ed6747bb46089cb7f3c9ce4761a58181cc6ef74f90199edb",
+      "parquet_sha256": "c749a9e517eab13f52894bc491cef0ac407db712d71bbc4a8d7ecc49d1f5cd3f",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2025-04",
+      "archive_sha256": "ca00b7563c3bcd060cef6baf2229f7a469fa8265eada45cff8b658d5975cfc70",
+      "parquet_sha256": "48b5361dfc46a86d35202118371f0ebeaa88f7d844bda458145b062dbcc25279",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2025-05",
+      "archive_sha256": "25918f1cf84407c5fa0f1e695774c48630e5a34079e44b0887cac6e391b3686b",
+      "parquet_sha256": "c887a1b3363c202fc3102cab153b21e1ebf6beae47f35283856edbed1108d9a0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2025-06",
+      "archive_sha256": "cace0df538c936c2b08fceee3e077a37ef80f792052b3f7dbe9fc14ff384a5f0",
+      "parquet_sha256": "616eb20ac63ad4060fa8e1c66be8dea6f0ea1a3f4875025d57aed918cb60eb53",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2025-07",
+      "archive_sha256": "071b0c252dc835da6e360482de18fe5a82e6064ceb83a3193a1280cbbbf40f44",
+      "parquet_sha256": "14f0395a3b5cccfa7721fa274a63e22ffab2103ff44fa01b374a337576a43d67",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2025-08",
+      "archive_sha256": "248bf83a4a53457b2218ef50d756885a5f417bdf0e8e33f1dc39b300bc22fa78",
+      "parquet_sha256": "1b7fdac474e706c8145b3bbe00581ba877e1de6845953d8d0c2c8b85c8b91dc7",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2025-09",
+      "archive_sha256": "a306c02aa4c5bfb2cf1b6bb6db88fa5273283ff17d7281e3a963cba1639c6f3f",
+      "parquet_sha256": "aab58851948dd7d6818bf35aa4e8b07f3c68d658bdac2f56f1961a90cf1cc903",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2025-10",
+      "archive_sha256": "d8437030d4f82ed6788da1ac8d34563912b9246b760f51c6b7ab00f164fef5b8",
+      "parquet_sha256": "d35c6891f810753fcc4a23063823adaa373f828a7a5ef508cf970d89f743bcc6",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2025-11",
+      "archive_sha256": "e550aa57efd407f79458f3d22d9c823639acaa61dfcd53f28f4cd97874977c98",
+      "parquet_sha256": "37a7bdc9c80d2314c0cdc9da446132d4f1a3ffec2f775f04a459088d2f0da28a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ADAUSDT",
+      "month": "2025-12",
+      "archive_sha256": "5a5264141cdd21a16fc5e498333e8bd2edd1adff922c64917b19f95a32d78e7c",
+      "parquet_sha256": "600b7d4f0d1dd6daba76948fe14704e26922448afb7979604de77924d2902759",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-01",
+      "archive_sha256": "e177259942f6e52d0ea20ff343fd96e8d16158dc0b20f1ef6cdcc32fb9caf4b6",
+      "parquet_sha256": "17a0f507604176cfc451d997838147564730f0fba412f9c507036d153b68a2ac",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-02",
+      "archive_sha256": "dbe2866c28b2bfb55de991ff235808cd5e1aea05d814af090ad298685cce4758",
+      "parquet_sha256": "69e918efa3cedaeceef023c580d947c0dc0dfff5876b93b030eb085b99ab45a3",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-03",
+      "archive_sha256": "e1c4dde0cfae8639fe09a2e05a3d0c327dc0208875ac66f42cf9aa0be4fcd270",
+      "parquet_sha256": "56d36cd4370e61a1a6d03d6d02c632746b83d39c7a94d70962d151291894efdc",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-04",
+      "archive_sha256": "a5f49c884ccbf04b476b1f862d80ca3502b50b8b6911a169adc9274a5020ff55",
+      "parquet_sha256": "9b0b38d15d705247c9fc81f4048026bc2d864daff2e093e53b46f12fb8e1c82f",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-05",
+      "archive_sha256": "31396418651446b7f76abec03a434b905eb68dfc825cdb7755488232d8837f8e",
+      "parquet_sha256": "93b207d24d13d0956f43f30b2fd1c4d64abc70466f86ef4fe3b1a784807e5ec2",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-06",
+      "archive_sha256": "1fbd3f2b1b7162b6aea4f2151456c2ae828e2ed5f81019078e9c252fcac8a0bb",
+      "parquet_sha256": "ceefde47ab7f45fdf2453d029a7b19f44f997caafa04e43eeb9a008f24d9d4d7",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-07",
+      "archive_sha256": "cede03c7481878543609cf17ea8c02be706a6ab31905a647921a76106adb2fe3",
+      "parquet_sha256": "005a05d6afeefaf1daea595d457dbfacfe728cbc426f15935dbfaaed352f5822",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-08",
+      "archive_sha256": "6489ce76a830ae8b27d47515dee47c3351209278ae12dcae67a3c7c1e123eca5",
+      "parquet_sha256": "962f328565a2bec4b6601f6e6eb8218e48746a07c066e3e3bb1ac89850e80846",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-09",
+      "archive_sha256": "0a00885e240ed0459a6eb4c63af9110f67deb372322fce3b82e57ea86a6b7e61",
+      "parquet_sha256": "abe5ae9bb1166d705ac8f795de9a68c79ed3b43a601bca7dad2944e938b66aa7",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-10",
+      "archive_sha256": "80a34cbab95b8edd03e3f5833cbad010b3ff991cdc217cb9c8e9fa4c8159e939",
+      "parquet_sha256": "7982ef2168fe8eb1e4836cf23472792f53279ddeb612173160fde1f5f47cc81e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "APTUSDT",
+      "month": "2024-11",
+      "archive_sha256": "6c8f06f013442e4a0e93b3d7b9c8b6115533eafbf9d6f7ce45d8ae70c73d520b",
+      "parquet_sha256": "34ab3bdd4dbbe82c4e91981cdbb11169d23611b89c0d37a4f6a253f331be67e4",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2024-01",
+      "archive_sha256": "0dc36fcf4988ab6c34cf3e8da3d48779253a96461810b3bc10c710dff5297fc1",
+      "parquet_sha256": "61614d79dfcf0438df59344ac990b4edd23069db29950f53fd6b0097b782db3e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2024-02",
+      "archive_sha256": "a3a016935111ae66bf4eeabafe99dc12947e90efd7219a860ea8694ad5108ba4",
+      "parquet_sha256": "2c2948fcfb40505ddc912b611b4f50042a12d268d7109d16cd7c1837b85acf98",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2024-03",
+      "archive_sha256": "ea904611f30245d164122b07c8894d987543383de749a240d32c1a58e7664e7a",
+      "parquet_sha256": "b97587fddb87fd2233f7e093603c2e1a8680637366ad9c72217e8eec387c0534",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2024-04",
+      "archive_sha256": "03652f0b2585073af26cae33e20f2221dee929464ddf5ecb21676d20479dfbf8",
+      "parquet_sha256": "462aab65c37536b18f310c6ba34bb7d025c866b2bf9b5dca360b9d410de06c30",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2024-05",
+      "archive_sha256": "38401daa6b6d1760b7d578584ba398cf51bd20fd032912c4019cf1d1237f853c",
+      "parquet_sha256": "e6fd9955d4f3c34e4d87f0f37e1f8795572a35aeb47c15d1c7e704b212b7ac58",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2024-06",
+      "archive_sha256": "f242c578b76d79ded199c655d6ea680e254c259971fcc9a8b5e17f5d57643520",
+      "parquet_sha256": "d8871ec436caab92a4bed802ada8a78676c8ea9d36c0773a2d8b54d04d348310",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2024-07",
+      "archive_sha256": "8e8b772541ac6121b644227d5ee0deed83001432d53ea378fd177df2a2849387",
+      "parquet_sha256": "d1063e883a1ace93f0f0ce716d374e08bea34d5c97e478557b68bd244ed53022",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2024-08",
+      "archive_sha256": "c3c6c92095758c6a39dbd84ffe78b6a4849229ae220184cba3dccd2922d0fefb",
+      "parquet_sha256": "48aab33f5bad04325b3866b802c2fa55150499dc8e7ebb95ea30bf6be16a9a5e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2024-09",
+      "archive_sha256": "70239efe3953a29d00cd618d3c666601acc6f38e8c5f6b8c3d7fa22e27d420ab",
+      "parquet_sha256": "1c4af704687e5b719476bae6d10c2db39417c51e7122dc3a9c1fe01834f37b00",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2024-10",
+      "archive_sha256": "f30a60e05b29f3e4fc28a50975c81c5c9bef79b1512dafff6ac7daf59842522c",
+      "parquet_sha256": "58015b061f95878e5a22944e32ca6cbb489a7b23e164f927b527f64d1936ca56",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2024-11",
+      "archive_sha256": "43a656fce03a18fcd46d8a1064e3f8e83793cb33bc1acb0831ebca5d1da9eee9",
+      "parquet_sha256": "ae0155bf467c2a49a63a493d2ccc3a65456ce8701dced3b90750ab8a291850e9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2024-12",
+      "archive_sha256": "0f583a1d17b488ac991a827623fa5b716815cf2a9f5572583ba7d037a66a0c16",
+      "parquet_sha256": "8467f55720cccb250587e08bc8e77b3011ebbea1365ee47eb052476ff68f739b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2025-01",
+      "archive_sha256": "cb06c5a43d0c6aeba78b0b96fa30bad25223c626be55c1b1240f9bedc25a57c1",
+      "parquet_sha256": "86bedee969499f1a8125e75ebfb7422028e7beff4c2195bcb5c09bc726499222",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2025-02",
+      "archive_sha256": "ac79b8a46ceba1699eb4df30316ffc015b08a59d15f2fda119724f41fbb84d77",
+      "parquet_sha256": "ecf2b0f2984b092accd35299665757451535d82c54eb3ecc287d898cc7724546",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2025-03",
+      "archive_sha256": "d54c6fbc7e0a171beb24d2550f1b5ebc29a863ad272d3308399bc08b4548a6d5",
+      "parquet_sha256": "bd42c354a1bd004d6b5d2ec2fc37ca500e2c1bc1721d8149af12df8b00ff42ff",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2025-04",
+      "archive_sha256": "b1b587def833551ee565ce6cedf11208912f04296d6d9e2a159605f3454deaed",
+      "parquet_sha256": "2a6179f125f6e1c439b7b566797e2c695abb24d1f70909cb94707b0302333d02",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2025-05",
+      "archive_sha256": "6077820705cec1bec84b4114c99d1bba3e0fe5d54398d7018423bf21d86c627f",
+      "parquet_sha256": "d0d22e053de082d90a3f49f535897e81289daec2c87cb416c8f0176163c6514d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2025-06",
+      "archive_sha256": "59c0909169b4c2606a75821bdd7ea5210269086278ce2062d3300ca3ff2d3ee4",
+      "parquet_sha256": "26c00fcecc9579e2ff6b5bf4d913143335da4ec6f77c51ab76b1842e9316789c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2025-07",
+      "archive_sha256": "ec5a378b84f749c8a55b741c6c285c8442d5b6c78b435a91d5a76e2ea9ca165d",
+      "parquet_sha256": "772c9bb0350b55ce8cc5af25a6b1f9c840e0c089b868cf0fe067b6ca62cf538c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2025-08",
+      "archive_sha256": "ca534b45675e1b36b173c71d7b6087b972914b15d37018d8bd6bb1f791bc88e9",
+      "parquet_sha256": "9b1c7e4c6ab63077fda9f7ab159ea59bb2353f86111832a53b8e20b55744e581",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2025-09",
+      "archive_sha256": "2bde65bd987f3965ee3e4bf2ea15689d6f292f18e7171d3b689f2cb2d3b4ba51",
+      "parquet_sha256": "9e2e277931938a5a79c16c667f12f15e512d08642cb83aa66ff5985aedbdb25e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2025-10",
+      "archive_sha256": "c61d43e8f85ea1d4359a3c07fdf00b748ffa3d376212b6afeb3643c2e95591ee",
+      "parquet_sha256": "5b2dd36a2ee8c138bcb405626a8cc4c6b00a1a677dfb6c22df847fd1d40f5b18",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2025-11",
+      "archive_sha256": "57389046befbd61fd95deeb2814875992eb1d96efd11d6e544e7900aec459cb4",
+      "parquet_sha256": "7ef9a26fd42dc6a42cae98da648e874266ab79f8b4cf4d7a98b69ae71403cf8c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "month": "2025-12",
+      "archive_sha256": "acec8580658a6df38f3b677d9a9bee348c3707c81d75e80f28e1e92b3a18a2b0",
+      "parquet_sha256": "ea10819b67a8d4ba467f5edb5c45f3bcf473d3f4dc18d5436da4d91f34ec8f2e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-01",
+      "archive_sha256": "7699432f0b7618451aa834f3eda636d0e843f60214869e62a973d8feb5a486a6",
+      "parquet_sha256": "5ff50f6bebe3bc0946504312a1f4f17a0789ee92a23c6824a7a37f166c12f546",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-02",
+      "archive_sha256": "8dde8df6d37aa321cefafc6c6ee66ddb1c2d240b2a2f826f68494a6be8fcae0b",
+      "parquet_sha256": "7ccdcd547f61296f3ce1fefdea546dbbdd81d89577a1c27139666702ad3487e0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-03",
+      "archive_sha256": "ad3de4799c8076d29c7e0d36301316911da30059752cd94c14fd1f48dc4407d1",
+      "parquet_sha256": "9a97de6e034389d5b876a572ed5b252feb2700a4b25157d049a0844866069a1e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-04",
+      "archive_sha256": "704f1d058444fa1f5e7f4a6fdf6424bb1d66129a707f238163f897bf8ba6ebfd",
+      "parquet_sha256": "5e6b964c89860f88b624402607636713e2e68e13b5d0d9c4bcf8565582bb5b01",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-05",
+      "archive_sha256": "c35b43811c0e20441030d809d8403a5b1c636021b079d83c28ca80f645ad10b4",
+      "parquet_sha256": "3d662c2c0387331481dc8e841f86e68de521ba7d9491fcc04bd0ce3b42ee3b9a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-06",
+      "archive_sha256": "880743a8810f40930ed69d25405369d814d6bd8e63bab57bd724df84adfd89d3",
+      "parquet_sha256": "4e59db5a1ba17d2f8faa9152a70769f8f6456e44f9c6e682a6949df21948ab11",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-07",
+      "archive_sha256": "fc677c357cfbe6b4b7f72f58d8415aba24535aea8e7e851b3c5dfefd92c10a27",
+      "parquet_sha256": "246dc40418b918770443495d22eb5ea8671e6fe7def7a10c52ad3a595a997aa4",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-08",
+      "archive_sha256": "222cfe669e1afda82a4a868cfe1d1892c665635e141c1e68bada8a8bb6ce4415",
+      "parquet_sha256": "8a4b497f854943ed045db0daeb2de27ed77f6bda78f3d4ea87069a5bde361fd1",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-09",
+      "archive_sha256": "2610a9f32f6c31de7cfdf0b2dfef70efd3c89f193d7ceda3a618bb90c987bc4d",
+      "parquet_sha256": "b9c5414d374bb1f405190978b4ea198aad68be6c07a6b4a33de53aaafd97fe5e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-10",
+      "archive_sha256": "44318616f31593a66a966972c446f284cd65f5b9dc49eb2792225b46e7b63d18",
+      "parquet_sha256": "faa522152bd006adec94602c3084038663a3d083dc83fa0c192738dbfb901d46",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-11",
+      "archive_sha256": "4cac9de41bee4ba747a07c1b5c9a6e12c1c5e97ef6c80c7ad46bf110cb9b57e9",
+      "parquet_sha256": "08f9b6dc26cb8e581094c63c6f1cf62d6c2096abdb8bf5e4f6465e1c0802ad2d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2024-12",
+      "archive_sha256": "00cce1cb1d1d63f11242d861970d60f1b536f76979e5079b8af039cd013a515a",
+      "parquet_sha256": "3635bd6dfa3bea588bc6443acf8d09495dd5622e04dc78ab2b398bd781a990fc",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2025-01",
+      "archive_sha256": "884af3f6e921a90d6507f20a30c097dfa54ff4e6b8d7a9c45853abf43e72b1e6",
+      "parquet_sha256": "fd97f2486999018b8648d3bd10f57179f7999b86d3600da75f070f4276812046",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2025-02",
+      "archive_sha256": "ce110e1f788c0d148d11096158fb2870b7097584546b717774594745d2f35d7e",
+      "parquet_sha256": "28af6d907d1714a192a1e926470f48c7f0e8b09e7445ab69b49ea10e916ab1a4",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2025-03",
+      "archive_sha256": "fae2a3625974d5cc4a205f9a15bf3827c42293f0b96f6323dc341ccc6fb0f0d7",
+      "parquet_sha256": "729838e05aa8dc97fa213fc59e1b6a1ff4149eb963195f1bc5abc74aab62a425",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2025-04",
+      "archive_sha256": "c4d4c681072c4d01e52db83b8eba1530a80b05b0c5f82ae3e59579c1e56df32c",
+      "parquet_sha256": "3320f707fc1762c162e2114b971c477e6cd428f95bbc2c750ffcf4836a942a2e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2025-05",
+      "archive_sha256": "1be30ae7377b5aa50735e6912d67c60a9d38eb3168d12219b7f3965542d418a5",
+      "parquet_sha256": "1c7213b01e5bddebcb26b9ab8414a92ffc2d6236506002eed948719a195cdaae",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2025-06",
+      "archive_sha256": "7a269b8a22bf865a5fe596a96039f3fd9d4e13a1fe9954228446201033eefd58",
+      "parquet_sha256": "be5c45b2072fcc507251291ca8a60268cb13d6e1357183e995e0b8f11710d8d2",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2025-07",
+      "archive_sha256": "ed493b429564b906271b69b60a73e8361494626a9ece724c150099b2f4615759",
+      "parquet_sha256": "940cc7e1725f059191313999ce3add8dd74bb45b17ba9e1ff77e01f6e89e00a9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2025-08",
+      "archive_sha256": "4bda48ea3f583be327963006dc304327ea1df2725c2ef4745eb1c5125c569e9d",
+      "parquet_sha256": "263c5dba01f46d2dc44a176822b481e7cbd81160b7c5eb754cbc30868e70c6d1",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2025-09",
+      "archive_sha256": "cb4d1a163a23fddbc8db615b414840a566faae24a07217e40aceb143a191b0a0",
+      "parquet_sha256": "513e8192f1fefc8731883df2164ec929fe34491471796d83a9d5155082e5967b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2025-10",
+      "archive_sha256": "e965fd874b94c36b4c44a4bd630ab6ba4e931ec3afce9edb1aa4c24285a84758",
+      "parquet_sha256": "b328eb3e1cc511edbb60134f8a136cf5350a2d0849270b4e28f0c6ec0f56adce",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2025-11",
+      "archive_sha256": "89489bb1062d5d702a8011209388e3248f8709529c8d7036b955094a8b034d83",
+      "parquet_sha256": "4defc84e1dbbc7248dd5a8488cbb002c9f1351435f49eb831a2dc48f2279bf42",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "month": "2025-12",
+      "archive_sha256": "6464c58b341850ccc7212f23d82b5604c74944c916c5258936c4f42a1736c1df",
+      "parquet_sha256": "a9d0e42bba27064cd8ef814a0d6c511453852f38f5ed374cc0b39dc6e737bd6a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-01",
+      "archive_sha256": "1e9cafd535e739bf3b8c64c88148918ead3338cabe16475e18820a18c3cb5817",
+      "parquet_sha256": "70c762909802d58c40bda77fc42bb5fa0db64ac32b61350f004188cea6ffcb28",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-02",
+      "archive_sha256": "f0c1133c50bc0ffb031351d01b8fce8722d4e25375a60aaaec9b12bdc000f886",
+      "parquet_sha256": "61cfc590a5bd5e962473b420bf5e2fe84ddc1c418517ab702966a7208c175bd0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-03",
+      "archive_sha256": "51c276db9b4c8510b3c7513c138cf2fa0479fd4e677bd58527f605bbc77e60ac",
+      "parquet_sha256": "4173fe450347f0d14d30e63e9a0619728085605e05488f5ca5bb12c37fdb6f15",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-04",
+      "archive_sha256": "e8e01718becc1259967f7b56fd4013ef14dad6456b8b7d0279d4dbdf75f8a94b",
+      "parquet_sha256": "5c4e1aa6722d031e7d1716f74bc244e38c005b4a7ead1580540c30343f83bf46",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-05",
+      "archive_sha256": "d57a16643b5bb864836599a53d2c05a3d2a674c956ba7b0bc5a2588ade14cd93",
+      "parquet_sha256": "f30b68127a5a0ea5aba344ad8ce15b23cac0085644c4a28d884d8dd29f5be2fc",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-06",
+      "archive_sha256": "221c5c260d4015d3008c0a489a98d9e6615e52f0b6ad78fcd58315b0e9fce975",
+      "parquet_sha256": "d60b096871df41a2e22b962a846cd1c5099d05cdcfddc9afc66ccbdbde449255",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-07",
+      "archive_sha256": "61a39d8d5b8a1816afeab20254feca436023fb719d79cd641bf20056c6c688ef",
+      "parquet_sha256": "4d8651575a13584c201da7d70e478af7ba003e9aebbfbc471df204dc4e734a7b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-08",
+      "archive_sha256": "185a22e2fd7e87aafcc8a9d1ab488611d296996f06506847757bd40d44a23139",
+      "parquet_sha256": "f49e8f948de1e60476a8cbfb0900c468f4f6c5e53f04a49cfcc63ef3952b6b68",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-09",
+      "archive_sha256": "ea7bdb5001cb3d5a2fc513022d805c829f7c594d8878360995c4e693ccaab55c",
+      "parquet_sha256": "855f0e92bb24e5af31595b2b0a8a376d6b4d9ea3b8cbdf8fb90e317c86887c76",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-10",
+      "archive_sha256": "6182c213ca64f4599087e47b44a3746008189aa4f8436feda74a98acc98db564",
+      "parquet_sha256": "543a2920f02dbacbcdbba1f50d42bcfc2cbd512dc91d841eb7fe9f3b55b8c582",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-11",
+      "archive_sha256": "5de1a78fac3928a7dfe7a6fa957237e5024bbfb23a0042c646b531a7d8f9c616",
+      "parquet_sha256": "7038badd5bb4dfe6892c6c8c7479030da7e9efd1fc36ad81675d2b11c8a51748",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2024-12",
+      "archive_sha256": "26d2360da8ff735eddfb9b00a215ce3b6eded9f375edf4b5b6b91a3890d4d00d",
+      "parquet_sha256": "5d2bb77aa9229fe573d3f1b0cadf79f8fa014c73c911b2b8b0252681cd6cda63",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2025-01",
+      "archive_sha256": "7cd43d650a83c02171f0889bc95d099a8f7fb99ded39233d55c06e306519da5c",
+      "parquet_sha256": "9acdd35165c63649ff2afde2eab796cdfec2902bb2bd3defe6de412a4f6e6504",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2025-02",
+      "archive_sha256": "d2aa630c9ed727be185e40a3214092408a4d29ef80598a9ca919c012e86c07cb",
+      "parquet_sha256": "ea5fd4b06ea89ff20257fad108bea8ba2024ab6d29731edf3a7df28ea3bb10fd",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2025-03",
+      "archive_sha256": "e88e241c2dca267322e0c2b1bced35a3b011ec908ac59f72a40aba4aa2c5d90d",
+      "parquet_sha256": "8079552151f74e03cac2cdf3d6fe0159f6f2b70f68287311d6d276954a4d7a20",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2025-04",
+      "archive_sha256": "d91264efdc2c95ba2cf274ced261c0347f9899afb64eabd7abee9445272e345d",
+      "parquet_sha256": "bce73fe6ca3a40f42772402be125c7826dfc6b208f49ef0df63b084a73e14d91",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2025-05",
+      "archive_sha256": "15667eb2de9f13041ec467eb9b834714c177479279f3c665f1065fa72f8314b4",
+      "parquet_sha256": "9348cf53ed04dd3a84f462aca1b227eeaed11e1db513a674ffff2ed2f5a8fbd0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2025-06",
+      "archive_sha256": "f723137a29e1dd5d1b2aab5478466a51615c9e26c28af0809864bfaba3e45028",
+      "parquet_sha256": "359f9267e0a54b765b1b7034f2f294e69973532063a9ac152022dbd7dcae29fa",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2025-07",
+      "archive_sha256": "00e5e753f0f930757d4e5e4b9dc35485f0eefc567905cd1eb37da5fcaa098801",
+      "parquet_sha256": "5269b88899b12c659b688993430e3e4e303a268d7df65e1c1a75d1cc0b68f1ef",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2025-08",
+      "archive_sha256": "ae2000144a9828e8fdcf738042afc1dc3a88a5338e0dcaacd98b7ca6c1b49d4a",
+      "parquet_sha256": "bdd7c1771a7d2c22e9379d5daaad32e5367fb32d113e0c49e4f55b768e40c950",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2025-09",
+      "archive_sha256": "4e38ce51aad1d428880a2cd49ffe4fe4812164f94ff29268d3b15f75418728c5",
+      "parquet_sha256": "70fa00da8cb2636b7fca9553b4ce98cce8d3cbba5fab57e9a7182d7092ad4368",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2025-10",
+      "archive_sha256": "465465e574a80a9fea5d8bd10704cfb39fbdb19925458629ae7330b1cb6e9684",
+      "parquet_sha256": "77d96f8356295bca82de762e53833e30683127bef330a6524a7ff8fb91b33398",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2025-11",
+      "archive_sha256": "e11a18bd56a30778a15bd377f7c6c89c28c800875a5a89958d4777b8b32f43a4",
+      "parquet_sha256": "d54f0a61cbbcc6801f5c25b5256b585b972f95277ce2336fc8a377bc9c86a2c2",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BCHUSDT",
+      "month": "2025-12",
+      "archive_sha256": "a844f55c693a5ca7ac28d897c34301863ac4edc65a638632dfca7ee5464c121a",
+      "parquet_sha256": "9eeef5ccae06a4ccff74e897c13ffbb61b60f4921b86cf0f6cd5967913bbd56d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-01",
+      "archive_sha256": "6bc9948753f7ef4b109782e893b7178ee66fdb0a699452cb3b79fb2e8034a8be",
+      "parquet_sha256": "e9f60ae4c30525f66c3e674c113a568b156740d8549809c07b8f4871cdfe1ab6",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-02",
+      "archive_sha256": "84800bd26ab0dea2155e53635d17694ab4f451f45dc03c9f537a36bdc6ebf621",
+      "parquet_sha256": "9796dc03f8a8d7f61e0b7a2dc5f0db6aa6dddf105037b998a06a8e5475e2741e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-03",
+      "archive_sha256": "8a4df7dbdd67d4bb9ff502651c302017438582679cc1be0e92e45c670dd9842d",
+      "parquet_sha256": "e65146b52073757c098be4af4949400d6d789e23d77c1b16340d7604f1630b3d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-04",
+      "archive_sha256": "c6550174f5d7c18c17059a2fb04b2feb1f0ba157d81bfd59ddd35620f098d985",
+      "parquet_sha256": "70809ae25bd3e0fbf782ec288b9f956d675ecc761c1be63d48d5a47450f3f8c9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-05",
+      "archive_sha256": "5ddce5d44b87aff836793d64d9c2df82ffc86f6c3aab816ccc67663fe4dd41d8",
+      "parquet_sha256": "1e2018e2f88c39786d3f4e6a81ea694940ca197e7f56b701ba5a905608b29258",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-06",
+      "archive_sha256": "67c99e87129b17e820ea32efb556c879df768ca811ed11bba0619f41defe6818",
+      "parquet_sha256": "6ae8ee25644326ea502bc7733b2e119d14165d95e84d5d22ddcc2fc525c71304",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-07",
+      "archive_sha256": "91a63ac48834904c5b3f82cdb830a810c53754a1e7bb93cdd84e5a86bb07afa5",
+      "parquet_sha256": "33d5a9706ce41153a55adeaaaeb869ee6365986ffd42d4a8b2b6d0df1949b6e4",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-08",
+      "archive_sha256": "3e9dc5b4c0e9855a37cc0e26634c0f076005a5657e0bc94c7bcb5d1d7659b114",
+      "parquet_sha256": "677f6251e763d85334d4530505b45d463517d36dba0e0bebdb76e53daefab7bc",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-09",
+      "archive_sha256": "831a16a2f11ba502dceb26ae850ab470223c25ff475471058f41d640fca28c67",
+      "parquet_sha256": "e0fbd1d67b57f4d3d175e5adef3680789e4578a401db0096c87fce36ae61a963",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-10",
+      "archive_sha256": "08a49b62fd39ef74744031f88bfe4daf55f33a6f86ef24c58a54a36951c932b0",
+      "parquet_sha256": "6786baa064276f3fa82af1a716236fe7e6c4f2dc15e39f29cc891d7c9393118a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-11",
+      "archive_sha256": "3c2d85c31afa46074579b7fa5bb7115ff04d992f3ef64f276b02d2cc97958e2c",
+      "parquet_sha256": "77317df9807e58562074954e358a58f2d2cf317b035474bedc19159463a4e2fa",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2024-12",
+      "archive_sha256": "90a679f7a36190e1cfdf2ac86d81be50d7f1f4ddcb70587cf4c42391c8204926",
+      "parquet_sha256": "51c3b2c52140fcedf4c19322ff01aec10a762db62f602e6f2b513804e6e92663",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2025-01",
+      "archive_sha256": "f342de7d79c41337c7937b25fe41f8e9ca2472ab1cb5c5de3cf328f0636d587c",
+      "parquet_sha256": "0237661cee8cf2d8c38d453d8c797e3d388d2d3cff77297e6ecd7af3d6a8b69b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2025-02",
+      "archive_sha256": "57a5659e7f9662f5962288f95ecb730a739d51fcfa3ed15ce13715dfdc156ce8",
+      "parquet_sha256": "287a3f8c7101571da7643a6c27f526487fd0e4ce79ac13ffcdd4acfcc2a2530e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2025-03",
+      "archive_sha256": "ca8bbcefab05f22410deaeda7afcd5ac010ba6a21e52290b2c28e350279952e7",
+      "parquet_sha256": "491b62402f651ae72c570750d2fa9d31d125c3b0840729851a19b6909d86a502",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2025-04",
+      "archive_sha256": "3747f8dc45267a102b5a95cfff7d090610e9d9cc804635d9b8a48b84c38878da",
+      "parquet_sha256": "dd6170cecfd849b1b46d88c74df1dbf84a35c71ecef3d52437d953f46e9b9164",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2025-05",
+      "archive_sha256": "55dec1a2ce8ce174a45b13982a4f57837d31de4565ccd180dba6e8fdc606787b",
+      "parquet_sha256": "2d4f470fa9d2a1708383ff9c22b5276832e7f259267e52581f107ddc4ccf3230",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2025-06",
+      "archive_sha256": "e25f4d9b207c477c29d5c518d56e867fcde27da88a2e42fd9e738f1ab1b41c14",
+      "parquet_sha256": "6d00f5dc93a287af17df1c382601dc556cd655b397b470ae9fcb2b02369d2a3b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2025-07",
+      "archive_sha256": "24b0467ca191a502478fcbeea18b624461e3b4841ed31e900dc6956a53b333e6",
+      "parquet_sha256": "b865aeb446b7704667a556178c952da751c2918a4a9049588146c652cdde3050",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2025-08",
+      "archive_sha256": "639e8ac67badd8c1b7b7b88d38fa916bb5c93aba101db12f6aca7109b095d263",
+      "parquet_sha256": "a9d10f96e27dac23cc0f01e111ae85cf0ece7c73f0db10865e80d7f96a0109d1",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2025-09",
+      "archive_sha256": "fd7dfed0ad339c4965b82a30fe429ab45fe1a1332ab119d7c1d5a58c885ecda9",
+      "parquet_sha256": "7c0d3fec32d4705ad9da79682a74cc4fb49832bcc1601e2e149aa5455e7c877b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2025-10",
+      "archive_sha256": "7bfeb8f2d94e3df58edaa71c52cb45ea2107d096edba1f0c562b7c538743529d",
+      "parquet_sha256": "72222b088d9a874ad1df16c81593425c4f0a0db070846bbd0ad08ddf05c7968c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2025-11",
+      "archive_sha256": "991d89f1a096d58207bc803f69e554c8a3578342167b4c3687801706da9ac954",
+      "parquet_sha256": "6a51911279924923852c39d33db1ec11328af4cc89b3cc979930848bb899d856",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BNBUSDT",
+      "month": "2025-12",
+      "archive_sha256": "d7a1c0fca809b140fab5e07f20ca13322448c1d55bc6e63e42a6bcb75958fc67",
+      "parquet_sha256": "aca26c168c243525ce51e07706c59a8e85e3b1262eadd04b5a6eaba22287b6d8",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-01",
+      "archive_sha256": "40b78258091a468f8756843f207f5913eafc1d6e756c40a78711320d93fa5e75",
+      "parquet_sha256": "8ba6fb0dc955fe31222879720966f021ecd7dbc3fe846c30154b91780d6fe182",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-02",
+      "archive_sha256": "431132e0db8b9fe6e5c93c8e9ba3ae37dbcfa0edcdd57618b1b78ac18d14be79",
+      "parquet_sha256": "3221c072075cd42f3aec997e9729c939f66ca2994f1a0e0f45838c68a71950a1",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-03",
+      "archive_sha256": "a9af86295eae839f1d072643c67eed7fcc47bb1d82c12ef312d041eec9511e7b",
+      "parquet_sha256": "76251d1ae900bbb9a8defdc8210ce0766b6bcca96a06bb32ee14b69e07a69c97",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-04",
+      "archive_sha256": "753040cbfaa72bf9b1fdc6253a3b521a9a174a664dfd0929a556be327b016bc6",
+      "parquet_sha256": "e677355cffaa214da42955c77e91f21ab90abfcf9e090ccd0219bbe13e14339d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-05",
+      "archive_sha256": "0f709143f66a09acc430d24a5f27f9accd52689c23ce10f2c0b6ea26997bfa8a",
+      "parquet_sha256": "e9df61b99b39ed11fce707b8dc2b1b6ecb417336b5be3c6c98b24da7d595556c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-06",
+      "archive_sha256": "90f4fc3f55918787848c71f4cd0f2f1a5851bbffaf6392e76e9ab555b7479d2b",
+      "parquet_sha256": "93cec5bb2bfef3abe54c127edc69058f97f7fbde3ca5be84985a32983f3a7909",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-07",
+      "archive_sha256": "9cfd749fd2027a0c6f261bed607b49dd1256369fb41b784934544a3676f8162e",
+      "parquet_sha256": "c48b52683968723d74323f2689577df772af1d1aedbe7844619c139de9e32b1a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-08",
+      "archive_sha256": "6a1cac2a5482132dc5a030534aa028e2becc560877f2b93b7add90194f576c42",
+      "parquet_sha256": "1d831460541583731ca501c09edbf5839d52d57aa1c729132aa7172e503db1eb",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-09",
+      "archive_sha256": "1e30f6091b05eeb7b0449735d749354b81ab429ab1449bae82a21e316db8eac3",
+      "parquet_sha256": "6e4c758b82fd6d80fc1d1504a2ab18f7f6bbc2dbf392e4d0998c983475bdbef8",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-10",
+      "archive_sha256": "13f7f9f9bed652fd152422246cfbcaefa6223692c5c37fb3ca4e72f45501e607",
+      "parquet_sha256": "c1dbb079f6ca2a8139437f7794e3aeb6a169c0b0083c470691a3ffac0d89441f",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-11",
+      "archive_sha256": "c30a63bd0e8a77f2d18a2a019272b907f29a84fd5378796cf9333b041edcb12b",
+      "parquet_sha256": "976331d27954889310f90c72d777953b5ebc4a4a2146cb8ba1bb0147af9e4a39",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-12",
+      "archive_sha256": "58fef0b7c7abce7a0201efd04ed3732f236f607f3fcecf228fb8384cad1ae2c1",
+      "parquet_sha256": "93df2d5c0e432ffdab4ce0f420bc30c00c1f4f980b2e7f80df3744a7460a564b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-01",
+      "archive_sha256": "8d028b2f91aad57d6b693d44449c93f9c4b7044f55f298c8a3ac40ab676dafac",
+      "parquet_sha256": "9e18b8be7d4a72d83afa956105ef9f2b64f1dee0ad9c930a7ae271b69761fd74",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-02",
+      "archive_sha256": "26b3795072983a66bdbe8327e0d5e71069bdd5ca831d4da3850ba68ef7a991ef",
+      "parquet_sha256": "2a98d5a2d01629c392652daa96fdd14f1d0efe891f5f93a8accec497f13ba57d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-03",
+      "archive_sha256": "e333601b6c721434f3cdd6670ffde2371bef7946572864c49ba6431a690ab1ca",
+      "parquet_sha256": "272217dbb3ffb84545e6926d71e4a07884e9da1f1e6e613edbc77d43d0f8e69b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-04",
+      "archive_sha256": "4103d48887f9f5ec04144b190314ec31db9e3094674e5d53a3436b338854848f",
+      "parquet_sha256": "8586ba8587aacc0381377e8f52603cbd7b2bcafc13ef11118234bae316964800",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-05",
+      "archive_sha256": "7f95bf97e3ccfbb55cd002f124a54dc1726ced7cfd54e6fd200e59845ca95d5c",
+      "parquet_sha256": "3ac51741162004a3dafbce0648fbe6a1402f4d302a9f98aaaffb74a0fe6fa594",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-06",
+      "archive_sha256": "f95f6169e253d38fb321c87984c827878634250cdcc3ff84fc3507f036bcabbd",
+      "parquet_sha256": "88750a4d63b512f437327e29f7ba16c9f0c990eb6a75ddda3ea2db8b6d067f70",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-07",
+      "archive_sha256": "3377e023fe252418cfaf46c9e23b3f0d1e56fb2fd89b4191fc66262b947a0ee2",
+      "parquet_sha256": "89d2e373599fcbb7480bcc25a04c03f085c55a435ffde5fa2e516cbcc89c9c6d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-08",
+      "archive_sha256": "11da1c7db8949cbdcbb757531756eda55f2a3d663cfac671c5d1a8a87911318f",
+      "parquet_sha256": "70e439fa120a6f85150cc86a91c6e312501f0b0c4a4fbb32719c38b5adf6bd92",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-09",
+      "archive_sha256": "52bb4a4a52afbcc0af77e3eb92c114bf810982ca63bf02f8fe15062e59c5f44b",
+      "parquet_sha256": "41a1d8d07d6d3e686beaf91dc7efdf0f53cfea25232ade6c80014af0b672c0ce",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-10",
+      "archive_sha256": "985d878cacbfdde85c9e0da2e8830ab913fe01bfdcde6e488563d8194df11f6b",
+      "parquet_sha256": "9856b154714898c7402ebba0b98ed4389dc349764425bcad5f57c74757c997f1",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-11",
+      "archive_sha256": "c54159d1216ab07f040a96d6678748e8746ac4200cba373fb6b758f2cdd1e5e5",
+      "parquet_sha256": "80efa473ac34b12f9f37b13f799a257213325d77d4ea59bd25cbfb0eda34e69a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-12",
+      "archive_sha256": "7b47647352b01356dcd678a1438efb8baac03ed798785ed2179d428aab0cca9b",
+      "parquet_sha256": "b81cb3da76c2a0fa9025037745a3244e0f3e5d001d80c95ebd3ea66524e462c8",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2026-01",
+      "archive_sha256": "d28b369da32a6ea84ba0af517b1847ab67b2fcc1e0e111c1b24d56ae07240cb9",
+      "parquet_sha256": "d83e5990a0d33512fb449e19704025141087c1ab14d71181459d5ba829567494",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2026-02",
+      "archive_sha256": "cee2e913ed07e02834e2387c65ca430fe3576f620588bad8a02229238f385407",
+      "parquet_sha256": "0471463db5c87dc8b5dfe661c0c44bf96cf0c69b31d26a4135e9cb3b97490fee",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2026-03",
+      "archive_sha256": "a2c1e689d39aa7877e218f436f15162e9a4436778a377d32e9d9b81b081381cd",
+      "parquet_sha256": "89fdff77b439be8512c35b7de910bd83a06918b609c218c1e0ca89011fc13293",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2026-04",
+      "archive_sha256": "318afd4f5acfbcfbb40fbe727a77eee8e9e7b54d8941589c78a32283d90b4a01",
+      "parquet_sha256": "7eeb141c8633342817e6336a43243fba5a63576f514c8c653e5726fe6bfa56ab",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2026-05",
+      "archive_sha256": "62983d93c35e26ec6c29116c629e443b7ddfe3d301aca83331ff58112199d8d0",
+      "parquet_sha256": "51a52e05812acfccae5fc6bedd0b015a50282350f13e441ddd5e73e59d4d8118",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2026-06",
+      "archive_sha256": "c8e1d5e70b766dd2312fc9cd7085785bb25708e27e75c21a5a5aaba61a6d07f5",
+      "parquet_sha256": "da8e38d70315ab43023bf523a069df26c56aac92a650d16f4fba856e9eba7dbe",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2026-07",
+      "archive_sha256": "3ef15c84353da48e1c7c5fd99b9751cb036bf8986ed47f7cd1be63359c0d4f6b",
+      "parquet_sha256": "eb4969b544bc28bf8c6dbd9a6ba5521fec8c2c23be35db3a555a44e4fed8a54d",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2026-08",
+      "archive_sha256": "acab442e02745177063031d402929703ae983715010064b40cf811c4beb843d4",
+      "parquet_sha256": "e1b77e52bca7fce92d8cafe59a7ae239086687659e79d4ffc489f759b3ed83b8",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2026-09",
+      "archive_sha256": "7a021fb5981cfdb1a56457d68fa81360ab27350c981ddfe63112b2322df44b56",
+      "parquet_sha256": "74220ca929495cd03867bb9225b358e792a48f54f76afb46762377485c132f67",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-01",
+      "archive_sha256": "1f905dccf4bd37ac6f8fc5453a3ff062564ce12b685bb0303dc4c7907af3b576",
+      "parquet_sha256": "c6f23d49cf9bab900717a5305119f5316e075de0b26c565fd12b6752a703b180",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-02",
+      "archive_sha256": "6af56f9135fedec21c778b03117e4391249153c200eb8dde74ceeb8f0c6e8d71",
+      "parquet_sha256": "1afcd61eb32dce45723ce2d269c20b23f04bf5b44f547cf12f867d00e4ae264e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-03",
+      "archive_sha256": "16f98559fa56843959f5c4a21bb6e79ab9b8bc82ebcd8a8a352c9c50b42f4377",
+      "parquet_sha256": "df2fbe23b7cb35ad965a643a373364e03ec0f4e9c10dac9561c4557f3eea6d53",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-04",
+      "archive_sha256": "f269596cd68a93ea3b11f263c2d368650546d07c1f71c5cbe948fc17c0b71e8e",
+      "parquet_sha256": "294da4197f6605d0ee9882c3d8288d4a3fe79fcd35a0e04d736c65db869dcb95",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-05",
+      "archive_sha256": "3959c2f2911c7a1b9b92d35becb96d4ed82ee162692edc76ad09690b3496102f",
+      "parquet_sha256": "8a70d7eaf7796b9545633c903e8248d6301fb1b921f0398cd8d25708c6113c9e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-06",
+      "archive_sha256": "a28129a990bba3d8d31a4235a9a0c384f1c87aad1253204728837cd443b20d4d",
+      "parquet_sha256": "f22516f0ab63dbe95e4d69475299c7c573586eaf94af2ae53c63ff9536bc0d25",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-07",
+      "archive_sha256": "0a90bc2e803b7928da614acb60ce3f91d90ef7c7c5116d024cbb704bce203876",
+      "parquet_sha256": "50456b4af83ab2fc25c85413e887a11e8c67b861625da450d32f2bc0f08be552",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-08",
+      "archive_sha256": "8400a53894bc6954a343e72b85ab18940e52053ba6253da6d35abade05aa2cb1",
+      "parquet_sha256": "1fd027809da0534e8554c143287bca6f9ab8c5649e521d52f092041c6ddcae6e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-09",
+      "archive_sha256": "8ce73748b1f98ef6250c92bb5c4a1d73fc92e919dfe983657c8d44345b143fa4",
+      "parquet_sha256": "8a711cdc57349e5af94dd9fd7eb93d762b329e4572ef007c732ce61f1affd2c5",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-10",
+      "archive_sha256": "86ed91381377635e528c2c69752e182a0cce511a19dfe97496dc85d48bae7964",
+      "parquet_sha256": "2b629208146306451ebf665bd7cf5160ad24e4a6f152a59ab8bca893367e115c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-11",
+      "archive_sha256": "4bfcd365cb341e3a3df264bca7db20600a5070ecce42c328c7db2a743a8e1ede",
+      "parquet_sha256": "74158fe3d67aff10baab4f2596230f858a3089f87b27be7f80ff81e748e18686",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2024-12",
+      "archive_sha256": "3f03b3071e1e82141a9aedb5fc9297dd281377e1827a3cdf317f1d40d87574cb",
+      "parquet_sha256": "331573f74ebb904787ce26d3964301905bd47bf01fedd9b62b326dd7ce3aaf84",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2025-01",
+      "archive_sha256": "29c445e5cee537b5af1026bc1c74dfde3d925d4cfcc9637665260038164baae3",
+      "parquet_sha256": "45db9781a37a0ada5dbb00f95a6fe3da3f79ca1f79ad29f6aeba6e2f93a49d12",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2025-02",
+      "archive_sha256": "48217552eabe65ca213acdc3e9e807a6e1d0f5d1e4d4db3ff2f62f7fef65655f",
+      "parquet_sha256": "f4f15587396871d58332ee14eb3b477a7c2de912b9fbd3786540ab150c0361e6",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2025-03",
+      "archive_sha256": "7a6c5a607cf5c70b4e2ecd8f0ca20b5d300bb809b57f436dbd0e8dbaa52854bd",
+      "parquet_sha256": "1bb0b7b41b25424abd57893e265d0145ada1229ae30d0ff6f865bc1c2f28bb94",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2025-04",
+      "archive_sha256": "4f4457d4120a43f7dcade10a935ec1bd2f8cd6a60fbb78108025dfd5e1986b7e",
+      "parquet_sha256": "85db33ecbc0128e9bc68a4eb36547db0272e83826461047cb928b6e4be5be5a9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2025-05",
+      "archive_sha256": "f0009a70af9c6a7a50c4bca705178931adbe87334f0f5ae8c9ea5284c461a6c3",
+      "parquet_sha256": "558ed2c0711b07c51a677110fa63e0060304e3c29d652e89fdbb4337e4a04455",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2025-06",
+      "archive_sha256": "e57bb49ddee5f20506131ba85c222289ae60636b1e69fb50cd42f41b2f8a3e9c",
+      "parquet_sha256": "0d3eb624416cea2ee596a1ba920a6295cb96d7c6ec739790429e694028a6c25c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2025-07",
+      "archive_sha256": "ea9c5d3cfb54cbe9854d3501d457a204f14d9fa17a314458848e8b784c29ba2f",
+      "parquet_sha256": "a20596bfb2103e7e69384ff38e0f9aba62f1dc4a90252ff0c35912ffdd20af56",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2025-08",
+      "archive_sha256": "ec309073517e94c3b9f211d4968241eac851b5f7b6003cb40dbd4aa98ba43c0e",
+      "parquet_sha256": "02a52b6e8c57d29e815a3f2f38263864a6fa30bd12e61cc471b409fb5c2c898b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2025-09",
+      "archive_sha256": "dc7b806fccf9fe45d50b0d43a016e19849f7485ac2517ec1f2da96b67b8e4729",
+      "parquet_sha256": "bfd68bb1ec7936f205ecad0e59d62b65b3b2ed7ccd1269a465b41e376afbe8b5",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2025-10",
+      "archive_sha256": "89f1752ce73fea4428d5ecff528c8fe93ccba1ec83c7a721eee9de51e48c8c12",
+      "parquet_sha256": "8397ce764f420d474a2c98dcbd28446755fc37f7ef274f4537ab371ff3530814",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2025-11",
+      "archive_sha256": "cd6528452630714e586a2913d58bad1796f9fbfddb1eb0a7f3d46f5adcd6c2de",
+      "parquet_sha256": "b27f0bdfb9df3a3e4ff711bffa8c95809fe4d968d9e289e0ff280a4e3785b776",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "month": "2025-12",
+      "archive_sha256": "8d108055cf07b601984111d7df391db4330daa40542eee40fdfe9b3fa0a8f392",
+      "parquet_sha256": "0ca2159c9ba5d6ca9ac370a5b1664bee2202a83aca72d9fe780a04ed9ce7fec5",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2024-01",
+      "archive_sha256": "c5a08a17b82a2ff61bf359ae8b999a0b4d7f630dc6b31c6e444b7a813927416d",
+      "parquet_sha256": "8a3e11e0accea91a29bdabef27d40607dacada039baab0ee4662244e6b400d87",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2024-02",
+      "archive_sha256": "aaae10e26d95a0499a3f8749dfac7c08ac628c556ff15f0d1125e43ca8968862",
+      "parquet_sha256": "e1efc7e3533fdc5ddb537441898c7c37862eae8f83287e1b92628c1aee7caf42",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2024-03",
+      "archive_sha256": "29f2f554ce028047f499e76171c6579af4edd26e576db13ba6c63bfb02151262",
+      "parquet_sha256": "489f04b6e9efe9b3fff30100aa30bfd22eeb151397f7495b03829563c1eca262",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2024-04",
+      "archive_sha256": "c5a4c62a6f2c06a310e185bbb5526098041b005be30848e5df640e57e6be1ebb",
+      "parquet_sha256": "41f2b645962ff524b920f56b15e7c89d0a503702ff8fb8014f120a4c3538ae7a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2024-05",
+      "archive_sha256": "6624107a01392177752f62c16ffed101647487e8b69b47d74e23fdff3cf451fa",
+      "parquet_sha256": "b7777fde83073c9fedcb8443a444730b56af862212d276d35bcddd3777a0a6ec",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2024-06",
+      "archive_sha256": "35d4f7acbd62d9f9e9779f7da77265590af325894117fca39b2dc5504f099b24",
+      "parquet_sha256": "c8bd5e75f04a1b0aba499be1e0f6c24eea49fd29caf047a5a801eb03e9acdb1b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2024-07",
+      "archive_sha256": "2b25709e87cde9e80a5676e85f85dd40b5bb112447efc735667de22b68f16b98",
+      "parquet_sha256": "0d191ec49dd1cf9841f0c44bb624cb2f7a12c13e1ad53537dff79bcc773ee135",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2024-08",
+      "archive_sha256": "ca0f38d117b92d79a7ac275ea61bcd601bcd98f1eb466c5b5e6ee8be86804ee3",
+      "parquet_sha256": "06d25b1c5a76c9e8aac601828871a5256feb0239c2100a4cdb3dd17d176b70c0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2024-09",
+      "archive_sha256": "4ab4265554428e9af0fe183dd70b10eb9d1c55bed4456d7befd6ba5b1b2e6e3f",
+      "parquet_sha256": "0cb4a7f08aba89c88e7b5fc42c3fb35e4af50ddd72554ff679c72212fdb24193",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2024-10",
+      "archive_sha256": "9fa20ebd25ffd6ae3432537f2f9d54e07c1bfaafd4a97eb35d7ba97cbdc87619",
+      "parquet_sha256": "bffe12aa31f3b8ae7b7fc3880bf8829af84336f3af9c0402b2352ae431a30126",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2024-11",
+      "archive_sha256": "420853f7f46395c6b47998d8fa35794ba3e60b6143b4dacf6b28bc5c0897295b",
+      "parquet_sha256": "9e2f37eba23a2df05e35d1313a01018eeabb836dfe00f7a604c624f45867370b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2024-12",
+      "archive_sha256": "872ab71a4fac684b84b0bdabc4304185d01ba285e2cd81d19b8a0d9fc32cdada",
+      "parquet_sha256": "b64ca8ec9dd83ae50e52a7f32a374add8e30e158916e58755ce9275853c863a9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2025-01",
+      "archive_sha256": "c77725c74394f0e6d624c2faefd7a455a433ad187d765dffe664f39a86078e28",
+      "parquet_sha256": "09ccfd64b4e9ec400acc1a5dcb040fec9c0b7f72d54af52ed5665c9ceb8abf34",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2025-02",
+      "archive_sha256": "24c6bcb2076963332eae6cf826787bf2b4b0b4a4508f202cde4cfeff2c9bbe79",
+      "parquet_sha256": "6b18e4aee99415f3f7c1cdf0e736c0fabb038551fd15a86d79915350723b40a5",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2025-03",
+      "archive_sha256": "2117ac2e1941e8f6eccfa38c7a303ff20222e1255a81dbdcbb502715d61243c5",
+      "parquet_sha256": "f7fa61a696d43fc213058d16014897b5834bbe122e2f5332a124673480bc337c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2025-04",
+      "archive_sha256": "49a9ed4505b8c9fe08a031b15a018ca0b8dcb7dd0c9aa43c9d0160902eaf887e",
+      "parquet_sha256": "44ae61c13dfb8bca544a24a9918c7dcfb3832c252ea97e3e8afe724562b694e9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2025-05",
+      "archive_sha256": "811fcc2ca3c19ac2a98f591fe5e22bff3a521a101ebec0c487e6a9949618f916",
+      "parquet_sha256": "3c29915c7fec0409913b5cdc655a9773ab5863d65a0010607d2f26e743d5e271",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2025-06",
+      "archive_sha256": "7af0cec2ad921d01ed5585cc3ca4a5c65901caa6aea17bc5c471d0fde7761e84",
+      "parquet_sha256": "4737395d2a53679b3b951d80d9f0a325573f2c415ee6aa0129a5fac110a77dd9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2025-07",
+      "archive_sha256": "2fb48f7bb0a4f542a04401be147be1dbf81bfe5631bebd035efa838db2445898",
+      "parquet_sha256": "ab9bfd536c9e016c39a0a082ba5bf7a1a333d86dde64a40373b3d5d73984c0be",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2025-08",
+      "archive_sha256": "fae0cc2a778b4029ca0ecd3d00f5bdb92cf6062a1a8a81c9b9e98a4808fafe6e",
+      "parquet_sha256": "0f242cf3086a5d719001714affc57fb1c69d4377f3ede614e22424d6da5fb94e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2025-09",
+      "archive_sha256": "b908d7df347ae845f051a177b5d20ae32a524c154eadec68d4c0e90cb0999764",
+      "parquet_sha256": "2be01dff965a032517fe0fcff88b746dc3a7e79f50bfdfffdc664daf2912d662",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2025-10",
+      "archive_sha256": "0cb2186fa4391ee6178acf3a2f8a4d0adb2a3e4ce5ca0e0a7d9eaf980e8a595b",
+      "parquet_sha256": "a6c5f211b091b3e24f1d064e3d0820b1b292fa70f78e56fe35d69728d3efbda2",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2025-11",
+      "archive_sha256": "7f01cf0f334f0ad1fbf1d8d65a17914ae65dd4fd96bca5a8bf021009636ab4f1",
+      "parquet_sha256": "8bccc2b862603b168cb773e33ed79aaa4c03e295eaa9f8ca92fe99a8034dff79",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "DOTUSDT",
+      "month": "2025-12",
+      "archive_sha256": "47b0941d96c3aa95697e926cfe73859697ea48a8f1a49ea824dc4ceff470285e",
+      "parquet_sha256": "35d61565741518cdca19805cdf672668f2bd052e0af1080051b2a094eaf146c5",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-01",
+      "archive_sha256": "2fb2c9b77365183f77e185de3578de2f3be5fefe433d7c0564f033f968d5e23c",
+      "parquet_sha256": "f217c23a47297fe0d3a7e0791addb935df4690337ca612dea254a55e4dc3563c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-02",
+      "archive_sha256": "ede3c9d4d47a5e9fdbc2e37b7086d97d4bcceec54316dd345fe0a1f8e648c443",
+      "parquet_sha256": "a0b96514c08a471f0689577bd80459f0e0c32e95c7922d206c7285ffbfaac3d9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-03",
+      "archive_sha256": "b63d885ef49b4e0f2a654ab02c5dcb502fb8abeb7300f3ebff4a33aadd3d4a82",
+      "parquet_sha256": "a327d4f6d508d9bb2d51d56aa55fa310c6c952c4aab1982944e1c4cd865b6eab",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-04",
+      "archive_sha256": "9c6ef16ea4e0593ac4547d2f6c64c272d8f39806871473c4877885af47a67b88",
+      "parquet_sha256": "3f377df7e13d58fb0ccf7661f632a70911fe7593d820f2172c2cd5abd2d2b58f",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-05",
+      "archive_sha256": "4e09e26b7a2b352d24c25f6fc6cdd531d167d460a48226e4a8080413e0bb5e66",
+      "parquet_sha256": "35ef002ecee4dbdebb2978a023730bbf8a2222ca3226ecee64a0d976dc01627c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-06",
+      "archive_sha256": "27040862f050687c6da296108dfcfb29e0500e0f9c8dd73669146e9e68a128c0",
+      "parquet_sha256": "1d6be9a87a7ac022adbc978251fb09170ff9ffc84d229b837c19f29230d12bd5",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-07",
+      "archive_sha256": "bda530d17235096c0e619edff1bef56154923b980d7a73406ea66114966ba0d2",
+      "parquet_sha256": "1bbfd62b03626b1350fc706a770ac67749153f7604182e668be030f8c7d48f08",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-08",
+      "archive_sha256": "de64ff8c0e9bd0ff9ca7fc4015948fac94087c7293915a2a7f7bb47780e98e60",
+      "parquet_sha256": "166ef78c5fe3adcc9e1ae747ec6cd7dacd669aa0a3a0682f0aba04075f257c49",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-09",
+      "archive_sha256": "cb2ef3750b2608a871dcc6db479382e33b7d341f89ea17ed58b9fd44db88a793",
+      "parquet_sha256": "81c9c73750bf10dd5def348c8b1105c71def0df10f1b297e693b6a0821f4ffa2",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-10",
+      "archive_sha256": "99b11df1d79a2408d639cf512f1cfc6a4df4687de9146bd6271f9489ba15a8ba",
+      "parquet_sha256": "0b516755650b1e2c7f6399d706f8a8c9c92cf9a92dde3e0f1cb4da19e7fd5649",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-11",
+      "archive_sha256": "2c3e15ae6458707b07d2d8b51ad6634756153bc65f9bbb44d5ddb7ecdbccd0c6",
+      "parquet_sha256": "803486c9b4b8a4175f94a138f689a40b0c2e903cf38973519019d2a87406437d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-12",
+      "archive_sha256": "76e33a1db36f036c1e5866de2ebc54ab825522c801e1f9c487a85be781af4716",
+      "parquet_sha256": "3c9e8d8d222a847fb6379e288fc6849e6f4e95c038fb01a425e12846e6a8d588",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-01",
+      "archive_sha256": "04ab6131e9f8ad979676b72115a8cfaf7e4f827b06f44cdf80c840d95016766d",
+      "parquet_sha256": "d96d798b5fa49a3c4ebda3e5e9704ad93f41fc46dbb8f1c734c129d251d3e9cb",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-02",
+      "archive_sha256": "5ec2fb4e87e29241745ee7e9449fb86f4f44bad96508a80a1af0e308d73c6f5a",
+      "parquet_sha256": "87fcd2487a2950af7bf863ad219769e42a6c87b48225803a63287fd9520a1868",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-03",
+      "archive_sha256": "609346fc0dc8f8f1cf283c5cb373d1bb25f26f1716fc67c3883d2176ce9cf40b",
+      "parquet_sha256": "cdb084f487bd7687620952634e3fe14cca7931e8b4ae278a2a7d29a40d87769b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-04",
+      "archive_sha256": "32505b36565f7c446a3946dc6ea2f511e71d0f72c13cca2b09bb83307f198f8e",
+      "parquet_sha256": "38cf7471dc6cba6e3ce777d473ddcfb75f11b8213c10617062775843fed93dd9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-05",
+      "archive_sha256": "743268912388656e3c53d21e6e4b6c2b155c1b1f67c7bcbdae5e14cc3d9c633c",
+      "parquet_sha256": "8b988db7017a7fd1d19f064a18cb079920fb34c2ea175f203ff57d9abc6022d1",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-06",
+      "archive_sha256": "eb7641c42f642697524ce45f64c92bcc33a751b6ade791f91f70e3ec52880a70",
+      "parquet_sha256": "4ccc7676490162a02fe2e434d718b7ced07fe48c86e5e6917d60439a27c78f83",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-07",
+      "archive_sha256": "b95c721b528260d865585f0723d287c836f2f22bb681ac45e0c56eaaf0047bd9",
+      "parquet_sha256": "4412ac5ae1ad46be54463595ba3a35771b4500eafc22d3bf69178b710ce10016",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-08",
+      "archive_sha256": "aaebc0e2baa7d7dcfcf6eb3eeb681b55a2e746dad86e758be0af7fca4391c480",
+      "parquet_sha256": "e9fba4e148464c269ecfe8b48ab6f56aa170c743f9ce0f24d725e45820cacb7c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-09",
+      "archive_sha256": "2912831352b3e194ac38f7a66a373ea78f138dfd4fe5a3ac25acb80c5ccaa0ec",
+      "parquet_sha256": "95a270e53185c5e76ebe2947ed44ca911750860a6db1afe64c600359261bbe2b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-10",
+      "archive_sha256": "a384d1bea37e4f59f7cae491a6f3f2dffe262259a4a0bc9324310a9aef16a843",
+      "parquet_sha256": "dcea37a914f0054c00bfb3b2007c1d76d4a269f29d22c681362b0cfefa17a607",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-11",
+      "archive_sha256": "30b80de8cbbd68edf2b2bf76154f60e6edb0f8365e08e6d5afc63657e26e0f7c",
+      "parquet_sha256": "b5599c4adc1dbffee97601a7065f20bb9d608fc8510bc723151b16e6680e3386",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-12",
+      "archive_sha256": "57b653e4ff3558fae8d2e6da616c40e6cfad4002f131584f82ae7a80bd228293",
+      "parquet_sha256": "d2e3856505840a9bc44ff9267bda66215c1b0d56642d6b1c5bc235407422028c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2026-01",
+      "archive_sha256": "cadd060ab73bd03fee94708b78738144da76d007fc2170d8ad2cec678de7a654",
+      "parquet_sha256": "c72105b1f502d3e4855b508e35ec3c6742934ce5c34b009488f106b8c46e3814",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2026-02",
+      "archive_sha256": "1ddb64d08739a40b7f66a37bccf5ca5fec58339c7f01e83311086116f41b445f",
+      "parquet_sha256": "bfe258198b131b30fd3db86609090d4112e98fd99c4610021d80520cbd96602b",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2026-03",
+      "archive_sha256": "5747c9f1f76be7afbf9513d50ea65ff6e979fa9684c75a775b6974e64c751844",
+      "parquet_sha256": "888cb342a7228265d9f20a8dfb1acef84a3f027d6a251cc056b31d61809ab50c",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2026-04",
+      "archive_sha256": "8a2f0a2907764827ca3c52416bd9357c5d6213f3816fadbd0515bf504ea75ffd",
+      "parquet_sha256": "3e79b0876d7f4e7d01579a299273dfa274021f11486ff14f5285a3125a9d5576",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2026-05",
+      "archive_sha256": "bc0e625d18c0fa5378cecd0119aa20721b8830c24c3a55094f4c4c966ff8f710",
+      "parquet_sha256": "b3258659f9511ac9ff8f17913ba27e321fc575e8fe25e9033ca22d588bc0ffe6",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2026-06",
+      "archive_sha256": "770fdf44aac01dbe136e5b37a10501e57069af4048e76fbb3a3a2de2e9662934",
+      "parquet_sha256": "8471df9214d9340bc977a21e551a1d8ce61212a076bb4a30d0de62b76997e242",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2026-07",
+      "archive_sha256": "1ad273218d6c33fd62515198276f00c0656ae002c0d1d9ab10cca0f5d0f7adc2",
+      "parquet_sha256": "082bdc3af615ccc68296fd90c82666fe35874f166a6f4ef649113ccafc6c4c19",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2026-08",
+      "archive_sha256": "f2f2fe8da85467fb8ec8185e07f16f3af9f4ebcb266633ba494e76ac73c40c0c",
+      "parquet_sha256": "79034f7b2b1a2d88e8d141b756fa895d5aa6c3780f83523ea3d3ca61599507d3",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2026-09",
+      "archive_sha256": "827b46043bdc877d542edf8ff178dc0411cfa166a56fa73f2f850ad06c951b50",
+      "parquet_sha256": "b7f7ebe855490afe1069cfa061a6769e7a229fd5f38064efb079a1dc1249a556",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-01",
+      "archive_sha256": "01189893e8b435303a272a6f0cb7f98bee8d2a85a2aa3c3c25ea01f0654ea811",
+      "parquet_sha256": "189915696e97c66ab1e18e45d6a23aea3cec07fa60d763446cfbd952fbafa730",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-02",
+      "archive_sha256": "c759efd70ac92aba837bf2fa3cc8076b1516c6dacea478da32f98b7900ce5dea",
+      "parquet_sha256": "49afff823728d822aff08c77bf2db938ad722c1ea7b002d63b6b52e30ba8f82a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-03",
+      "archive_sha256": "7b730ce685aad37344dcd09586dde3b5d6142f26ae4daa6b453758ea68a37d28",
+      "parquet_sha256": "f0ff1bff46cbc2bed698ce8437c0cb7d70dce578b8e38399b6ed4a02fab075a6",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-04",
+      "archive_sha256": "a79286d6c32cacf4626902581fbd703644b1f671519667a28c60cbb15a9b8d8a",
+      "parquet_sha256": "1e68cfdbd85b639a782ba9f0eac3bd323255e5f84c50a0b08d6639468b666a5e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-05",
+      "archive_sha256": "a36c5ee8fa592d6e0b0e11717f0d705d14c43883a5aa48a791348f6ec884bf80",
+      "parquet_sha256": "2ead191c3fa44a519747e118797e8ef3c734175f47fe4d9b1b919ec3cc7284a6",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-06",
+      "archive_sha256": "b766d2b8405f4c7a7905bf199049f2a29284e35283f8dfa5b39996a9dedad2f7",
+      "parquet_sha256": "14b46485c2d60172befd97ae1ec980d89dfab4fdf9752d7e2749de6a00b9d0fd",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-07",
+      "archive_sha256": "951b3db2aa3ec37e50fa28c20a0fcd4a7b0593fbdbeaebafce0611e877f92f79",
+      "parquet_sha256": "616f44b58beae5ff1b1515bf210bdcca49a5acedadcf20344cf13c9407c03904",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-08",
+      "archive_sha256": "4e50a4b2e4bba93250922cf28a6afb9a943749d03716e4ee9fe036de1d9cd16c",
+      "parquet_sha256": "909812a4c1c7b7a2934328daf3e9e79817298638256853fa6ba2413b6c1387c0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-09",
+      "archive_sha256": "f0c4a4cdbd8db90ebf60d5593558cec1d7db6ecd68779a4748095478ae77772a",
+      "parquet_sha256": "97fa1639237d4123c7e43ffa22d44063263cf54fbdf6dd2e763ed306d17b2aef",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-10",
+      "archive_sha256": "4dd9f6b9fc956972de78c71560ce23cbece7dc2c2271321f2c3bcf6ea24b253b",
+      "parquet_sha256": "3177979c62bdc0f6d5601fa0dd44ec2e4ca3abde2b77a76abe0b729055e6e8ed",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-11",
+      "archive_sha256": "1ff04f43e31c2882e963e0452e5a4b92e6b22590f6ab6b2acd462343f6172473",
+      "parquet_sha256": "68f28342767c2a2c85a698103db8c29dbfadf45c69b4e5907eb8b54a3903b5cb",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2024-12",
+      "archive_sha256": "350da9d1e108006678bf992a123c6deb1b5b988e4f52b4471e653f59e17b7cf0",
+      "parquet_sha256": "a057bd8340eac0d31578a8d9261474224293c77c18364546e0077298d6cb97c8",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2025-01",
+      "archive_sha256": "d3781d35cb08925aec47ae80f528f4f235e6caa287ea0c39d594d9244c044afb",
+      "parquet_sha256": "d95a16005204d9b0790db734f7844eacb26e98d3ffb84bcdfe61aea75f85dcc2",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2025-02",
+      "archive_sha256": "fa1d7727cb64ab929cc24c18263fcdcdae421ff3d111920818f7dccdada2d44a",
+      "parquet_sha256": "2f1272e9f2829f79b1014c61a2f9d07b50ba7ae135a1e2af3deb0f4709037836",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2025-03",
+      "archive_sha256": "3d6bf01bb9e0d0c1f6e2f73580655a827f624649c53235137c8b46919ffcaf70",
+      "parquet_sha256": "5c4573ae99d970876cde9aaea8bef006bd924e94e76c5913562f7f79778e4e75",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2025-04",
+      "archive_sha256": "97c7667971c5eacd6e2d1a2e16f53200a59bc053f70a60b8dcd945d4c8e72467",
+      "parquet_sha256": "91cddf2b15d7658790afc81549283c4bd65a7c0412eb0f1d4b1c3578b1375b5d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2025-05",
+      "archive_sha256": "d57ac5370bf8a0f33275fb48798d0b0fc25800a9f9952978b322c4d12a218ebc",
+      "parquet_sha256": "961ce6668d7441f86ade0325b5ccb96074054111d0a5fa646cc17d30e202b24e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2025-06",
+      "archive_sha256": "a1bdb812df15827cef4095eab0eeaf023284e47ce7120bd07f711edc5b61e4ff",
+      "parquet_sha256": "7a40522b9c9d08147956a6d502a5fb2b49b1f6b0ced2ac12767f934ca280a5c6",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2025-07",
+      "archive_sha256": "d103165d5a02068c70a2685edbba2ca390cc5d88e07e93c8cd8f7ed486d82882",
+      "parquet_sha256": "4ab71744c1cdc84f22dd88a6d9425610f995aedacbe3192c36fbaea511a20a10",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2025-08",
+      "archive_sha256": "28f9cf0ad9bb63852a31560118f4aeb835b99480c6e75bd62df444aae80c16ec",
+      "parquet_sha256": "5ae3524abb8594123812f6e89d64bf8747e538e8aff34f621dca9f9ff3d18909",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2025-09",
+      "archive_sha256": "ecb6b6484225ed9a132e60ab7686f5d518d35e9fe711838a3c728cb26d241545",
+      "parquet_sha256": "27198dae5bb84005ff3cce7d506a6e42a7072171f2e51afd215dd5e4591afae3",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2025-10",
+      "archive_sha256": "437fb268f3e2a522894a8e484602dadde696e04ae4e03668556e98b3866a3346",
+      "parquet_sha256": "fd9881c9c88533b692c36a2bec0977a26e41e346d584d3eb900fe6fa3ea14d3a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2025-11",
+      "archive_sha256": "d4c98a9b775960b06cbec4aee5e9c435e8534e674e214105d3971183b1b3be1d",
+      "parquet_sha256": "28816039c9a1db0cb55968531da3cd1485fa448f57bc45cf2c12f770d7a3d690",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LINKUSDT",
+      "month": "2025-12",
+      "archive_sha256": "58a247192cbfee0b44746f1fbb6ed749a53776d253c90ed4ab135aae45cb2af7",
+      "parquet_sha256": "3a459fc4fa404c16940bb90ac2e8b6524783f5f5760dc148e5953a10eba6cca8",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-01",
+      "archive_sha256": "c98a6732eb1d3c8940edf42c2595be0dcc7e13e171ea0b87e92cc74c5163f66b",
+      "parquet_sha256": "42d3177bbb54b1bd7a7086cc34e86df36903b5a5118a708f53c1e186db991556",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-02",
+      "archive_sha256": "b472b2e65de38d0b097e8ded44c0c1aa9890ad55acceaf7a050df9358a102316",
+      "parquet_sha256": "d7ddca8b7d7aa1c4898183b099f8a68949578bc84cc979a096940efe9edefbd3",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-03",
+      "archive_sha256": "40333a7401f7526fba1cc9f93ed20c4aa087a430458de32ce78f799df5bed4f2",
+      "parquet_sha256": "a0798006719c3f0085ffb5e48f803b8533a10293d31ff263b0f2df94bc22ee3f",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-04",
+      "archive_sha256": "b68fdef8e095177842fced699782da670bafe86b0d31f4c749061153db685c9b",
+      "parquet_sha256": "5c629ac0c941b832c8e6dbe3c915608e34c14ee89157eb326f102a30fcba03bf",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-05",
+      "archive_sha256": "3c3521bd0b213b448bc9b384bdac590b8fb93d5bd498e3bba4b411392f369283",
+      "parquet_sha256": "123460f5921730df54afc8417e42e1e84e533541d25c9b3fb8e73fe9b4e77fa3",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-06",
+      "archive_sha256": "d2cebb864e8c4f88566e2b56f4f8b60ece4211fcd2b4f50d01df253c7cb535f6",
+      "parquet_sha256": "77c8dabbdac890875b657e5857dec79200976ede2a17795892c6c622b9050b26",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-07",
+      "archive_sha256": "f368838d99d0184523f5b74e923630614e206b6fced156062a3f000fe88f3936",
+      "parquet_sha256": "0dd596459d9e73c6781fb948f605950e57dcd5c371b18f6168871a579e0456c7",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-08",
+      "archive_sha256": "085c0d416d5976f8625a84c731d787f1646bbbaa3457a6155b40942dde21faaa",
+      "parquet_sha256": "372e1ca91616450ea022d127a9a20abaec7ecffb95e84716812be3b9572abf8d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-09",
+      "archive_sha256": "d59a7c5b7b86cf4dbeb8ce6242ac31fc402992583a219829f73a7dc839802cf2",
+      "parquet_sha256": "af211eddd927be4491c4999aecdf1eaa329e66ec0d455e72753511699a931d8c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-10",
+      "archive_sha256": "ac720186d0ce18599ae529e339d9ab5e7472884821a57dfc775e65394bb40574",
+      "parquet_sha256": "7752835dd3b9b42451cba1559dc97ff7058796e2faeb43f5bf9a52646c65b548",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-11",
+      "archive_sha256": "9784416f613f5e267147bf5c8738cf6481ec3ef906b38492148eaa91b00aff5b",
+      "parquet_sha256": "b6848fff32412c83e27ce6db4e869c3a3aa0e36bdd083a9bbc6189d1391b5b24",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2024-12",
+      "archive_sha256": "f580f632e873da1b253b281c001048214037e8200606c0c08afdb778137dc19f",
+      "parquet_sha256": "ad797d6ccf88af15a6f61e4b4b3f7b6e540edd36d602ed830c9b33368fcea86a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2025-01",
+      "archive_sha256": "40444c148e229ed160232a85066059a6366d774f743a13ba6a48af404eedccef",
+      "parquet_sha256": "2c883bc2a4a4cf83e0074e56990cf2f2898736e642fffc0bca19516200a0cccd",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2025-02",
+      "archive_sha256": "f1d55099679e848ac1ba178b041314c22cdb7119dd2c31f86007aec543fa5ef2",
+      "parquet_sha256": "9d59feb595f267a5aa5813a6b9cb6f17554e18dae45cfb915e07ffc713694b02",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2025-03",
+      "archive_sha256": "46fb881dc2f4572675208b94eb317db05cd39e8c175524430d6dcd1753f0e177",
+      "parquet_sha256": "7a630aa37236b21eaba6ce6638d2eb46f72325c8402e6b06ee5dc1cb71553d55",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2025-04",
+      "archive_sha256": "b1f68c45d264b00d896ece7db76a306d74d3da1e28e7afffdc373e2a83e58d87",
+      "parquet_sha256": "c50381912a2b39f7375010a1390e528eb804f4a87d406461551d932b8f1376b5",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2025-05",
+      "archive_sha256": "dec3727fe9b593d940daf38687e965226f5645095be63e776329763dce21b0e2",
+      "parquet_sha256": "929372998bb5f0f16fc0948353fac4b01c6f31577643c7ddacfb27f9a3f2880d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2025-06",
+      "archive_sha256": "7c65bdac47fdb8d72d39ebb086cc2894980f6a96c8996b3836b908c703c11fe1",
+      "parquet_sha256": "abf771f2c859a13f647a0eca1940c5645cf42ad581c1735caa04a84bf0192981",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2025-07",
+      "archive_sha256": "3e3eceb915513fc5908b3844b72b50fee3be2288dcdf7649e5150418880c71ff",
+      "parquet_sha256": "d18f59eff4123220c3150dcde4a5afb7788a1dd7266c5b1e1ae3a87f1a71e485",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2025-08",
+      "archive_sha256": "91ffb4196da228244d96d72fb4a6a6196b5d816cee9a85600e3a83a5253d25de",
+      "parquet_sha256": "506a66cd432130b16949f7e86067ecb5d3f06bf77cd47a3e8e84c132b1b35ecc",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2025-09",
+      "archive_sha256": "f61537a60c89e03653a528f85977c115829415a2066e090a730b32e3fa18904e",
+      "parquet_sha256": "020be7a7fa3ace394554bb63ff1a01f0faabefb7e543efa0f584a031bbb26a3a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2025-10",
+      "archive_sha256": "35f2df22a5f4893229d939c0a406ce95509e19a92826bc6db346a482e26c7d39",
+      "parquet_sha256": "853b578d539fc52596dd94cc24e9dbf4e02348862139a52aa75dcc5179368ff0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2025-11",
+      "archive_sha256": "74e0a4ea11b6bd56834bcbff22bace0c60260d46b9adbbd2c9a5da0f6c895c94",
+      "parquet_sha256": "e09d8108cd812c6d8031e7a9145407f030563b1d78f41f07081216f5c9858432",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "month": "2025-12",
+      "archive_sha256": "e0218d722dab5c25ae260f928d48ddb47980c53bb9e1eacec0256f0a60739b8e",
+      "parquet_sha256": "f22d59c8bdc40bc6d7048cae18b5382485ee3cc45c86bdcb7b172045143cbe1b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-01",
+      "archive_sha256": "89ca18f8ab56709c78d5e0ad517c6fffb8b272fe8f0087e6f4bb8c9d00619a40",
+      "parquet_sha256": "569182f6a0325899bc29e438304244b270edb7d489a5f3803623b41ed80d36e8",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-02",
+      "archive_sha256": "8296c421c768dc8f8ba4c1a84699eb318431a27941c753eb9793994418e1311b",
+      "parquet_sha256": "fd57ae13676032cd1f2d5e3c2927d62bb6a787ef09b169dfdab2114d4144b869",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-03",
+      "archive_sha256": "5ed3498d3e49c18812c178d332bba277e1c7c5665942127f3b4d97bcb18493e0",
+      "parquet_sha256": "7ff924e5d7e2058942ea3709ac0ab5c7965aefcd2ebd9fd784e2f01e241e35a7",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-04",
+      "archive_sha256": "7d9689bd5fca9b845de1dd46c9d259c05e947c4836cebcf9a2df307aec16ae96",
+      "parquet_sha256": "4036910bf5dba75f7eaa2abe4c0834017c5fc76a400f79d7687bdc0229628b59",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-05",
+      "archive_sha256": "bf284d04c3a69484149c87bfee281b4981b5855ab99001aee66ad0c446556c43",
+      "parquet_sha256": "7f06713a49f07f894504184807e5b17215b634427349e3db14ca573cd595c56b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-06",
+      "archive_sha256": "b15769e020dfcb269a3beca0d5c27efdea8b7b16f7ed0a5172de994c14cfcbe8",
+      "parquet_sha256": "85d5ee6fedbc93bbef4c842cdd9531e63668e741e02ef4df0bec447afee065b8",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-07",
+      "archive_sha256": "7903a4d13388e1ecdc71b4e863138f96b9528341573ea7d23da8ceabeb7f637d",
+      "parquet_sha256": "b7d37b6587edc07312279aa36ac363f78513b9cb4bf29b0ca0254f3153651163",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-08",
+      "archive_sha256": "952e0c9c52c049d909f3f83303fc6feb6ebe2b077e86ace707247977667afdae",
+      "parquet_sha256": "404aac75e41ded909d82d5c0772a09a9357496b0d2ebf7ab80e642478bf94913",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-09",
+      "archive_sha256": "38bcd197c576e9119fbc24377f00a4c4eee0a296f7b618cba98b47443598cbb7",
+      "parquet_sha256": "4fc28062c909cfa9b7649d3f131b7e37f568a258c504c2e9bc2139c54b4da4c0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-10",
+      "archive_sha256": "bd930f475bbdc36a7c8317767bc2d5ead4918ec3af24e8afb585d8ce3a7e957a",
+      "parquet_sha256": "a7aabba28cebaa824d51b3cdea1edaae89987ee45ea357474fe2de1050b52ba9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-11",
+      "archive_sha256": "ef1012f84504fa2ea2a5236c561aba9daa13c502e84acaf1edcb0f2b58e33ff5",
+      "parquet_sha256": "7963c7705799cbc61b23f71c889c1227b7c5bb71d271de6d282777151f22a13f",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2024-12",
+      "archive_sha256": "9240775f61935594ce9158f2b79f337c47d5aed5187c70617cdde9c208e333e3",
+      "parquet_sha256": "81f1a2e4e7252be7483aa20ff9b24f57ba643045813ac7901824b2a133c6c2c1",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2025-01",
+      "archive_sha256": "747753d25ecf97be762dfa46dcc7ad8078c2dd6c342979d31e83a810e44b98d4",
+      "parquet_sha256": "b8f84ab634e0a024aa0698ba3ad5cf1ad36556d115b0f5ce511c2d2b83d46562",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2025-02",
+      "archive_sha256": "9267ecbe19225c9813df129d9fd7731c37b1c3fe63e48809b415c3dc68205c3a",
+      "parquet_sha256": "ac589705a148fb8bb4f3f6cdcd5da54bbc4a157167d3d5700f4952a0083ba1a0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2025-03",
+      "archive_sha256": "8a8a9355b86f0dc5fa0a887106057f2f96f1fff88b6ae09f325b6b8e9b7f39d2",
+      "parquet_sha256": "0fe94b56ad54aa0a7ade9a538329bd48ac3ebe29331ff236468c7d3ef980d9c2",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2025-04",
+      "archive_sha256": "b2a35d7be2675a497196b321c238e42b3e15bf4563487d236d3b9e0372d4266e",
+      "parquet_sha256": "a0e1f9a1d92ad3f26036172055705e967bb7ebd284753b6a199ec11e5cd359a0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2025-05",
+      "archive_sha256": "e89604b39970baba7f1ba277255741c9119ff783bb887849cb8600ac9bb77b1b",
+      "parquet_sha256": "124a9457fdc451ad54db2beb7536822208776f5edeb86b96409fd881c7c97b90",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2025-06",
+      "archive_sha256": "06bbb1ccd971b6e7b3760f24615d1ca6699e8a7ec699d969262fc3eb72de0c5c",
+      "parquet_sha256": "7f6c9eace2acb85761b7677fbb0d1dd5743110866a3d97389b40be56fc1fe886",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2025-07",
+      "archive_sha256": "1607b0ca4d047d0584baa349564c03d796d27fa8b40557260f50cf503a5372d4",
+      "parquet_sha256": "515734599e3f04e853c62fa8203529439050fe735a98250a8f44d89ee014ddde",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2025-08",
+      "archive_sha256": "a83efa96d5c3def55242d9db97dc96b620a6f5009c87cae7dafbe578bc7e03dd",
+      "parquet_sha256": "6800ab6f4d2ae44d9da305b411feb93c42d634d385c7d73ece34e5848d2be291",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2025-09",
+      "archive_sha256": "774222a87e656954d8de93e8259c484589d93c5470ae068161cbb955bd3035ee",
+      "parquet_sha256": "7d00ed95ab5c6302d1a93dfc24b739f79df605e8a1ec6c533e970bf89a26ac96",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2025-10",
+      "archive_sha256": "79959f6013006ea78ff7189fa8223e2237033740b06b2cb57a90b443fd47a515",
+      "parquet_sha256": "3634e64e660af412fcbfca1eb51def1406f881801640e5b7a5cd6c0fb33c3f99",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2025-11",
+      "archive_sha256": "b12bccf4d57ca9a2e49938fe89ea71d4ba5f489290cae3d818a43f186de59bda",
+      "parquet_sha256": "1d33f9520909b97cb385f436f36ba425820636dcfbcb8fab9af780db2ab15000",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "NEARUSDT",
+      "month": "2025-12",
+      "archive_sha256": "d3fb12a820931978beafa1683024b5ad64f8922fcf3bfda605f47f41a509f27b",
+      "parquet_sha256": "c87c87905d89d508b01a4fdabd158b4b7b6b175eb5ca72ed4c62d9deeb0bb2f5",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-01",
+      "archive_sha256": "8cd5f9de14cfc4df6be0ca8d3a31312dfcb73e8708a43bd0771f72362e6801a1",
+      "parquet_sha256": "92313bae813c5929ec7d22381fc661f7ce123fad97724ba3ade810ace49907ff",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-02",
+      "archive_sha256": "98634ed346b2033d13007f61d8dcf74300707336b04b84c18b700c534d57f579",
+      "parquet_sha256": "7d7777aef9fafcb27268cf9f98c65ebe60a6cc279800992aeaef639301ab9503",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-03",
+      "archive_sha256": "c45e24d174a27184832f9eaf51fc0a868b94b4a54ab3593f695b9c8f11c68551",
+      "parquet_sha256": "dc0fb4264749f5be8daf91e3b0f54eeb295ccd08032e76b9114d6e4ceb6fc18d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-04",
+      "archive_sha256": "1d00b8db8e8e7cc857f03294b62013a5359da916035569807e2b5a8c4a1ca790",
+      "parquet_sha256": "4cbe6e39ae04a3dbce017ffde75c86f8e7a73a018b8ca7b60c50377a32cffd97",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-05",
+      "archive_sha256": "cf7d3fdbfd054d6b04e038d8ec77b7b061aa931d6f826ce61827d9581d96c5d7",
+      "parquet_sha256": "1761528c0fc67101dde673f423f0f840feb706545cf296a3836e320a7c5c12f9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-06",
+      "archive_sha256": "9306082f84656cf28fca2b873445f32307bccd0b5ea6663de77ae80b6e7df9a3",
+      "parquet_sha256": "d88adf3f5babce1e6e5133c22e43755ad917c6e9d1719a39d439f3d9633037a5",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-07",
+      "archive_sha256": "c7b3651243e94833644c533ba80c10815281043aeaa7a76b8444f90db4746bad",
+      "parquet_sha256": "04da2b2a83e8c68f7884323d36a25c6e8ede82a3715dbcc3eda6a179293a4087",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-08",
+      "archive_sha256": "52d6a02057c08d24eae41a53dede0d8af12b8ef8bf2306ae205593937f53264f",
+      "parquet_sha256": "b88c63e506d23c535f19621a1cdceeb7ca18266f7a62bf040f9746a155453d6f",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-09",
+      "archive_sha256": "958f32e0f6ac85f101a7df60d3db315bed43e17029123916e043576219dc044c",
+      "parquet_sha256": "b2590b885e5cd5743546a0b8c6d375230ba4f6588bf81071d342b61a049e83eb",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-10",
+      "archive_sha256": "c815560ef2e4cbafa16f8e8c671a9aedca2fcc1553b27bcf58563164ee6df3e8",
+      "parquet_sha256": "557eae7a8f1a2c5eb01b3d29bfe6e839285e5f1122f1fb8307de7668f1cd7a54",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-11",
+      "archive_sha256": "623bef1653fe496b04fe96c5629ab6fbb46adcd4a3f2d25d34106beed1aeffa6",
+      "parquet_sha256": "9486eb3554c2a29e0c2b461c709410a6cdfb202b1b978016aa3563d1a6aac1ab",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2024-12",
+      "archive_sha256": "3e9e2d3e525c4afea0d55366354af2ad839424e7104f98b40c847137a45f1376",
+      "parquet_sha256": "4ac0b263ab33e883d7daec679140aaa74f3d6584f3b2e9160875c1fa93b81fd4",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2025-01",
+      "archive_sha256": "17417b784a28ba659dcd6adb3598f67cc1a987ceda7e5048ce20807617d2c603",
+      "parquet_sha256": "ebc421cabf546e4330014f7f6f48bb337d043c25deb51d05ba6b101b7e95eee0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2025-02",
+      "archive_sha256": "1a7e23c61791fe35644b464d9e464d666f3920a2dfd608890ec39b3c01cd5eef",
+      "parquet_sha256": "0e559e02dd95c73518e8b70207e6e9acea09f0731f724522a250f19912f2ed41",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2025-03",
+      "archive_sha256": "092baef0e6d61a56b33ea11272651fa4e1a323e012befa67dee193c1eb39550a",
+      "parquet_sha256": "92f71cff1a4bc7568a44b451a635a13ca310e6ba2b94221ef3dfb53b944fcc3c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2025-04",
+      "archive_sha256": "21189f395bd5d7e15f55956139812212e9c5e329eb6eacde552cedaff2b59a6f",
+      "parquet_sha256": "74c6c017881b6f0be9cc112b124ac1fd22b04649b48376b61bfd563f2201e412",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2025-05",
+      "archive_sha256": "7fdc3b4c5a7440f3967ccf610a50f7476ce08f8d353dbc547da27aa9597acf11",
+      "parquet_sha256": "392ce1c49b769541049cd8af3d352c0aeff8a3f4324d3980ea0f7e9702522860",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2025-06",
+      "archive_sha256": "df0158c33ab9fc73b268f31b5af5b3c22f0be44470f821e8cccf5e99f24d8ca1",
+      "parquet_sha256": "b2899394c9e861d3c80166f078754fd57182581db6da967e232b76ca7d34320b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2025-07",
+      "archive_sha256": "5b7ef20e0fbc11a99f3cd5dcc677f35599723bbc85598de9bf3654a885905e52",
+      "parquet_sha256": "03f9190a177edb95506b1881103b4cba9ea6c2f07d1fb05ac923d9700467f8b0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2025-08",
+      "archive_sha256": "ace20c6d317ff28f70b5b3684afc3ba7bc2099a98ddc6c1bde4f63db46fa571b",
+      "parquet_sha256": "a6b460fb378756ecdba597f21af52c41c0f713e1eb6e6868eb8453b1bf02262b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2025-09",
+      "archive_sha256": "067ddd8e2e2b09f4848175ec04371b67d8c7d2ad5d37460b37cca7b24b0d0b10",
+      "parquet_sha256": "09c85ef08dfd2024c5bd278ac743eda97856254fb6bce47b96a57ccab73773ec",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2025-10",
+      "archive_sha256": "af138c5fae53940a0da3d5af1a296a8ef22ffade83e054e4803a5d7371af3763",
+      "parquet_sha256": "d9ba4c2e8aefa0d7bb8632c0ee86e656aad122836ceb1ce5b0ba2a0da3c279bd",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2025-11",
+      "archive_sha256": "5188939b56b57813d2b39d4d5d184e0a6e3e44fc79206eb25e0c6e958cf3cb3d",
+      "parquet_sha256": "dec6ec639be14df17834f0baa58783bfa53de324776dce112c176d7a4a64ee25",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2025-12",
+      "archive_sha256": "8ff4ac3d9f3411c31a892585e6906a71df701e3febc195e1da685c244125f774",
+      "parquet_sha256": "0cd6d00735c9fc8b622bdcfb6ad29ae34bb112dd01a0625d567b62eef01b044e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2026-01",
+      "archive_sha256": "9d0fbac86d898a8a2b821d2856a5c282dc6b9638d8a83ef47e632edf4541e695",
+      "parquet_sha256": "17fb2c6deea8a27acb11444949ec4974b7b403e94889553b5bb507e8327b252d",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2026-02",
+      "archive_sha256": "acfd300f0eabe9f1485e121222d67a03da180c539bd9e43b2afacc602f631120",
+      "parquet_sha256": "ec50c47b70e64cc94b0d9bcbaa264ae60da1cc29341384831e599a9536321b86",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2026-03",
+      "archive_sha256": "b98d056aafa1b4e188a1863855749548ac4e062f5f1002e9da353795863216bc",
+      "parquet_sha256": "8490b32422e24f9803165cc7881479bedc50f9902d9a562489d23f0f31d86756",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2026-04",
+      "archive_sha256": "259fd7109745c47858ee133cb0e97995f8b6b40cbd0727eefd6301304bac848e",
+      "parquet_sha256": "f15d347e252697450021e286c5baceb771a4916357c30cd2021b5c8436843691",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2026-05",
+      "archive_sha256": "e5be21fb183cf534a975db77567398f4b1a567c9ed24738bfafa409b7876c6b3",
+      "parquet_sha256": "faf4e8441cb3f7007426fe0b0269b69ff9231864975157d350735cd56eccda2c",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2026-06",
+      "archive_sha256": "e165365110140912f07d5e250d0e7511b1b37c93db46ce8b7bb1a2ddf06c4b04",
+      "parquet_sha256": "60f2a948a25efdb5207f70c421aaf6fc49a7f103d30c99076295a4ec2b851fbb",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2026-07",
+      "archive_sha256": "7980195ca8f511ca8e11d7903c0031f19cd274c034fae7f54768bf235ef64470",
+      "parquet_sha256": "769263c37586a53258c8237f46faf360136ee4ec4bb5d568201eb249d7706f7a",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2026-08",
+      "archive_sha256": "138412edb2c86df6109e0800b7b7399c6f7d2b4483d0e35ddf5921e70c0d08b6",
+      "parquet_sha256": "58679cdb556a3c511b219ce92ad0650a07b64325969f71366feab01ea3045d7c",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "SOLUSDT",
+      "month": "2026-09",
+      "archive_sha256": "c18c258e478a84c3d87e88e2e16f17e5675bf087cb11bf789c0ae717c875ee0a",
+      "parquet_sha256": "77ab0429ac3916661edd035ab472e48255e004b7d87997a9d8db65f7c2342edc",
+      "baseline_archive_match": null,
+      "baseline_parquet_match": null
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2024-01",
+      "archive_sha256": "087a95451ea93d6712b688665e733baac00359945699bc57dbdda97e003a0c49",
+      "parquet_sha256": "a3a637bdc6d755f9c508180a0e499e62647ad52156e0e52dda1276fdc4edbbd2",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2024-02",
+      "archive_sha256": "82d0f95864eb701de7ad4f9189e8f444e9e22f8fdc74471ba74a9da1f7fc9482",
+      "parquet_sha256": "f0103ce02927534e54425fe21308d11498080779994ea156515b4cdfd535b5df",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2024-03",
+      "archive_sha256": "6326565424106f22a6fc4d861e1094990041906fda99b8451efcaa321a5ed95c",
+      "parquet_sha256": "d4d75fa22abb0c418ba051bcca1c85ae5b8bafcdf07f13734608fa242f1c44ed",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2024-04",
+      "archive_sha256": "dd4974eb1de4d3d01112d627d1b94d62037bfe9c6ae2490845ca2973deda0c20",
+      "parquet_sha256": "cf301020470794f76bdb58587510d50a163bf2da5a460f2d19c68cfec74490d1",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2024-05",
+      "archive_sha256": "7b801d587201bd0c4e77cb353203ed8260bd355c97f0755b07c388dc027f9b84",
+      "parquet_sha256": "9dd4135e7cb6b3809c28f534dcfe2892ee7cdbd646956ffdff8ea14eb95c8fbb",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2024-06",
+      "archive_sha256": "88530bf12a0829cfc6bda6dd428f60945dc38edc5c3e7b5f7a034fb13124bcc9",
+      "parquet_sha256": "d8997738134687ecf43579a505cf718f503c09a92c92c9b3510f5ac37311710d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2024-07",
+      "archive_sha256": "6673574a86e724d4aef4793feefcecb1fa45aacc4c76975de364820db444f37b",
+      "parquet_sha256": "4a6205da7b927bcc97300bce31211552ef1b53566046fd0ff1031306f5909bda",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2024-08",
+      "archive_sha256": "9fb8332b8ce5962376317cd9179f03732db35a368c0dc398826e6584e342c7a3",
+      "parquet_sha256": "11d22d58350756d3238de8b9b97aafb71f39d05cb30ca5a2252fe55729bc7379",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2024-09",
+      "archive_sha256": "32ae1e60c04033e44ab6a94bf6d918177b5eb85d8b85b826427fafeeba317151",
+      "parquet_sha256": "311097707ba62ccee1fc6016b1df69922c3baacb1ea13958d4d8176b2f0e2164",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2024-10",
+      "archive_sha256": "f8263c7c45572739e883d42d3110fec49cb07c7be05a253d5e3acf36bfc01df4",
+      "parquet_sha256": "fb40196b498f93943507724c397118bdc56faa675ab0743a73de37be6954584f",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2024-11",
+      "archive_sha256": "85d0be365a695d09150f56dbf7125a82d3c01d4e7c25781c8ac4bd6201332843",
+      "parquet_sha256": "ad8fd695d70598e5f7d780f10bdad7fc6ae683fa4d5c5bb350db0dd7ff857bf3",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2024-12",
+      "archive_sha256": "9e2eadc3f6e11165a41d9260dc7164bdf7dfd56ff6313d420a127f5f24e63716",
+      "parquet_sha256": "e1dd1c83fc08c7316b15603fa8589972d33d4ea8de1bef8a863b65eba39d58e9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2025-01",
+      "archive_sha256": "630d1556bf711dc15b28015508d07d862df1e0144609126f0fe2d0c68c1f0d0e",
+      "parquet_sha256": "7264e0c74d655a358c75060d7ddee556802a14d12b8e3012e2dfec919b31f157",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2025-02",
+      "archive_sha256": "8c1ba726b747b3895aa230e14cdecd37b3cb5b4f4089a8778f5ec0b418354762",
+      "parquet_sha256": "a2ef8ba30c9b8d55d21b9e5d84ee4766e71f5d55b07ffffb2e0e18d731bb5356",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2025-03",
+      "archive_sha256": "583ae28a39133516ddee7ff68ddb053e764d07063d185226ce3b8c055f1c992a",
+      "parquet_sha256": "ad0926264fbff6837afd5f374cb24393c316316dc0b22c1211e0197cd1acb1a7",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2025-04",
+      "archive_sha256": "47012800ed7c0b86c0d85b0934b1130566baa78fd24ae6f3b71ef82d737ac040",
+      "parquet_sha256": "00767abf4d3df6fbb0721c816d1aec1462a47295b04b13c61c25d963413d3e23",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2025-05",
+      "archive_sha256": "5c4202fe75de958699b4f74eea6327e13d7e926a714e0b148375a90b99a892b2",
+      "parquet_sha256": "abb4b8c739c5fc2b9bea012386b59c0af4814077a4da197c9ed62ff3425b7a36",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2025-06",
+      "archive_sha256": "daa88d167aefc30e50be0d990757acde0e2c4630d13449f3fbb4644604def8a1",
+      "parquet_sha256": "cf27d80c8115a98716f27b476147f66f692407f0c521354d5a1b18413988d6a5",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2025-07",
+      "archive_sha256": "862231affa232ceec171bba035b39bec841ee17c79d2315edf6b58ec33bb9bba",
+      "parquet_sha256": "92497843528aa57c0da684f7bb73a0432ec87b55eee8fb94997fe15600b56336",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2025-08",
+      "archive_sha256": "61aca202ec618b922ff57e2c17ad266f2c121b9135d740fac803bb345be04066",
+      "parquet_sha256": "85b00e973f794f546d35e4c7c4f79332cc91c55995c9de20a7a31290009fd81f",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2025-09",
+      "archive_sha256": "502d2b29a601c60a63541c2b3c0d5800d63bf7a1059e95c405466733d4cfd65c",
+      "parquet_sha256": "e7d150ae514620b0bc28bd14d9bcf4586a8c5cd397ca843849ddcd00f0524940",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2025-10",
+      "archive_sha256": "cf4859544fd3d11f0701aec7ccbf0da68703a96ef93d79c2e0ea67430eb22aac",
+      "parquet_sha256": "6a3665630218e5876db4c4c7ebdcaa289e30a7d62f78db06d4d1bb3b5ec17113",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2025-11",
+      "archive_sha256": "18906ae3b6999cab8920a26d3d75088a9c4013d72ece30f3199e57f765a395b1",
+      "parquet_sha256": "4b29131e83584d9f2faa0fb2e7e3f913ca3e1922b2772d31cc1a9307e0b77536",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "TRXUSDT",
+      "month": "2025-12",
+      "archive_sha256": "dd4d6113cd9fcae7784a340ccb4800896f6929f24bb043d2607ecae97783fa04",
+      "parquet_sha256": "0adf577d0e10c467ef09ca390f2a6ec2ec8d7d1a2a44a236b4fd3caffb6e30d4",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-01",
+      "archive_sha256": "909004d57f2bff985dad2e5ebdcf3001478f4a094141a61c8cf200c376b39ba3",
+      "parquet_sha256": "306e1aa31b22bd0acedfb22592b99136d9f06dcba3df88f21b95a4baef4e0cdf",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-02",
+      "archive_sha256": "7001d647ac756ae74249d370f39a605f06c80241ef71e244f9a496e0c495bddf",
+      "parquet_sha256": "f16082931a7112439cd6ac4dc3283aee27bca9fe604b183ebce01b9e1022294f",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-03",
+      "archive_sha256": "51c35b9f14b6bb0cabb22d7df4dbd98c586b0e46fadc826c1ffba7a16c69b98c",
+      "parquet_sha256": "f252ebe9f9bbdc39032dc49ecdcba2b317d595cce9799abdd2ed9ea1f17568df",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-04",
+      "archive_sha256": "8e1f8c9dab85904af02406a1969f95d8a4f0af504978c10545d1eec8f2aef459",
+      "parquet_sha256": "036223fd4814aa6ca1ff98ba3f4b49376accc814aa04b5b5bc672beed9c694f7",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-05",
+      "archive_sha256": "97922d2a8c4ca0d3c75086add11e4c94ad50419c76cfd807a64cebca2c9687ae",
+      "parquet_sha256": "d6781f0ae422cc40ca05ab96a84eae875e580f8ccbb19ff2984d1f4d49528123",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-06",
+      "archive_sha256": "fb858375c00aa80734774823d0168750157d689371810c263c76865b9f9e2b8d",
+      "parquet_sha256": "bd8bfed0ebb9826c54632301183a3306b573696739879012c1619d0ecdf1e7e9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-07",
+      "archive_sha256": "5e0687f87a7d9709289d4d29c286e88db5957e6fe3d0a8bd583cfc53b0e116ea",
+      "parquet_sha256": "cbe4170e40a8e1d68e4eccfa06d663003d27f82494e7c9b5173503095cf13c9b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-08",
+      "archive_sha256": "2f3473dc774e01a5b013cc1445b210c0e773c45bb1103fe561286e659d05bb50",
+      "parquet_sha256": "e99d29146c916e989946309efb37eee5d61deed5f45ae41d88e24805abdcd162",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-09",
+      "archive_sha256": "14e2050afcacff9a7ebd0174d3e962d2acf26c6b188cc982f9aa6f47868978cb",
+      "parquet_sha256": "6a06f712b993e1e760bf28766c572bd811f3cd3f875909c1489f18cacb7881df",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-10",
+      "archive_sha256": "22b5058f685297701601f53e1b0bf5d79f1250b568d3909abdebbc4e7947563e",
+      "parquet_sha256": "788ba8e992f2519340b078718707834c6ec1136a8e1e139783bd7f83ee8f1680",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-11",
+      "archive_sha256": "ccf2414c183af1bfadc6c65669a49b684fee0fcb3fff42398e29dd8c2aadf882",
+      "parquet_sha256": "ffc6887d4291cb89020a846d49fba4fd637d1ddeaba1b9d65cdc28f63e56e20d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2024-12",
+      "archive_sha256": "2d04be786798bcaba82ccb784697b4d1d20765483e8ead658e6be1f9af98d7a5",
+      "parquet_sha256": "df6d9abb4e2f21f743557e9aea29df8e158a4b1fecb79e20fc8a6d03232bda48",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2025-01",
+      "archive_sha256": "aa3deab07f8f2a9857d4a25dc58d7072cb50ad4f798460c77251ccbdd27e0ddd",
+      "parquet_sha256": "9f783dbf26a996984e2f9f2a83b051e3cdde6682f02f2211dac397cd2eb434ee",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2025-02",
+      "archive_sha256": "5a828edb1bf0d9ed5237da9ec677f3320c990a74f9bdcc982c47e358966ecad4",
+      "parquet_sha256": "00bdcbdc39a8df27ad7f302c4684893cfc96ca7ecc7f7ee25246137fe4bc41eb",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2025-03",
+      "archive_sha256": "78310900ccf525758f96eeb7c7c1df2faa293a4bc5964c567e61df870bdcc8cd",
+      "parquet_sha256": "6f2bc2b79eface1a7723132d28abdbe25fab3ebe7d3f6b31322c21be838d2005",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2025-04",
+      "archive_sha256": "b8228893c17b1248a7a45872a9ce4d9eb885d93a5813d7093a8389c17cbebd30",
+      "parquet_sha256": "b279f3b5109416c9d9c371efd216f9c15c69d497ba07b2eabd8735082206f837",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2025-05",
+      "archive_sha256": "f7f5e8b64b90fd758d8316ed09ce6790e470bf8fc7f69347dd0b8d12b8045848",
+      "parquet_sha256": "a8e52fa19c42f6bd1cecabef486706b20d78f31d3fdedc3fa829d4f36614ae5a",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2025-06",
+      "archive_sha256": "3df2bf134e39644fa12bd439e6069c41772223d7ad9b840472231d88e2a88aa2",
+      "parquet_sha256": "87526cecf42bdf6b573ba0a0e04152b6bf864fd39f96d96703104d6e47c5f44e",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2025-07",
+      "archive_sha256": "0108e803b2371d151c3ea5a76d8982e82203222d0635847bb65b6bbb327907db",
+      "parquet_sha256": "bfe25cd7a5e7475549d27641e44f8c6bc4e64237b1aefe4b7073ef5a4c6495c7",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2025-08",
+      "archive_sha256": "4e99d69c6b0cd8c1d3b0ecf67e0a79b668e646e49512526c460888f7768fd83e",
+      "parquet_sha256": "2974fe27eddd47928cb15c65c667b221603dbd4c1a9d7d39813453b7b3f22de9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2025-09",
+      "archive_sha256": "f2fc15e0795fa0782de2516b629db450ed786e8e757e01b05b896f61629c0c8c",
+      "parquet_sha256": "321a5f16e11f001a1bdd0233a8d66b4103c9b6b14e0db085fac937710f25e54b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2025-10",
+      "archive_sha256": "5e3b8f1bd7d03cf9a9094d243904da40668ce4c44de4f79fe904995596f8ef42",
+      "parquet_sha256": "81756f40af20bbd7629a7c17f54927e756cf3760468845926adba2361d13a379",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2025-11",
+      "archive_sha256": "692e89469dc73e0f7c587d6aeffc6d500129b22cc49625dea738bc3fd3c948c7",
+      "parquet_sha256": "057180ad06422fe3f3f977d8f93c9d65af4317ee096e7bea314301d46cd786c8",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "UNIUSDT",
+      "month": "2025-12",
+      "archive_sha256": "f8ac753e63768ee727de4f88bc0096d4e780ea09e05246c34bef74de640284b6",
+      "parquet_sha256": "a92ded6fc0b1fe0c24c73c953c12c5d8db94a104ff780b9bebb968f0b62fda9d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-01",
+      "archive_sha256": "7307c945202ff1ca4c7253cafd0eb32c7fb386f6affc626b05085dcca8bc6ab1",
+      "parquet_sha256": "5c0b77c9a0f9d29d7816586e2b72c32d54c279aa9f5a7cf7da09898038d5d049",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-02",
+      "archive_sha256": "bb09ee2826c57f65cbbe01910e8ee87865e3e2c0e61bfa53bde2d85052361c03",
+      "parquet_sha256": "8eaa2e0248f5adc849d52cadc575475adb40e96a3c59ae562c7564d77f35e1b3",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-03",
+      "archive_sha256": "67b6cc9a7a95f742598c2e322aa3575150ca72f0ce97c8d2d35fc7b02c6a0875",
+      "parquet_sha256": "cec052a756cd6fdca0aec5ad1d627f121c8de1f7fb3502d70ac69ec008bdba56",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-04",
+      "archive_sha256": "7723a19e8e732ebac38bfd602772b5bc35866d878c02d37da8e4fd6892010c6e",
+      "parquet_sha256": "8c00e9d4114e73cd7c7878a17016c15282855caa88b2b4aee8ada127a964946d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-05",
+      "archive_sha256": "a1231fd035be7bab1094c652de47a5943fc6dbd1055e3ae41c61f96134aece73",
+      "parquet_sha256": "e7f5cd9c2703bd3c3b05c4ee1fbdca282857eba779ed4a6d8c1732622c210caa",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-06",
+      "archive_sha256": "21cbc69db10fe45a7ec09983332dc6d6421ff84518d9fa6ef4f4943b67e6eb40",
+      "parquet_sha256": "929d23462028c0ba47591a57fd9346546f9f9c3c103faa9b75bdfb305929ad2f",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-07",
+      "archive_sha256": "08c29b28bc0408777ee9b3e5d4ad083972ca494f1d9f9611909d5130df8e67a6",
+      "parquet_sha256": "e804aa92381ebc7c83583f17c2aaf964c6cce0fe0b3606b9926e5416100f969b",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-08",
+      "archive_sha256": "4c59e3ea764bdd93aea41c1431aa9fb6279ccf652ddfac58a4e5271317defdb6",
+      "parquet_sha256": "c6ed8bd38e60e1afa19313841625bcfaef31d4ba061c28b61d90f7feacf6bf79",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-09",
+      "archive_sha256": "bc5dc9b1f099dbf7abf37234badb0ace9a0dd9d72883be63cd3dac540d5eee1e",
+      "parquet_sha256": "5d74017870179e0f3cc2728bcfe37040c55adffb803aeef3b6ba92bd7d8d994c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-10",
+      "archive_sha256": "00d72539d3a2e6759b460e2f969ec446bfb23ada4a3cd2df081c0e61253a6a0a",
+      "parquet_sha256": "d6f9b77ba4db002f97bd96ed3025ca41188f5d8fca8fc387fabcb22578a902b9",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-11",
+      "archive_sha256": "95b32d9b9b25a3c214f2eb225897e786c2469f7f9c759774b5d7ab87ce3de97c",
+      "parquet_sha256": "43d8b219e980018e8babeee7e11ce1ae8c0049d10e701defac8ca197a50eeb01",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2024-12",
+      "archive_sha256": "1772d2484aade02a23777136c98ac3dad2373cc3418a356f6d9fe70d88bfb83e",
+      "parquet_sha256": "af34a6d501ac640e543abf6accd7c8745b64a27e5b45e9c6daaede26aa4dc499",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2025-01",
+      "archive_sha256": "adb07ea7b299df986e8a74fa9525ad5522c795bfacc682526c903bfd17d5de8c",
+      "parquet_sha256": "f65230e14f37dd87c94c94027d00c0fec5065c2ab6162e47dd3b94f270247d4c",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2025-02",
+      "archive_sha256": "2f3a926688aa36a940e2052fcc55464ea7f034cc9ee62552e4210639fe0153c1",
+      "parquet_sha256": "9f1a13b1f55ab8f4ca374ae8b0f2e981084cfdbf35cf5729967c9ef137dfc403",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2025-03",
+      "archive_sha256": "46d8e32361471192470a749d45b3fb167b4329e45a4b15d22110ceec1618f151",
+      "parquet_sha256": "a725343663844232c081774e8111a35fc65aa2e5c55d4c570b6db78b71638527",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2025-04",
+      "archive_sha256": "a36194224399ccb1a53e19610de4c2a0dd8be4cf0d85893005b1893c37b28590",
+      "parquet_sha256": "f6c06bc26781b770679d0877d0eada6c56dfa0d076bb08f172d54772912499ec",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2025-05",
+      "archive_sha256": "0e17b5a7e1d0e8598e694a8c763d0224f730fbf82970719f4dc1cb2b4e48b48d",
+      "parquet_sha256": "51d0cdb2188c373e539c5878751c98aba80447d1bdd83895c6b4fc8c0ada7d2d",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2025-06",
+      "archive_sha256": "f54e89eb4911d54c17143d32f223cf892113cc1db7c0e482fde3a2ef4941d75c",
+      "parquet_sha256": "5416068c39bdc83a3213e09f9e8d4b4228ecb7c15366a1740f69863cf556b8b4",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2025-07",
+      "archive_sha256": "93036a494c26e7296cc96070a1ae2aecc1839a992f05fd40191b35775a13991b",
+      "parquet_sha256": "84ccfb45375c055f515f1b4358b1d1d634cf7b5d9c8532931d6e1813942fdabf",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2025-08",
+      "archive_sha256": "3525f0f8100e0943d2791022b2739b8f8a67f9bbe3b6a0e98e4c80ebcb111884",
+      "parquet_sha256": "898e3ba18714d4373d03f9fbda3c2c0f833ded2828a3e4cbc468c9c5828033f0",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2025-09",
+      "archive_sha256": "ccbf9cbff5114b17730d636736a0cf43d10890c47fd717c570acd855ed0eca65",
+      "parquet_sha256": "3e020580ac29467b8beaf7455beb1bce8dcce5cc5a68964dff40af02c5796bfb",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2025-10",
+      "archive_sha256": "62d243fdd90cfaabc9ddaf9f18b92c20cae0961904e03aaedbe6a611452ddc83",
+      "parquet_sha256": "edadc9de6a5caee65e0f8fe707d1ca4e177cad053c5e5791523ff9a1b77cefbd",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2025-11",
+      "archive_sha256": "057714b020871ce17c7161cd24c844bacc8191fc6051b4e65103619f26934453",
+      "parquet_sha256": "8100939fc1483add01fbb09520af9aca1e371d640012e37b1e084c7a2b6fbf64",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "month": "2025-12",
+      "archive_sha256": "1135342ebc45fd42a1d344882e08a44b2e8ad08f21f07a937ad48b5e313a932d",
+      "parquet_sha256": "c6568cc2ba1edd8dad013c1c987a26b0a2c454762baad98936debacb65aa0fb5",
+      "baseline_archive_match": true,
+      "baseline_parquet_match": true
+    }
+  ],
+  "audit_file_sha256": "fbbfa8d81c339f6e1d35a79214b402888b23dc3306722866842fcca109f25383",
+  "audit_source_sha256": "729013cd4a67cfcebf56ec3217aa2f9c6d0a0dd59ab5fb46fa7a43a81d0485b6"
+}

@@ -200,6 +200,7 @@ async def collect(duration=0,symbols=None):
                                             store.log('shadow_prediction',{'symbol':z,'available':utc(),'candle_t':r['t'],'version':shadow_version,**prediction})
                         if time.time()-last_flush>5:
                             store.put('service',{'status':'running','updated':utc(),'symbols':symbols,'messages':received,'real_orders':False,
+                                'last_message_epoch':time.time(),'fresh_quotes':sum(time.time()-q['received']<=3 for q in quotes.values()),
                                 'paper_pnl_brl':(broker.equity()*CFG['brl_per_usdt']-CFG['initial_brl']),'active_positions':len(broker.state['positions']),
                                 'mode':'prospective observation; promotion blocked','elapsed_seconds':time.monotonic()-start})
                             store.trim();last_flush=time.time()

@@ -1,6 +1,6 @@
 # AUDITORIA V2 — retomada na nuvem
 
-Status: **AUDITORIA PARCIAL**. A contabilidade dos artefatos foi conferida; os candles originais ainda não foram reconstruídos na nuvem. Não há estratégia aprovada nem evidência nova de rentabilidade.
+Status: **AUDITORIA PARCIAL**. A contabilidade dos artefatos foi conferida e a reconstrução dos candles avançou; o snapshot atual está em `reports/v3_rebuild_summary.json`. A reprodução completa dos backtests após correções e a validação prospectiva continuam pendentes. Não há estratégia aprovada nem evidência nova de rentabilidade.
 
 Baseline recuperado: `d987229e25f8cf69391c33bc5ba8b77dbe386d58`, branch `main`. O Git preserva essa versão; também foi criado um arquivo completo antes das alterações em `/workspace/onboarding/AI-TRADER-V2-d987229.tar`. Fontes V1, configurações congeladas, modelos, previsões, trades e curvas da V2 permanecem preservados.
 
@@ -40,7 +40,7 @@ Testes de regressão foram adicionados. As correções não foram usadas para re
 
 | Item da missão | Verificação nesta etapa | Limite |
 |---|---|---|
-| Procedência dos candles | Manifestos e hashes anteriores presentes | ZIPs e candles foram excluídos da migração; validação dos bytes pendente |
+| Procedência dos candles | Hashes reconstruídos confrontados com o manifesto V2; snapshot separado | Migração não trouxe candles; verificar cobertura e ausências no snapshot antes de concluir reprodução |
 | Disponibilidade e look-ahead | Inspeção da ordem de eventos e testes de causalidade/latência | Não reexecutado sobre o histórico original |
 | Saldo, PnL, taxas, PF e DD | Reconciliação independente dos 80 artefatos | Coerência contábil não prova preços negociáveis |
 | Tamanho e exposição | Tests de sizing, risco agregado e uso de volume passado | Exposição conjunta histórica precisa de replay com candles |
@@ -69,13 +69,13 @@ Os orçamentos de aquisição/research da V2 são verificações na aplicação,
 
 ## PENDENTE
 
-1. Aplicar a política de rede salva, reconstruir candles e comparar hashes com o manifesto original do commit baseline antes de declarar a V2 reproduzida.
+1. Publicar a configuração salva e consultar a cobertura atual em `reports/v3_rebuild_summary.json`; completar pares ausentes quando houver. Os probes públicos atuais passaram e hashes estão sendo comparados com o manifesto baseline, sem alterar os metadados antigos.
 2. Completar históricos recentes e catálogo de listing/delisting/migrações; registrar filtros históricos quando disponíveis e cenários conservadores onde faltarem.
 3. Reexecutar casos e pesquisas com as correções, preservando os arquivos originais e registrando o novo fingerprint. Treinamento novo permanece pendente de qualificação dos dados.
-4. Produzir o mapa com dados reais. O módulo, endpoint e painel estão implementados e testados com fixtures; o painel retorna `UNAVAILABLE` neste ambiente.
-5. Executar as hipóteses predefinidas em `research/protocol_v3.json`, avaliações temporais e ML incremental. Nenhuma pesquisa nova foi apresentada como concluída.
-6. Validar feed público real de todos os pares listados. O teste de 30 pares usa um servidor WebSocket local controlado e não comprova acesso à Binance na região Railway.
-7. Autenticar Railway e usar projeto/serviço existente com volume `/state`; custos adicionais continuam sem autorização, conforme a missão de não contratar serviços pagos.
+4. Ampliar o mapa com dados reais. Runs isolados já foram construídos e o resumo limitado em `reports/v3_opportunities.json` pode ser consultado sem transportar o cache bruto ao Railway.
+5. Ampliar a pesquisa predefinida. O piloto isolado BTC/ETH/SOL concluiu 39 backtests, com 22 rejeitados e 17 inconclusivos, e três folds logísticos. Sete candidatos preditivos no último fold não representam fills, lucro ou aprovação; todos os modelos novos permanecem inativos. O cap de dez mil linhas cobre somente parte do período nominal de teste. Resultados e limites estão em `reports/v3_research_pilot.json`.
+6. Validar feed na região Railway. No workspace cloud, o feed público real conectou e monitora 27 pares atualmente listados; `/health` e `/api/paper` expõem idade e frescor. O teste de 30 pares continua sendo fixture, separado dessa observação real.
+7. Autenticar Railway e revisar projeto/serviço, volume `/state` e custos propostos em `docs/RAILWAY_HANDOFF.md`. O fluxo OAuth expirou sem confirmação; nenhum recurso com cobrança foi criado. Autorização de gasto permanece necessária.
 8. Obter amostra prospectiva suficiente. Manter shadow separado de paper; modelos inativos e nenhuma ordem real.
 
 ## Evidência reproduzível
@@ -88,4 +88,4 @@ STATE_DIR=/workspace/onboarding/runtime .venv/bin/python run.py cloud --host 127
 
 `run.py audit` grava `reports/v3_audit.json`, com hashes das fontes e resultados da reconciliação. A execução atual não alterou `results/`, modelos ou fontes V1. XMLs de testes, verificação HTTP e logs de build estão em `/workspace/onboarding/`.
 
-A V3 não está tecnicamente concluída. O resultado desta etapa é a retomada do desenvolvimento, correções de integridade e ferramentas de diagnóstico verificadas, com blockers explícitos para pesquisa, feed e deployment.
+A V3 não está tecnicamente concluída. O trabalho agora inclui recuperação auditada em andamento, mapa real, piloto retrospectivo e feed público conectado, com limitações estatísticas e bloqueios de autenticação/autorização para o deployment. A carteira permanece em caixa.

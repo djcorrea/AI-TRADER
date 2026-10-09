@@ -37,6 +37,8 @@ def test_break_even_matches_independent_cash_reconciliation():
 
 
 def test_unavailable_map_does_not_fabricate_zero_results(tmp_path,monkeypatch):
+    from lab import market_opportunity_discovery as discovery
+    monkeypatch.setattr(discovery,'ROOT',tmp_path/'empty-project')
     monkeypatch.setenv('STATE_DIR',str(tmp_path))
     result=read_map()
     assert result['status']=='UNAVAILABLE' and not result['rows']
@@ -57,3 +59,17 @@ def test_persisted_map_query_is_bounded_and_parameterized(tmp_path,monkeypatch):
     assert len(result['rows'])==2
     assert all(x['horizon_minutes']==5 for x in result['rows'])
     assert read_map(symbol="BTCUSDT' OR 1=1--")['rows']==[]
+
+
+def test_published_summary_is_explicitly_limited_and_filtered(tmp_path,monkeypatch):
+    from lab import market_opportunity_discovery as discovery
+    from lab.common import dump
+    monkeypatch.setattr(discovery,'ROOT',tmp_path)
+    monkeypatch.setenv('STATE_DIR',str(tmp_path/'runtime'))
+    dump(tmp_path/'reports/v3_opportunities.json',{'status':'RETROSPECTIVE_DIAGNOSTICS',
+         'rows':[{'symbol':'BTCUSDT','horizon_minutes':5,'regime':'range','observations':100},
+                 {'symbol':'ETHUSDT','horizon_minutes':15,'regime':'range','observations':90}]})
+    result=discovery.read_map(symbol='BTCUSDT',horizon=5,limit=1)
+    assert result['snapshot_only'] and result['limited_preview']
+    assert len(result['rows'])==1 and result['rows'][0]['symbol']=='BTCUSDT'
+    assert discovery.read_map(symbol="BTCUSDT' OR 1=1--")['rows']==[]

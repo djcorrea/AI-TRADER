@@ -1,4 +1,4 @@
-import json,time,asyncio,os
+import json,time,asyncio,os,secrets
 from fastapi import FastAPI,WebSocket,HTTPException,Request
 from fastapi.responses import FileResponse
 from .common import ROOT,CFG,state_path
@@ -20,14 +20,20 @@ def paper_state():
         scanner.sort(key=lambda row: (row.get('quote_volume_candle') or 0),reverse=True)
         for row in scanner:
             row['stale']=time.time()*1000-row['candle_close_ms']>120000
-        return {'service':service,'broker':store.get('broker',{}),'kill':store.get('kill',False),'connectivity':store.get('connectivity','unavailable'),
+        connectivity=store.get('connectivity','unavailable')
+        age=time.time()-service.get('last_message_epoch',0)
+        feed={'healthy':connectivity=='connected' and service.get('status')=='running' and 0<=age<=30,
+              'last_message_age_seconds':round(age,3) if service.get('last_message_epoch') else None,
+              'fresh_quotes':service.get('fresh_quotes',0),'monitored_symbols':len(symbols),
+              'fully_fresh':service.get('fresh_quotes',0)==len(symbols) and bool(symbols)}
+        return {'service':service,'feed_health':feed,'broker':store.get('broker',{}),'kill':store.get('kill',False),'connectivity':connectivity,
             'clock_drift_ms':store.get('clock_drift_ms'), 'scanner':scanner,'events':events,
             'raw_messages_retained':store.db.execute("SELECT count(*) FROM events WHERE kind='raw_feed'").fetchone()[0]}
     finally:store.close()
 @app.get('/')
 def index():return FileResponse(ROOT/'dashboard/index.html')
 @app.get('/health')
-def health():return {'status':'ok','real_trading':False}
+def health():return {'status':'ok','real_trading':False,'feed':paper_state()['feed_health']}
 @app.get('/api/report')
 def report():return read('results/report.json',{'status':'RESEARCH_RUNNING'})
 @app.get('/api/experiments')
@@ -38,6 +44,10 @@ def models():return read('results/models.json',{'status':'NOT_TRAINED'})
 def quality():return read('data/quality.json',{})
 @app.get('/api/audit')
 def audit():return read('reports/v3_audit.json',{'status':'NOT_RUN','pending':['V2 audit not run in this environment']})
+@app.get('/api/research-v3')
+def research_v3():return read('reports/v3_research_pilot.json',{'status':'NOT_RUN'})
+@app.get('/api/data-rebuild')
+def data_rebuild():return read('reports/v3_rebuild_summary.json',{'status':'NOT_RUN'})
 @app.get('/api/opportunities')
 def opportunities(symbol:str|None=None,horizon:int|None=None,regime:str|None=None,limit:int=100):
     from .market_opportunity_discovery import read_map
@@ -46,14 +56,14 @@ def opportunities(symbol:str|None=None,horizon:int|None=None,regime:str|None=Non
 def paper():return paper_state()
 @app.post('/api/kill')
 def kill(request:Request):
-    # Remote controls are disabled by default. Explicit configured origin only.
+    # A reverse proxy's client address or Origin header is not authentication.
+    if os.environ.get('ALLOW_REMOTE_CONTROL')!='1':raise HTTPException(403,'Administrative HTTP controls disabled')
+    token=os.environ.get('CONTROL_TOKEN')
+    authorization=request.headers.get('authorization','')
+    supplied=authorization[7:] if authorization.startswith('Bearer ') else ''
+    if not token or not secrets.compare_digest(supplied,token):raise HTTPException(401,'Authentication required')
     origin=request.headers.get('origin')
-    local=request.client and request.client.host in ('127.0.0.1','::1','testclient')
-    allowed=('http://127.0.0.1:4174','http://localhost:4174')
-    if os.environ.get('CONTROL_ORIGIN'):allowed=(*allowed,os.environ['CONTROL_ORIGIN'])
-    if not local and os.environ.get('ALLOW_REMOTE_CONTROL')!='1':raise HTTPException(403,'Remote controls disabled')
-    if origin and origin not in allowed:raise HTTPException(403,'Origin denied')
-    if not local and origin!=os.environ.get('CONTROL_ORIGIN'):raise HTTPException(403,'Configured origin required')
+    if origin and origin!=os.environ.get('CONTROL_ORIGIN'):raise HTTPException(403,'Origin denied')
     store=Store(state_path('paper.sqlite'));store.put('kill',True);store.log('kill',{'reason':'dashboard'});store.close()
     return {'kill':True,'action':'Stop new simulated entries; liquidate paper positions when a fresh quote is available.'}
 @app.websocket('/ws')

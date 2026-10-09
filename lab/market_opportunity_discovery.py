@@ -165,6 +165,16 @@ def read_map(symbol=None, horizon=None, regime=None, limit=100):
     import duckdb
     path = state_path('opportunities/report.json')
     if not path.exists():
+        snapshot = ROOT/'reports/v3_opportunities.json'
+        if snapshot.exists():
+            report = json.loads(snapshot.read_text())
+            rows = report.pop('rows', [])
+            rows = [r for r in rows if (symbol is None or r['symbol']==symbol)
+                    and (horizon is None or r['horizon_minutes']==horizon)
+                    and (regime is None or r['regime']==regime)]
+            rows = sorted(rows,key=lambda r:r['observations'],reverse=True)[:min(max(int(limit),1),200)]
+            return {**report,'rows':rows,'returned_rows':len(rows),'limited_preview':True,'snapshot_only':True,
+                    'interpretation':'PUBLISHED RETROSPECTIVE SUMMARY; NOT A BUY SIGNAL'}
         return {'status': 'UNAVAILABLE', 'rows': [], 'cost_scenarios': cost_scenarios(),
                 'reason': 'Minute candles have not been rebuilt and audited in this environment'}
     report = json.loads(path.read_text())

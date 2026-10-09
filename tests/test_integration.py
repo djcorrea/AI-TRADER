@@ -33,11 +33,14 @@ def test_baseline_preservation():
 def test_api_http_and_ws(tmp_path,monkeypatch):
     monkeypatch.setattr(api,'ROOT',tmp_path);(tmp_path/'dashboard').mkdir();(tmp_path/'dashboard/index.html').write_text('<h1>fixture</h1>')
     monkeypatch.setenv('STATE_DIR',str(tmp_path/'paper'))
+    monkeypatch.setenv('ALLOW_REMOTE_CONTROL','1')
+    monkeypatch.setenv('CONTROL_TOKEN','integration-test-fixture')
+    monkeypatch.setenv('CONTROL_ORIGIN','http://127.0.0.1:4174')
     with TestClient(api.app) as c:
         assert c.get('/').status_code==200
         assert c.get('/api/report').json()['status']=='RESEARCH_RUNNING'
         assert c.get('/api/models').json()['status']=='NOT_TRAINED'
-        assert c.post('/api/kill',headers={'Origin':'https://external.example'}).status_code==403
-        assert c.post('/api/kill',headers={'Origin':'http://127.0.0.1:4174'}).json()['kill']
+        assert c.post('/api/kill',headers={'Origin':'https://external.example','Authorization':'Bearer integration-test-fixture'}).status_code==403
+        assert c.post('/api/kill',headers={'Origin':'http://127.0.0.1:4174','Authorization':'Bearer integration-test-fixture'}).json()['kill']
         assert c.get('/api/paper').json()['kill']
         with c.websocket_connect('/ws') as ws:assert ws.receive_json()['kill']

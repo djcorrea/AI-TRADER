@@ -1,0 +1,2899 @@
+{
+  "status": "RETROSPECTIVE_PILOT_COMPLETED",
+  "created": "2026-10-09T11:45:27.575294+00:00",
+  "sources": {
+    "BTCUSDT": [
+      {
+        "month": "2024-01",
+        "parquet_sha256": "8ba6fb0dc955fe31222879720966f021ecd7dbc3fe846c30154b91780d6fe182",
+        "archive_sha256": "40b78258091a468f8756843f207f5913eafc1d6e756c40a78711320d93fa5e75"
+      },
+      {
+        "month": "2024-02",
+        "parquet_sha256": "3221c072075cd42f3aec997e9729c939f66ca2994f1a0e0f45838c68a71950a1",
+        "archive_sha256": "431132e0db8b9fe6e5c93c8e9ba3ae37dbcfa0edcdd57618b1b78ac18d14be79"
+      },
+      {
+        "month": "2024-03",
+        "parquet_sha256": "76251d1ae900bbb9a8defdc8210ce0766b6bcca96a06bb32ee14b69e07a69c97",
+        "archive_sha256": "a9af86295eae839f1d072643c67eed7fcc47bb1d82c12ef312d041eec9511e7b"
+      },
+      {
+        "month": "2024-04",
+        "parquet_sha256": "e677355cffaa214da42955c77e91f21ab90abfcf9e090ccd0219bbe13e14339d",
+        "archive_sha256": "753040cbfaa72bf9b1fdc6253a3b521a9a174a664dfd0929a556be327b016bc6"
+      },
+      {
+        "month": "2024-05",
+        "parquet_sha256": "e9df61b99b39ed11fce707b8dc2b1b6ecb417336b5be3c6c98b24da7d595556c",
+        "archive_sha256": "0f709143f66a09acc430d24a5f27f9accd52689c23ce10f2c0b6ea26997bfa8a"
+      },
+      {
+        "month": "2024-06",
+        "parquet_sha256": "93cec5bb2bfef3abe54c127edc69058f97f7fbde3ca5be84985a32983f3a7909",
+        "archive_sha256": "90f4fc3f55918787848c71f4cd0f2f1a5851bbffaf6392e76e9ab555b7479d2b"
+      },
+      {
+        "month": "2024-07",
+        "parquet_sha256": "c48b52683968723d74323f2689577df772af1d1aedbe7844619c139de9e32b1a",
+        "archive_sha256": "9cfd749fd2027a0c6f261bed607b49dd1256369fb41b784934544a3676f8162e"
+      },
+      {
+        "month": "2024-08",
+        "parquet_sha256": "1d831460541583731ca501c09edbf5839d52d57aa1c729132aa7172e503db1eb",
+        "archive_sha256": "6a1cac2a5482132dc5a030534aa028e2becc560877f2b93b7add90194f576c42"
+      },
+      {
+        "month": "2024-09",
+        "parquet_sha256": "6e4c758b82fd6d80fc1d1504a2ab18f7f6bbc2dbf392e4d0998c983475bdbef8",
+        "archive_sha256": "1e30f6091b05eeb7b0449735d749354b81ab429ab1449bae82a21e316db8eac3"
+      },
+      {
+        "month": "2024-10",
+        "parquet_sha256": "c1dbb079f6ca2a8139437f7794e3aeb6a169c0b0083c470691a3ffac0d89441f",
+        "archive_sha256": "13f7f9f9bed652fd152422246cfbcaefa6223692c5c37fb3ca4e72f45501e607"
+      },
+      {
+        "month": "2024-11",
+        "parquet_sha256": "976331d27954889310f90c72d777953b5ebc4a4a2146cb8ba1bb0147af9e4a39",
+        "archive_sha256": "c30a63bd0e8a77f2d18a2a019272b907f29a84fd5378796cf9333b041edcb12b"
+      },
+      {
+        "month": "2024-12",
+        "parquet_sha256": "93df2d5c0e432ffdab4ce0f420bc30c00c1f4f980b2e7f80df3744a7460a564b",
+        "archive_sha256": "58fef0b7c7abce7a0201efd04ed3732f236f607f3fcecf228fb8384cad1ae2c1"
+      },
+      {
+        "month": "2025-01",
+        "parquet_sha256": "9e18b8be7d4a72d83afa956105ef9f2b64f1dee0ad9c930a7ae271b69761fd74",
+        "archive_sha256": "8d028b2f91aad57d6b693d44449c93f9c4b7044f55f298c8a3ac40ab676dafac"
+      },
+      {
+        "month": "2025-02",
+        "parquet_sha256": "2a98d5a2d01629c392652daa96fdd14f1d0efe891f5f93a8accec497f13ba57d",
+        "archive_sha256": "26b3795072983a66bdbe8327e0d5e71069bdd5ca831d4da3850ba68ef7a991ef"
+      },
+      {
+        "month": "2025-03",
+        "parquet_sha256": "272217dbb3ffb84545e6926d71e4a07884e9da1f1e6e613edbc77d43d0f8e69b",
+        "archive_sha256": "e333601b6c721434f3cdd6670ffde2371bef7946572864c49ba6431a690ab1ca"
+      },
+      {
+        "month": "2025-04",
+        "parquet_sha256": "8586ba8587aacc0381377e8f52603cbd7b2bcafc13ef11118234bae316964800",
+        "archive_sha256": "4103d48887f9f5ec04144b190314ec31db9e3094674e5d53a3436b338854848f"
+      },
+      {
+        "month": "2025-05",
+        "parquet_sha256": "3ac51741162004a3dafbce0648fbe6a1402f4d302a9f98aaaffb74a0fe6fa594",
+        "archive_sha256": "7f95bf97e3ccfbb55cd002f124a54dc1726ced7cfd54e6fd200e59845ca95d5c"
+      },
+      {
+        "month": "2025-06",
+        "parquet_sha256": "88750a4d63b512f437327e29f7ba16c9f0c990eb6a75ddda3ea2db8b6d067f70",
+        "archive_sha256": "f95f6169e253d38fb321c87984c827878634250cdcc3ff84fc3507f036bcabbd"
+      },
+      {
+        "month": "2025-07",
+        "parquet_sha256": "89d2e373599fcbb7480bcc25a04c03f085c55a435ffde5fa2e516cbcc89c9c6d",
+        "archive_sha256": "3377e023fe252418cfaf46c9e23b3f0d1e56fb2fd89b4191fc66262b947a0ee2"
+      },
+      {
+        "month": "2025-08",
+        "parquet_sha256": "70e439fa120a6f85150cc86a91c6e312501f0b0c4a4fbb32719c38b5adf6bd92",
+        "archive_sha256": "11da1c7db8949cbdcbb757531756eda55f2a3d663cfac671c5d1a8a87911318f"
+      },
+      {
+        "month": "2025-09",
+        "parquet_sha256": "41a1d8d07d6d3e686beaf91dc7efdf0f53cfea25232ade6c80014af0b672c0ce",
+        "archive_sha256": "52bb4a4a52afbcc0af77e3eb92c114bf810982ca63bf02f8fe15062e59c5f44b"
+      },
+      {
+        "month": "2025-10",
+        "parquet_sha256": "9856b154714898c7402ebba0b98ed4389dc349764425bcad5f57c74757c997f1",
+        "archive_sha256": "985d878cacbfdde85c9e0da2e8830ab913fe01bfdcde6e488563d8194df11f6b"
+      },
+      {
+        "month": "2025-11",
+        "parquet_sha256": "80efa473ac34b12f9f37b13f799a257213325d77d4ea59bd25cbfb0eda34e69a",
+        "archive_sha256": "c54159d1216ab07f040a96d6678748e8746ac4200cba373fb6b758f2cdd1e5e5"
+      },
+      {
+        "month": "2025-12",
+        "parquet_sha256": "b81cb3da76c2a0fa9025037745a3244e0f3e5d001d80c95ebd3ea66524e462c8",
+        "archive_sha256": "7b47647352b01356dcd678a1438efb8baac03ed798785ed2179d428aab0cca9b"
+      }
+    ],
+    "ETHUSDT": [
+      {
+        "month": "2024-01",
+        "parquet_sha256": "f217c23a47297fe0d3a7e0791addb935df4690337ca612dea254a55e4dc3563c",
+        "archive_sha256": "2fb2c9b77365183f77e185de3578de2f3be5fefe433d7c0564f033f968d5e23c"
+      },
+      {
+        "month": "2024-02",
+        "parquet_sha256": "a0b96514c08a471f0689577bd80459f0e0c32e95c7922d206c7285ffbfaac3d9",
+        "archive_sha256": "ede3c9d4d47a5e9fdbc2e37b7086d97d4bcceec54316dd345fe0a1f8e648c443"
+      },
+      {
+        "month": "2024-03",
+        "parquet_sha256": "a327d4f6d508d9bb2d51d56aa55fa310c6c952c4aab1982944e1c4cd865b6eab",
+        "archive_sha256": "b63d885ef49b4e0f2a654ab02c5dcb502fb8abeb7300f3ebff4a33aadd3d4a82"
+      },
+      {
+        "month": "2024-04",
+        "parquet_sha256": "3f377df7e13d58fb0ccf7661f632a70911fe7593d820f2172c2cd5abd2d2b58f",
+        "archive_sha256": "9c6ef16ea4e0593ac4547d2f6c64c272d8f39806871473c4877885af47a67b88"
+      },
+      {
+        "month": "2024-05",
+        "parquet_sha256": "35ef002ecee4dbdebb2978a023730bbf8a2222ca3226ecee64a0d976dc01627c",
+        "archive_sha256": "4e09e26b7a2b352d24c25f6fc6cdd531d167d460a48226e4a8080413e0bb5e66"
+      },
+      {
+        "month": "2024-06",
+        "parquet_sha256": "1d6be9a87a7ac022adbc978251fb09170ff9ffc84d229b837c19f29230d12bd5",
+        "archive_sha256": "27040862f050687c6da296108dfcfb29e0500e0f9c8dd73669146e9e68a128c0"
+      },
+      {
+        "month": "2024-07",
+        "parquet_sha256": "1bbfd62b03626b1350fc706a770ac67749153f7604182e668be030f8c7d48f08",
+        "archive_sha256": "bda530d17235096c0e619edff1bef56154923b980d7a73406ea66114966ba0d2"
+      },
+      {
+        "month": "2024-08",
+        "parquet_sha256": "166ef78c5fe3adcc9e1ae747ec6cd7dacd669aa0a3a0682f0aba04075f257c49",
+        "archive_sha256": "de64ff8c0e9bd0ff9ca7fc4015948fac94087c7293915a2a7f7bb47780e98e60"
+      },
+      {
+        "month": "2024-09",
+        "parquet_sha256": "81c9c73750bf10dd5def348c8b1105c71def0df10f1b297e693b6a0821f4ffa2",
+        "archive_sha256": "cb2ef3750b2608a871dcc6db479382e33b7d341f89ea17ed58b9fd44db88a793"
+      },
+      {
+        "month": "2024-10",
+        "parquet_sha256": "0b516755650b1e2c7f6399d706f8a8c9c92cf9a92dde3e0f1cb4da19e7fd5649",
+        "archive_sha256": "99b11df1d79a2408d639cf512f1cfc6a4df4687de9146bd6271f9489ba15a8ba"
+      },
+      {
+        "month": "2024-11",
+        "parquet_sha256": "803486c9b4b8a4175f94a138f689a40b0c2e903cf38973519019d2a87406437d",
+        "archive_sha256": "2c3e15ae6458707b07d2d8b51ad6634756153bc65f9bbb44d5ddb7ecdbccd0c6"
+      },
+      {
+        "month": "2024-12",
+        "parquet_sha256": "3c9e8d8d222a847fb6379e288fc6849e6f4e95c038fb01a425e12846e6a8d588",
+        "archive_sha256": "76e33a1db36f036c1e5866de2ebc54ab825522c801e1f9c487a85be781af4716"
+      },
+      {
+        "month": "2025-01",
+        "parquet_sha256": "d96d798b5fa49a3c4ebda3e5e9704ad93f41fc46dbb8f1c734c129d251d3e9cb",
+        "archive_sha256": "04ab6131e9f8ad979676b72115a8cfaf7e4f827b06f44cdf80c840d95016766d"
+      },
+      {
+        "month": "2025-02",
+        "parquet_sha256": "87fcd2487a2950af7bf863ad219769e42a6c87b48225803a63287fd9520a1868",
+        "archive_sha256": "5ec2fb4e87e29241745ee7e9449fb86f4f44bad96508a80a1af0e308d73c6f5a"
+      },
+      {
+        "month": "2025-03",
+        "parquet_sha256": "cdb084f487bd7687620952634e3fe14cca7931e8b4ae278a2a7d29a40d87769b",
+        "archive_sha256": "609346fc0dc8f8f1cf283c5cb373d1bb25f26f1716fc67c3883d2176ce9cf40b"
+      },
+      {
+        "month": "2025-04",
+        "parquet_sha256": "38cf7471dc6cba6e3ce777d473ddcfb75f11b8213c10617062775843fed93dd9",
+        "archive_sha256": "32505b36565f7c446a3946dc6ea2f511e71d0f72c13cca2b09bb83307f198f8e"
+      },
+      {
+        "month": "2025-05",
+        "parquet_sha256": "8b988db7017a7fd1d19f064a18cb079920fb34c2ea175f203ff57d9abc6022d1",
+        "archive_sha256": "743268912388656e3c53d21e6e4b6c2b155c1b1f67c7bcbdae5e14cc3d9c633c"
+      },
+      {
+        "month": "2025-06",
+        "parquet_sha256": "4ccc7676490162a02fe2e434d718b7ced07fe48c86e5e6917d60439a27c78f83",
+        "archive_sha256": "eb7641c42f642697524ce45f64c92bcc33a751b6ade791f91f70e3ec52880a70"
+      },
+      {
+        "month": "2025-07",
+        "parquet_sha256": "4412ac5ae1ad46be54463595ba3a35771b4500eafc22d3bf69178b710ce10016",
+        "archive_sha256": "b95c721b528260d865585f0723d287c836f2f22bb681ac45e0c56eaaf0047bd9"
+      },
+      {
+        "month": "2025-08",
+        "parquet_sha256": "e9fba4e148464c269ecfe8b48ab6f56aa170c743f9ce0f24d725e45820cacb7c",
+        "archive_sha256": "aaebc0e2baa7d7dcfcf6eb3eeb681b55a2e746dad86e758be0af7fca4391c480"
+      },
+      {
+        "month": "2025-09",
+        "parquet_sha256": "95a270e53185c5e76ebe2947ed44ca911750860a6db1afe64c600359261bbe2b",
+        "archive_sha256": "2912831352b3e194ac38f7a66a373ea78f138dfd4fe5a3ac25acb80c5ccaa0ec"
+      },
+      {
+        "month": "2025-10",
+        "parquet_sha256": "dcea37a914f0054c00bfb3b2007c1d76d4a269f29d22c681362b0cfefa17a607",
+        "archive_sha256": "a384d1bea37e4f59f7cae491a6f3f2dffe262259a4a0bc9324310a9aef16a843"
+      },
+      {
+        "month": "2025-11",
+        "parquet_sha256": "b5599c4adc1dbffee97601a7065f20bb9d608fc8510bc723151b16e6680e3386",
+        "archive_sha256": "30b80de8cbbd68edf2b2bf76154f60e6edb0f8365e08e6d5afc63657e26e0f7c"
+      },
+      {
+        "month": "2025-12",
+        "parquet_sha256": "d2e3856505840a9bc44ff9267bda66215c1b0d56642d6b1c5bc235407422028c",
+        "archive_sha256": "57b653e4ff3558fae8d2e6da616c40e6cfad4002f131584f82ae7a80bd228293"
+      }
+    ],
+    "SOLUSDT": [
+      {
+        "month": "2024-01",
+        "parquet_sha256": "92313bae813c5929ec7d22381fc661f7ce123fad97724ba3ade810ace49907ff",
+        "archive_sha256": "8cd5f9de14cfc4df6be0ca8d3a31312dfcb73e8708a43bd0771f72362e6801a1"
+      },
+      {
+        "month": "2024-02",
+        "parquet_sha256": "7d7777aef9fafcb27268cf9f98c65ebe60a6cc279800992aeaef639301ab9503",
+        "archive_sha256": "98634ed346b2033d13007f61d8dcf74300707336b04b84c18b700c534d57f579"
+      },
+      {
+        "month": "2024-03",
+        "parquet_sha256": "dc0fb4264749f5be8daf91e3b0f54eeb295ccd08032e76b9114d6e4ceb6fc18d",
+        "archive_sha256": "c45e24d174a27184832f9eaf51fc0a868b94b4a54ab3593f695b9c8f11c68551"
+      },
+      {
+        "month": "2024-04",
+        "parquet_sha256": "4cbe6e39ae04a3dbce017ffde75c86f8e7a73a018b8ca7b60c50377a32cffd97",
+        "archive_sha256": "1d00b8db8e8e7cc857f03294b62013a5359da916035569807e2b5a8c4a1ca790"
+      },
+      {
+        "month": "2024-05",
+        "parquet_sha256": "1761528c0fc67101dde673f423f0f840feb706545cf296a3836e320a7c5c12f9",
+        "archive_sha256": "cf7d3fdbfd054d6b04e038d8ec77b7b061aa931d6f826ce61827d9581d96c5d7"
+      },
+      {
+        "month": "2024-06",
+        "parquet_sha256": "d88adf3f5babce1e6e5133c22e43755ad917c6e9d1719a39d439f3d9633037a5",
+        "archive_sha256": "9306082f84656cf28fca2b873445f32307bccd0b5ea6663de77ae80b6e7df9a3"
+      },
+      {
+        "month": "2024-07",
+        "parquet_sha256": "04da2b2a83e8c68f7884323d36a25c6e8ede82a3715dbcc3eda6a179293a4087",
+        "archive_sha256": "c7b3651243e94833644c533ba80c10815281043aeaa7a76b8444f90db4746bad"
+      },
+      {
+        "month": "2024-08",
+        "parquet_sha256": "b88c63e506d23c535f19621a1cdceeb7ca18266f7a62bf040f9746a155453d6f",
+        "archive_sha256": "52d6a02057c08d24eae41a53dede0d8af12b8ef8bf2306ae205593937f53264f"
+      },
+      {
+        "month": "2024-09",
+        "parquet_sha256": "b2590b885e5cd5743546a0b8c6d375230ba4f6588bf81071d342b61a049e83eb",
+        "archive_sha256": "958f32e0f6ac85f101a7df60d3db315bed43e17029123916e043576219dc044c"
+      },
+      {
+        "month": "2024-10",
+        "parquet_sha256": "557eae7a8f1a2c5eb01b3d29bfe6e839285e5f1122f1fb8307de7668f1cd7a54",
+        "archive_sha256": "c815560ef2e4cbafa16f8e8c671a9aedca2fcc1553b27bcf58563164ee6df3e8"
+      },
+      {
+        "month": "2024-11",
+        "parquet_sha256": "9486eb3554c2a29e0c2b461c709410a6cdfb202b1b978016aa3563d1a6aac1ab",
+        "archive_sha256": "623bef1653fe496b04fe96c5629ab6fbb46adcd4a3f2d25d34106beed1aeffa6"
+      },
+      {
+        "month": "2024-12",
+        "parquet_sha256": "4ac0b263ab33e883d7daec679140aaa74f3d6584f3b2e9160875c1fa93b81fd4",
+        "archive_sha256": "3e9e2d3e525c4afea0d55366354af2ad839424e7104f98b40c847137a45f1376"
+      },
+      {
+        "month": "2025-01",
+        "parquet_sha256": "ebc421cabf546e4330014f7f6f48bb337d043c25deb51d05ba6b101b7e95eee0",
+        "archive_sha256": "17417b784a28ba659dcd6adb3598f67cc1a987ceda7e5048ce20807617d2c603"
+      },
+      {
+        "month": "2025-02",
+        "parquet_sha256": "0e559e02dd95c73518e8b70207e6e9acea09f0731f724522a250f19912f2ed41",
+        "archive_sha256": "1a7e23c61791fe35644b464d9e464d666f3920a2dfd608890ec39b3c01cd5eef"
+      },
+      {
+        "month": "2025-03",
+        "parquet_sha256": "92f71cff1a4bc7568a44b451a635a13ca310e6ba2b94221ef3dfb53b944fcc3c",
+        "archive_sha256": "092baef0e6d61a56b33ea11272651fa4e1a323e012befa67dee193c1eb39550a"
+      },
+      {
+        "month": "2025-04",
+        "parquet_sha256": "74c6c017881b6f0be9cc112b124ac1fd22b04649b48376b61bfd563f2201e412",
+        "archive_sha256": "21189f395bd5d7e15f55956139812212e9c5e329eb6eacde552cedaff2b59a6f"
+      },
+      {
+        "month": "2025-05",
+        "parquet_sha256": "392ce1c49b769541049cd8af3d352c0aeff8a3f4324d3980ea0f7e9702522860",
+        "archive_sha256": "7fdc3b4c5a7440f3967ccf610a50f7476ce08f8d353dbc547da27aa9597acf11"
+      },
+      {
+        "month": "2025-06",
+        "parquet_sha256": "b2899394c9e861d3c80166f078754fd57182581db6da967e232b76ca7d34320b",
+        "archive_sha256": "df0158c33ab9fc73b268f31b5af5b3c22f0be44470f821e8cccf5e99f24d8ca1"
+      },
+      {
+        "month": "2025-07",
+        "parquet_sha256": "03f9190a177edb95506b1881103b4cba9ea6c2f07d1fb05ac923d9700467f8b0",
+        "archive_sha256": "5b7ef20e0fbc11a99f3cd5dcc677f35599723bbc85598de9bf3654a885905e52"
+      },
+      {
+        "month": "2025-08",
+        "parquet_sha256": "a6b460fb378756ecdba597f21af52c41c0f713e1eb6e6868eb8453b1bf02262b",
+        "archive_sha256": "ace20c6d317ff28f70b5b3684afc3ba7bc2099a98ddc6c1bde4f63db46fa571b"
+      },
+      {
+        "month": "2025-09",
+        "parquet_sha256": "09c85ef08dfd2024c5bd278ac743eda97856254fb6bce47b96a57ccab73773ec",
+        "archive_sha256": "067ddd8e2e2b09f4848175ec04371b67d8c7d2ad5d37460b37cca7b24b0d0b10"
+      },
+      {
+        "month": "2025-10",
+        "parquet_sha256": "d9ba4c2e8aefa0d7bb8632c0ee86e656aad122836ceb1ce5b0ba2a0da3c279bd",
+        "archive_sha256": "af138c5fae53940a0da3d5af1a296a8ef22ffade83e054e4803a5d7371af3763"
+      },
+      {
+        "month": "2025-11",
+        "parquet_sha256": "dec6ec639be14df17834f0baa58783bfa53de324776dce112c176d7a4a64ee25",
+        "archive_sha256": "5188939b56b57813d2b39d4d5d184e0a6e3e44fc79206eb25e0c6e958cf3cb3d"
+      },
+      {
+        "month": "2025-12",
+        "parquet_sha256": "0cd6d00735c9fc8b622bdcfb6ad29ae34bb112dd01a0625d567b62eef01b044e",
+        "archive_sha256": "8ff4ac3d9f3411c31a892585e6906a71df701e3febc195e1da685c244125f774"
+      }
+    ]
+  },
+  "source_hashes": {
+    "lab/research_v3.py": "7d1ba2d97ef971b66eef221cd301f12f8ba67c26699a50cb312aa9f2afde938f",
+    "lab/backtest.py": "0c15e9ec5dcdb53ae0529dcb701f4360ca6c0c2b8d1f92cd6c97122155207d9b",
+    "lab/models.py": "bbb82d73528181639af9f9842d962ee1ecf45971e9cb950ba48710101fcf1d94",
+    "lab/features.py": "3751f6f41086b00c0a9bd73f699b17a5da4413c775f92eda05e6c7990dbad816",
+    "lab/execution.py": "816808e76d08aea3b9ae04ff516702884626379b946761a7f4e10d54be197eba",
+    "lab/strategies.py": "c2db615a0e377c754dcbba5eb7cd347c1ceb67df3d066f663fd53ade8bde0e72",
+    "config.json": "82989d60a6f96a06de358b5f9467390df94fd06da29a9368796f422838d60b9a"
+  },
+  "universe": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT"
+  ],
+  "periods": {
+    "discovery": [
+      "2024-03-01",
+      "2025-01-01"
+    ],
+    "validation": [
+      "2025-01-01",
+      "2025-07-01"
+    ],
+    "retrospective_test": [
+      "2025-07-01",
+      "2026-01-01"
+    ]
+  },
+  "rules": [
+    "trend",
+    "pullback",
+    "compression",
+    "breakout",
+    "mean_regime",
+    "range"
+  ],
+  "discovery_variants": [
+    0.9,
+    1.0,
+    1.1
+  ],
+  "validation_and_test_variant": 1.0,
+  "ml_horizon_minutes": 30,
+  "ml_model": "standardized_logistic_C_0.1",
+  "ml_max_fit_rows": 20000,
+  "ml_max_calibration_rows": 5000,
+  "ml_max_test_rows": 10000,
+  "maximum_tests": 120,
+  "max_seconds": 900,
+  "final_virgin_test": false,
+  "strategy_approval": "NONE",
+  "paper_candidates": [],
+  "real_orders": false,
+  "limitations": [
+    "Pilot universe restricted to BTC/ETH/SOL, not a historical full-market universe.",
+    "2024-2025 already exposed in V1/V2; chronological out-of-sample is retrospective.",
+    "Historical filters, spreads, queue and account fees are assumptions.",
+    "Predictive label outcomes overlap and are not portfolio PNL.",
+    "Prospective eligibility and execution latency still require validation."
+  ],
+  "benchmarks": {
+    "discovery": {
+      "cash": {
+        "net_return": 0.0,
+        "ending_brl": 500,
+        "trades": 0
+      },
+      "buy_hold": {
+        "trades": 3,
+        "net_return": 0.3400726137737051,
+        "net_pnl_brl": 170.03630688685257,
+        "ending_brl": 670.0363068868526,
+        "max_drawdown": -0.3943334677753163,
+        "profit_factor": 218.8171244622618,
+        "expectancy": 0.3404146774725339,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 2,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 1,
+            "net_pnl_brl": 87.43816541176108,
+            "expectancy": 0.5251595784735357
+          },
+          "ETHUSDT": {
+            "n": 1,
+            "net_pnl_brl": -0.7806379195695992,
+            "expectancy": -0.00468851298397716
+          },
+          "SOLUSDT": {
+            "n": 1,
+            "net_pnl_brl": 83.37877939466104,
+            "expectancy": 0.5007729669280433
+          }
+        },
+        "by_regime": {},
+        "risk_halted": false
+      }
+    },
+    "validation": {
+      "cash": {
+        "net_return": 0.0,
+        "ending_brl": 500,
+        "trades": 0
+      },
+      "buy_hold": {
+        "trades": 3,
+        "net_return": -0.10112676151678657,
+        "net_pnl_brl": -50.56338075839329,
+        "ending_brl": 449.4366192416067,
+        "max_drawdown": -0.5202840206002624,
+        "profit_factor": 0.31644937719533356,
+        "expectancy": -0.10122781166316015,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 1,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 1,
+            "net_pnl_brl": 23.408288744192284,
+            "expectancy": 0.1405906713029212
+          },
+          "ETHUSDT": {
+            "n": 1,
+            "net_pnl_brl": -43.05412447731355,
+            "expectancy": -0.2585833272600136
+          },
+          "SOLUSDT": {
+            "n": 1,
+            "net_pnl_brl": -30.91754502527212,
+            "expectancy": -0.18569077903238806
+          }
+        },
+        "by_regime": {},
+        "risk_halted": false
+      }
+    },
+    "retrospective_test": {
+      "cash": {
+        "net_return": 0.0,
+        "ending_brl": 500,
+        "trades": 0
+      },
+      "buy_hold": {
+        "trades": 3,
+        "net_return": -0.06416527701162766,
+        "net_pnl_brl": -32.082638505813804,
+        "ending_brl": 467.9173614941862,
+        "max_drawdown": -0.433488344309907,
+        "profit_factor": 0.4978295899303095,
+        "expectancy": -0.06422981563269066,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 1,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 1,
+            "net_pnl_brl": -30.873694042801485,
+            "expectancy": -0.18542863344184185
+          },
+          "ETHUSDT": {
+            "n": 1,
+            "net_pnl_brl": 31.805312401849996,
+            "expectancy": 0.19102281849120492
+          },
+          "SOLUSDT": {
+            "n": 1,
+            "net_pnl_brl": -33.01425686486228,
+            "expectancy": -0.19828363194743504
+          }
+        },
+        "by_regime": {},
+        "risk_halted": false
+      }
+    }
+  },
+  "elapsed_seconds": 24.13913313300145,
+  "experiments": [
+    {
+      "id": "001_trend_discovery",
+      "rule": "trend",
+      "period": "discovery",
+      "variant": 0.9,
+      "scenario": {},
+      "metrics": {
+        "trades": 89,
+        "net_return": -0.09764323430110677,
+        "net_pnl_brl": -48.82161715055338,
+        "ending_brl": 451.1783828494466,
+        "max_drawdown": -0.10093878213518992,
+        "profit_factor": 0.393911773998618,
+        "expectancy": -0.0052190500570479526,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 31,
+        "intrabar_ambiguous": 1,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 31,
+            "net_pnl_brl": -9.413224631010856,
+            "expectancy": -0.0026271501152548477
+          },
+          "ETHUSDT": {
+            "n": 27,
+            "net_pnl_brl": -19.772055264478674,
+            "expectancy": -0.006353856705213033
+          },
+          "SOLUSDT": {
+            "n": 31,
+            "net_pnl_brl": -19.636337255064632,
+            "expectancy": -0.006822570014955342
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 3,
+            "net_pnl_brl": -0.6462867139570672,
+            "expectancy": -0.0017311452126264413
+          },
+          "trend_up": {
+            "n": 86,
+            "net_pnl_brl": -48.175330436597086,
+            "expectancy": -0.0053407211562719594
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "002_trend_discovery",
+      "rule": "trend",
+      "period": "discovery",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 90,
+        "net_return": -0.09810190548397335,
+        "net_pnl_brl": -49.05095274198669,
+        "ending_brl": 450.9490472580133,
+        "max_drawdown": -0.10110689328258538,
+        "profit_factor": 0.3802038725759653,
+        "expectancy": -0.005253907809609985,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 31,
+        "intrabar_ambiguous": 1,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 34,
+            "net_pnl_brl": -13.935346996556326,
+            "expectancy": -0.003511256285442039
+          },
+          "ETHUSDT": {
+            "n": 25,
+            "net_pnl_brl": -18.871151064379337,
+            "expectancy": -0.006552507400434326
+          },
+          "SOLUSDT": {
+            "n": 31,
+            "net_pnl_brl": -16.244454681051963,
+            "expectancy": -0.006117945295129396
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 3,
+            "net_pnl_brl": -0.6535834889321759,
+            "expectancy": -0.001759115922015629
+          },
+          "trend_up": {
+            "n": 87,
+            "net_pnl_brl": -48.39736925305546,
+            "expectancy": -0.005374417874699448
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "003_trend_discovery",
+      "rule": "trend",
+      "period": "discovery",
+      "variant": 1.1,
+      "scenario": {},
+      "metrics": {
+        "trades": 87,
+        "net_return": -0.09802363092248989,
+        "net_pnl_brl": -49.011815461244964,
+        "ending_brl": 450.98818453875504,
+        "max_drawdown": -0.10078656038546097,
+        "profit_factor": 0.3449423032087727,
+        "expectancy": -0.005508892716817423,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 27,
+        "intrabar_ambiguous": 1,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 30,
+            "net_pnl_brl": -11.140319800053435,
+            "expectancy": -0.003081880823551424
+          },
+          "ETHUSDT": {
+            "n": 28,
+            "net_pnl_brl": -21.220115045979966,
+            "expectancy": -0.00661451231415664
+          },
+          "SOLUSDT": {
+            "n": 29,
+            "net_pnl_brl": -16.65138061521267,
+            "expectancy": -0.006952099891730592
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 2,
+            "net_pnl_brl": -1.8580478974718393,
+            "expectancy": -0.0076254423612975636
+          },
+          "trend_up": {
+            "n": 85,
+            "net_pnl_brl": -47.153767563774224,
+            "expectancy": -0.005459091548712008
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "004_trend_validation",
+      "rule": "trend",
+      "period": "validation",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 121,
+        "net_return": -0.09412382781329254,
+        "net_pnl_brl": -47.06191390664628,
+        "ending_brl": 452.9380860933537,
+        "max_drawdown": -0.10266158333616104,
+        "profit_factor": 0.474393241220457,
+        "expectancy": -0.0036198699909802227,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 42,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 52,
+            "net_pnl_brl": -20.371753567919523,
+            "expectancy": -0.0034638292097799142
+          },
+          "ETHUSDT": {
+            "n": 35,
+            "net_pnl_brl": -26.776730854490523,
+            "expectancy": -0.006906091395143974
+          },
+          "SOLUSDT": {
+            "n": 34,
+            "net_pnl_brl": 0.08657051576239683,
+            "expectancy": -0.00047564562264741916
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 9,
+            "net_pnl_brl": -2.9385248667724064,
+            "expectancy": -0.004998314030736837
+          },
+          "trend_up": {
+            "n": 112,
+            "net_pnl_brl": -44.123389039875235,
+            "expectancy": -0.0035091021663569226
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "005_trend_retrospective_test",
+      "rule": "trend",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 149,
+        "net_return": -0.09473435767478144,
+        "net_pnl_brl": -47.367178837390725,
+        "ending_brl": 452.6328211626093,
+        "max_drawdown": -0.10139887893896138,
+        "profit_factor": 0.5124000082304238,
+        "expectancy": -0.0026551547196087314,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 52,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 46,
+            "net_pnl_brl": -20.939315973422556,
+            "expectancy": -0.003775828689578155
+          },
+          "ETHUSDT": {
+            "n": 59,
+            "net_pnl_brl": -16.084413253768968,
+            "expectancy": -0.0020810800837470877
+          },
+          "SOLUSDT": {
+            "n": 44,
+            "net_pnl_brl": -10.343449610201507,
+            "expectancy": -0.002253322921818811
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 10,
+            "net_pnl_brl": -5.265878257355725,
+            "expectancy": -0.004751534841098419
+          },
+          "trend_up": {
+            "n": 139,
+            "net_pnl_brl": -42.101300580037304,
+            "expectancy": -0.002504336005832495
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "006_trend_retrospective_test",
+      "rule": "trend",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {
+        "fee": 0.0015,
+        "spread_half": 0.001,
+        "slippage": 0.001,
+        "fill_fraction": 0.5
+      },
+      "metrics": {
+        "trades": 150,
+        "net_return": -0.09872031698087536,
+        "net_pnl_brl": -49.3601584904377,
+        "ending_brl": 450.6398415095623,
+        "max_drawdown": -0.10027517203722658,
+        "profit_factor": 0.2549608575206962,
+        "expectancy": -0.005701553914559505,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 37,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 48,
+            "net_pnl_brl": -19.599340646322744,
+            "expectancy": -0.006878641002760978
+          },
+          "ETHUSDT": {
+            "n": 58,
+            "net_pnl_brl": -17.71750467719577,
+            "expectancy": -0.0051401178348363975
+          },
+          "SOLUSDT": {
+            "n": 44,
+            "net_pnl_brl": -12.043313166918129,
+            "expectancy": -0.005157533741611083
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 9,
+            "net_pnl_brl": -3.687021684974263,
+            "expectancy": -0.007442013015336977
+          },
+          "trend_up": {
+            "n": 141,
+            "net_pnl_brl": -45.673136805462384,
+            "expectancy": -0.0055904607804673255
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "007_pullback_discovery",
+      "rule": "pullback",
+      "period": "discovery",
+      "variant": 0.9,
+      "scenario": {},
+      "metrics": {
+        "trades": 0,
+        "net_return": 0.0,
+        "net_pnl_brl": 0.0,
+        "ending_brl": 500.0,
+        "max_drawdown": 0.0,
+        "profit_factor": null,
+        "expectancy": null,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 0,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {},
+        "by_regime": {},
+        "risk_halted": false
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "008_pullback_discovery",
+      "rule": "pullback",
+      "period": "discovery",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 0,
+        "net_return": 0.0,
+        "net_pnl_brl": 0.0,
+        "ending_brl": 500.0,
+        "max_drawdown": 0.0,
+        "profit_factor": null,
+        "expectancy": null,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 0,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {},
+        "by_regime": {},
+        "risk_halted": false
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "009_pullback_discovery",
+      "rule": "pullback",
+      "period": "discovery",
+      "variant": 1.1,
+      "scenario": {},
+      "metrics": {
+        "trades": 2,
+        "net_return": -0.003325136898743697,
+        "net_pnl_brl": -1.6625684493718609,
+        "ending_brl": 498.33743155062814,
+        "max_drawdown": -0.004100138359835914,
+        "profit_factor": 0.0,
+        "expectancy": -0.0066548932335901145,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 0,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 2,
+            "net_pnl_brl": -1.6625684493719637,
+            "expectancy": -0.0066548932335901145
+          }
+        },
+        "by_regime": {
+          "trend_up": {
+            "n": 2,
+            "net_pnl_brl": -1.6625684493719637,
+            "expectancy": -0.0066548932335901145
+          }
+        },
+        "risk_halted": false
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "010_pullback_validation",
+      "rule": "pullback",
+      "period": "validation",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 2,
+        "net_return": 0.00578201341798934,
+        "net_pnl_brl": 2.8910067089947233,
+        "ending_brl": 502.8910067089947,
+        "max_drawdown": -0.000999899217984268,
+        "profit_factor": null,
+        "expectancy": 0.01155287788912607,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 2,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 1,
+            "net_pnl_brl": 0.6158207484910044,
+            "expectancy": 0.004904268088436757
+          },
+          "SOLUSDT": {
+            "n": 1,
+            "net_pnl_brl": 2.2751859605036864,
+            "expectancy": 0.01820148768981538
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 1,
+            "net_pnl_brl": 2.2751859605036864,
+            "expectancy": 0.01820148768981538
+          },
+          "trend_up": {
+            "n": 1,
+            "net_pnl_brl": 0.6158207484910044,
+            "expectancy": 0.004904268088436757
+          }
+        },
+        "risk_halted": false
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "011_pullback_retrospective_test",
+      "rule": "pullback",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 1,
+        "net_return": -0.004040939411679378,
+        "net_pnl_brl": -2.0204697058396732,
+        "ending_brl": 497.9795302941603,
+        "max_drawdown": -0.004040939411679378,
+        "profit_factor": 0.0,
+        "expectancy": -0.02624905282148644,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 0,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "ETHUSDT": {
+            "n": 1,
+            "net_pnl_brl": -2.0204697058396275,
+            "expectancy": -0.02624905282148644
+          }
+        },
+        "by_regime": {
+          "trend_up": {
+            "n": 1,
+            "net_pnl_brl": -2.0204697058396275,
+            "expectancy": -0.02624905282148644
+          }
+        },
+        "risk_halted": false
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "012_pullback_retrospective_test",
+      "rule": "pullback",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {
+        "fee": 0.0015,
+        "spread_half": 0.001,
+        "slippage": 0.001,
+        "fill_fraction": 0.5
+      },
+      "metrics": {
+        "trades": 1,
+        "net_return": -0.0019907563311284404,
+        "net_pnl_brl": -0.9953781655642047,
+        "ending_brl": 499.0046218344358,
+        "max_drawdown": -0.0019907563311284404,
+        "profit_factor": 0.0,
+        "expectancy": -0.028188985662824923,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 0,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "ETHUSDT": {
+            "n": 1,
+            "net_pnl_brl": -0.995378165564249,
+            "expectancy": -0.028188985662824923
+          }
+        },
+        "by_regime": {
+          "trend_up": {
+            "n": 1,
+            "net_pnl_brl": -0.995378165564249,
+            "expectancy": -0.028188985662824923
+          }
+        },
+        "risk_halted": false
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "013_compression_discovery",
+      "rule": "compression",
+      "period": "discovery",
+      "variant": 0.9,
+      "scenario": {},
+      "metrics": {
+        "trades": 86,
+        "net_return": -0.10052527596227145,
+        "net_pnl_brl": -50.262637981135754,
+        "ending_brl": 449.73736201886425,
+        "max_drawdown": -0.10066922749234652,
+        "profit_factor": 0.34895284005074867,
+        "expectancy": -0.005299204333358583,
+        "ci95_block": [
+          -0.007899190984710926,
+          -0.0035838809139475906
+        ],
+        "ci_familywise": [
+          -0.009908994573141679,
+          -0.002895951398797393
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 25,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 27,
+            "net_pnl_brl": -15.293399659697226,
+            "expectancy": -0.005032862714204308
+          },
+          "ETHUSDT": {
+            "n": 30,
+            "net_pnl_brl": -17.706789387320846,
+            "expectancy": -0.004954036794967605
+          },
+          "SOLUSDT": {
+            "n": 29,
+            "net_pnl_brl": -17.262448934118634,
+            "expectancy": -0.005904247432285989
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 21,
+            "net_pnl_brl": -10.417674549351128,
+            "expectancy": -0.00415624580743812
+          },
+          "range": {
+            "n": 46,
+            "net_pnl_brl": -21.512170581581298,
+            "expectancy": -0.004355598205504587
+          },
+          "trend_up": {
+            "n": 19,
+            "net_pnl_brl": -18.33279285020428,
+            "expectancy": -0.008846994382075085
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "014_compression_discovery",
+      "rule": "compression",
+      "period": "discovery",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 83,
+        "net_return": -0.10008098123861808,
+        "net_pnl_brl": -50.040490619309026,
+        "ending_brl": 449.959509380691,
+        "max_drawdown": -0.1002250038734207,
+        "profit_factor": 0.32097748852119895,
+        "expectancy": -0.005553864086926972,
+        "ci95_block": [
+          -0.00922169233731056,
+          -0.0026318471210183187
+        ],
+        "ci_familywise": [
+          -0.011534832819975676,
+          -0.0008783813472913918
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 23,
+        "intrabar_ambiguous": 2,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 25,
+            "net_pnl_brl": -13.641965301443836,
+            "expectancy": -0.00492109918827509
+          },
+          "ETHUSDT": {
+            "n": 30,
+            "net_pnl_brl": -17.18677874524825,
+            "expectancy": -0.004827434468207073
+          },
+          "SOLUSDT": {
+            "n": 28,
+            "net_pnl_brl": -19.2117465726179,
+            "expectancy": -0.006897150195066044
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 19,
+            "net_pnl_brl": -9.1303762869849,
+            "expectancy": -0.0040164010817701195
+          },
+          "range": {
+            "n": 46,
+            "net_pnl_brl": -23.88286717730799,
+            "expectancy": -0.004942862834948777
+          },
+          "trend_up": {
+            "n": 18,
+            "net_pnl_brl": -17.0272471550171,
+            "expectancy": -0.008738189347425701
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "015_compression_discovery",
+      "rule": "compression",
+      "period": "discovery",
+      "variant": 1.1,
+      "scenario": {},
+      "metrics": {
+        "trades": 86,
+        "net_return": -0.10082497325426576,
+        "net_pnl_brl": -50.412486627132864,
+        "ending_brl": 449.58751337286714,
+        "max_drawdown": -0.10096887682092104,
+        "profit_factor": 0.3396146152643958,
+        "expectancy": -0.005501601645918289,
+        "ci95_block": [
+          -0.009121585059320515,
+          -0.002599294730681473
+        ],
+        "ci_familywise": [
+          -0.01196161133279572,
+          -0.000792082908693535
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 23,
+        "intrabar_ambiguous": 1,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 26,
+            "net_pnl_brl": -16.54605597256862,
+            "expectancy": -0.00574362961527094
+          },
+          "ETHUSDT": {
+            "n": 30,
+            "net_pnl_brl": -16.331359908837047,
+            "expectancy": -0.004583873384696299
+          },
+          "SOLUSDT": {
+            "n": 30,
+            "net_pnl_brl": -17.53507074572855,
+            "expectancy": -0.006209572333701315
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 20,
+            "net_pnl_brl": -9.257349635779892,
+            "expectancy": -0.003919254178554658
+          },
+          "range": {
+            "n": 47,
+            "net_pnl_brl": -22.208848502410845,
+            "expectancy": -0.004575678048892868
+          },
+          "trend_down": {
+            "n": 1,
+            "net_pnl_brl": -0.6668135859092174,
+            "expectancy": -0.005914754942743053
+          },
+          "trend_up": {
+            "n": 18,
+            "net_pnl_brl": -18.279474903034263,
+            "expectancy": -0.009654501929842881
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "016_compression_validation",
+      "rule": "compression",
+      "period": "validation",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 114,
+        "net_return": -0.10037860661795606,
+        "net_pnl_brl": -50.189303308978026,
+        "ending_brl": 449.810696691022,
+        "max_drawdown": -0.10037860661795606,
+        "profit_factor": 0.4087019899838107,
+        "expectancy": -0.00403997918644671,
+        "ci95_block": [
+          -0.005147363741864495,
+          -0.002850642352291611
+        ],
+        "ci_familywise": [
+          -0.00588252380899763,
+          -0.002186274696861456
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 39,
+        "intrabar_ambiguous": 2,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 37,
+            "net_pnl_brl": -13.291855750153305,
+            "expectancy": -0.00301776619229223
+          },
+          "ETHUSDT": {
+            "n": 37,
+            "net_pnl_brl": -15.301123249779433,
+            "expectancy": -0.003656279390180211
+          },
+          "SOLUSDT": {
+            "n": 40,
+            "net_pnl_brl": -21.596324309046505,
+            "expectancy": -0.005340448517586116
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 12,
+            "net_pnl_brl": -7.336263998188246,
+            "expectancy": -0.005503572546762168
+          },
+          "range": {
+            "n": 58,
+            "net_pnl_brl": -27.334029358099468,
+            "expectancy": -0.003975817248867836
+          },
+          "trend_up": {
+            "n": 44,
+            "net_pnl_brl": -15.519009952691528,
+            "expectancy": -0.00372539446044192
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "017_compression_retrospective_test",
+      "rule": "compression",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 119,
+        "net_return": -0.1011906155567539,
+        "net_pnl_brl": -50.595307778376934,
+        "ending_brl": 449.40469222162307,
+        "max_drawdown": -0.10155084951867699,
+        "profit_factor": 0.29364263352275793,
+        "expectancy": -0.0035807935061508843,
+        "ci95_block": [
+          -0.004699341307491591,
+          -0.0024336595746468665
+        ],
+        "ci_familywise": [
+          -0.005559416778153276,
+          -0.0015839425325064147
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 30,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 41,
+            "net_pnl_brl": -20.34896173071411,
+            "expectancy": -0.004183866337851723
+          },
+          "ETHUSDT": {
+            "n": 38,
+            "net_pnl_brl": -7.44039932458129,
+            "expectancy": -0.0017199148323691108
+          },
+          "SOLUSDT": {
+            "n": 40,
+            "net_pnl_brl": -22.80594672308328,
+            "expectancy": -0.004730478593750209
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 24,
+            "net_pnl_brl": -12.859375276888583,
+            "expectancy": -0.004722395463353345
+          },
+          "range": {
+            "n": 71,
+            "net_pnl_brl": -28.6370310003024,
+            "expectancy": -0.0033518546132030513
+          },
+          "trend_up": {
+            "n": 24,
+            "net_pnl_brl": -9.098901501187687,
+            "expectancy": -0.0031164691072524293
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "018_compression_retrospective_test",
+      "rule": "compression",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {
+        "fee": 0.0015,
+        "spread_half": 0.001,
+        "slippage": 0.001,
+        "fill_fraction": 0.5
+      },
+      "metrics": {
+        "trades": 133,
+        "net_return": -0.10065365724963515,
+        "net_pnl_brl": -50.32682862481755,
+        "ending_brl": 449.67317137518245,
+        "max_drawdown": -0.10065365724963515,
+        "profit_factor": 0.1125678937584532,
+        "expectancy": -0.006424620467572828,
+        "ci95_block": [
+          -0.00750088239427331,
+          -0.0052316993737497345
+        ],
+        "ci_familywise": [
+          -0.008252672827510507,
+          -0.004531011698923245
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 22,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 49,
+            "net_pnl_brl": -20.34588654825159,
+            "expectancy": -0.006974602489336383
+          },
+          "ETHUSDT": {
+            "n": 42,
+            "net_pnl_brl": -11.19046385188421,
+            "expectancy": -0.004684343110165988
+          },
+          "SOLUSDT": {
+            "n": 42,
+            "net_pnl_brl": -18.790478224681518,
+            "expectancy": -0.007523252132922186
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 25,
+            "net_pnl_brl": -10.457691338923338,
+            "expectancy": -0.0074196086831257255
+          },
+          "range": {
+            "n": 82,
+            "net_pnl_brl": -31.325761219844804,
+            "expectancy": -0.006387776573791502
+          },
+          "trend_down": {
+            "n": 1,
+            "net_pnl_brl": 0.0006382953594644695,
+            "expectancy": 1.1304737148557968e-05
+          },
+          "trend_up": {
+            "n": 25,
+            "net_pnl_brl": -8.544014361408637,
+            "expectancy": -0.005807917231811534
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "019_breakout_discovery",
+      "rule": "breakout",
+      "period": "discovery",
+      "variant": 0.9,
+      "scenario": {},
+      "metrics": {
+        "trades": 113,
+        "net_return": -0.09410353442261732,
+        "net_pnl_brl": -47.051767211308686,
+        "ending_brl": 452.9482327886913,
+        "max_drawdown": -0.10138337452133961,
+        "profit_factor": 0.4766619549767026,
+        "expectancy": -0.0034788718312689106,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 38,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 43,
+            "net_pnl_brl": -21.162742180329843,
+            "expectancy": -0.0042495442268768195
+          },
+          "ETHUSDT": {
+            "n": 33,
+            "net_pnl_brl": -16.186202342748317,
+            "expectancy": -0.0037537851333165574
+          },
+          "SOLUSDT": {
+            "n": 37,
+            "net_pnl_brl": -9.702822688231446,
+            "expectancy": -0.0023380325886010085
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 22,
+            "net_pnl_brl": -7.5154344000120235,
+            "expectancy": -0.002453428544290206
+          },
+          "range": {
+            "n": 59,
+            "net_pnl_brl": -26.485119365588954,
+            "expectancy": -0.0037924553445270307
+          },
+          "trend_up": {
+            "n": 32,
+            "net_pnl_brl": -13.05121344570863,
+            "expectancy": -0.0036056944884971117
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "020_breakout_discovery",
+      "rule": "breakout",
+      "period": "discovery",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 108,
+        "net_return": -0.0957376376597322,
+        "net_pnl_brl": -47.868818829866086,
+        "ending_brl": 452.1311811701339,
+        "max_drawdown": -0.1021476843949839,
+        "profit_factor": 0.4477193345382954,
+        "expectancy": -0.0038513747195213044,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 36,
+        "intrabar_ambiguous": 2,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 40,
+            "net_pnl_brl": -22.82606626829821,
+            "expectancy": -0.005038752492755959
+          },
+          "ETHUSDT": {
+            "n": 33,
+            "net_pnl_brl": -14.181982151772427,
+            "expectancy": -0.003196131963310346
+          },
+          "SOLUSDT": {
+            "n": 35,
+            "net_pnl_brl": -10.860770409796785,
+            "expectancy": -0.0031121718631091735
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 19,
+            "net_pnl_brl": -6.391948240886483,
+            "expectancy": -0.002369723717808214
+          },
+          "range": {
+            "n": 56,
+            "net_pnl_brl": -25.864577828242062,
+            "expectancy": -0.003855120498897769
+          },
+          "trend_up": {
+            "n": 33,
+            "net_pnl_brl": -15.612292760738878,
+            "expectancy": -0.00469809003429302
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "021_breakout_discovery",
+      "rule": "breakout",
+      "period": "discovery",
+      "variant": 1.1,
+      "scenario": {},
+      "metrics": {
+        "trades": 107,
+        "net_return": -0.09640953148895903,
+        "net_pnl_brl": -48.204765744479516,
+        "ending_brl": 451.7952342555205,
+        "max_drawdown": -0.10216281301292174,
+        "profit_factor": 0.44692922191822737,
+        "expectancy": -0.00406013652396316,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 36,
+        "intrabar_ambiguous": 1,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 39,
+            "net_pnl_brl": -20.55964108692318,
+            "expectancy": -0.004778984790926337
+          },
+          "ETHUSDT": {
+            "n": 33,
+            "net_pnl_brl": -14.853329474109657,
+            "expectancy": -0.0033085499589090395
+          },
+          "SOLUSDT": {
+            "n": 35,
+            "net_pnl_brl": -12.79179518344826,
+            "expectancy": -0.003967772930683795
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 19,
+            "net_pnl_brl": -5.7008496719973945,
+            "expectancy": -0.001996867662544695
+          },
+          "range": {
+            "n": 55,
+            "net_pnl_brl": -26.698530553975715,
+            "expectancy": -0.00416581172047274
+          },
+          "trend_up": {
+            "n": 33,
+            "net_pnl_brl": -15.805385518507979,
+            "expectancy": -0.005071953874233586
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "022_breakout_validation",
+      "rule": "breakout",
+      "period": "validation",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 144,
+        "net_return": -0.09300317537419012,
+        "net_pnl_brl": -46.50158768709508,
+        "ending_brl": 453.4984123129049,
+        "max_drawdown": -0.10305675850734919,
+        "profit_factor": 0.5324782762065652,
+        "expectancy": -0.0028644409972773785,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 58,
+        "intrabar_ambiguous": 1,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 55,
+            "net_pnl_brl": -21.097967288026535,
+            "expectancy": -0.0031250632021128945
+          },
+          "ETHUSDT": {
+            "n": 43,
+            "net_pnl_brl": -8.18293058012881,
+            "expectancy": -0.0016511458837547765
+          },
+          "SOLUSDT": {
+            "n": 46,
+            "net_pnl_brl": -17.220689818940997,
+            "expectancy": -0.0036869946628321276
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 22,
+            "net_pnl_brl": -13.395469839715158,
+            "expectancy": -0.006367893828866775
+          },
+          "range": {
+            "n": 62,
+            "net_pnl_brl": -25.705915275463695,
+            "expectancy": -0.00345439153796227
+          },
+          "trend_up": {
+            "n": 60,
+            "net_pnl_brl": -7.400202571917488,
+            "expectancy": -0.0009702260669868784
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "023_breakout_retrospective_test",
+      "rule": "breakout",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 98,
+        "net_return": -0.09587168916860211,
+        "net_pnl_brl": -47.93584458430104,
+        "ending_brl": 452.06415541569896,
+        "max_drawdown": -0.10106630901336389,
+        "profit_factor": 0.25690795263336363,
+        "expectancy": -0.004205629385051287,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 27,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 39,
+            "net_pnl_brl": -12.995709977013,
+            "expectancy": -0.0027808940638049534
+          },
+          "ETHUSDT": {
+            "n": 32,
+            "net_pnl_brl": -18.759717745057472,
+            "expectancy": -0.005250156019347311
+          },
+          "SOLUSDT": {
+            "n": 27,
+            "net_pnl_brl": -16.18041686223211,
+            "expectancy": -0.005025622912130329
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 25,
+            "net_pnl_brl": -4.471951502849667,
+            "expectancy": -0.00164107166492645
+          },
+          "range": {
+            "n": 46,
+            "net_pnl_brl": -24.753828767329203,
+            "expectancy": -0.004544745285331566
+          },
+          "trend_up": {
+            "n": 27,
+            "net_pnl_brl": -18.710064314123713,
+            "expectancy": -0.0060024668513560305
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "024_breakout_retrospective_test",
+      "rule": "breakout",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {
+        "fee": 0.0015,
+        "spread_half": 0.001,
+        "slippage": 0.001,
+        "fill_fraction": 0.5
+      },
+      "metrics": {
+        "trades": 137,
+        "net_return": -0.10067381342821224,
+        "net_pnl_brl": -50.336906714106135,
+        "ending_brl": 449.66309328589386,
+        "max_drawdown": -0.10067381342821224,
+        "profit_factor": 0.15725845699148935,
+        "expectancy": -0.0062361474545816874,
+        "ci95_block": null,
+        "ci_familywise": null,
+        "p_adjusted_bootstrap": null,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 31,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 52,
+            "net_pnl_brl": -18.686751699172266,
+            "expectancy": -0.006066699538994423
+          },
+          "ETHUSDT": {
+            "n": 48,
+            "net_pnl_brl": -16.992713307493037,
+            "expectancy": -0.006258755563756369
+          },
+          "SOLUSDT": {
+            "n": 37,
+            "net_pnl_brl": -14.657441707441132,
+            "expectancy": -0.006444961032153388
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 30,
+            "net_pnl_brl": -9.45216715735085,
+            "expectancy": -0.005444001212495511
+          },
+          "range": {
+            "n": 67,
+            "net_pnl_brl": -23.950457414003242,
+            "expectancy": -0.005881706137709154
+          },
+          "trend_up": {
+            "n": 40,
+            "net_pnl_brl": -16.934282142752338,
+            "expectancy": -0.00742394634190781
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "025_mean_regime_discovery",
+      "rule": "mean_regime",
+      "period": "discovery",
+      "variant": 0.9,
+      "scenario": {},
+      "metrics": {
+        "trades": 112,
+        "net_return": -0.10013273623943464,
+        "net_pnl_brl": -50.06636811971731,
+        "ending_brl": 449.9336318802827,
+        "max_drawdown": -0.10013273623943464,
+        "profit_factor": 0.3716911977470435,
+        "expectancy": -0.0038430391230320116,
+        "ci95_block": [
+          -0.0054685937441385606,
+          -0.0020888266877783445
+        ],
+        "ci_familywise": [
+          -0.006615416518679885,
+          -0.0007802988614864796
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 33,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 31,
+            "net_pnl_brl": -10.663403785229297,
+            "expectancy": -0.002881349082045825
+          },
+          "ETHUSDT": {
+            "n": 42,
+            "net_pnl_brl": -26.592717464324135,
+            "expectancy": -0.005250400440552373
+          },
+          "SOLUSDT": {
+            "n": 39,
+            "net_pnl_brl": -12.8102468701659,
+            "expectancy": -0.003091839531614489
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 112,
+            "net_pnl_brl": -50.06636811971934,
+            "expectancy": -0.0038430391230320116
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "026_mean_regime_discovery",
+      "rule": "mean_regime",
+      "period": "discovery",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 97,
+        "net_return": -0.10304747291642058,
+        "net_pnl_brl": -51.523736458210294,
+        "ending_brl": 448.4762635417897,
+        "max_drawdown": -0.10304747291642058,
+        "profit_factor": 0.29411757622659285,
+        "expectancy": -0.004573581198980493,
+        "ci95_block": [
+          -0.006225093989748124,
+          -0.0028217512178106423
+        ],
+        "ci_familywise": [
+          -0.0074261532752365415,
+          -0.0017723015216854036
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 27,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 26,
+            "net_pnl_brl": -9.421669250180535,
+            "expectancy": -0.0030920007860449007
+          },
+          "ETHUSDT": {
+            "n": 38,
+            "net_pnl_brl": -23.911145393214415,
+            "expectancy": -0.00513675597765164
+          },
+          "SOLUSDT": {
+            "n": 33,
+            "net_pnl_brl": -18.190921814817095,
+            "expectancy": -0.005092382688278125
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 97,
+            "net_pnl_brl": -51.52373645821204,
+            "expectancy": -0.004573581198980493
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "027_mean_regime_discovery",
+      "rule": "mean_regime",
+      "period": "discovery",
+      "variant": 1.1,
+      "scenario": {},
+      "metrics": {
+        "trades": 96,
+        "net_return": -0.10109306879866964,
+        "net_pnl_brl": -50.5465343993348,
+        "ending_brl": 449.4534656006652,
+        "max_drawdown": -0.10109306879866964,
+        "profit_factor": 0.2906692516397908,
+        "expectancy": -0.0043540907083890554,
+        "ci95_block": [
+          -0.005976791742977344,
+          -0.002492939524678709
+        ],
+        "ci_familywise": [
+          -0.00743475924656699,
+          -0.0012214428483589028
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 29,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 26,
+            "net_pnl_brl": -7.99012211685444,
+            "expectancy": -0.0026368066559550327
+          },
+          "ETHUSDT": {
+            "n": 37,
+            "net_pnl_brl": -23.47951731993502,
+            "expectancy": -0.005198377054615941
+          },
+          "SOLUSDT": {
+            "n": 33,
+            "net_pnl_brl": -19.07689496254681,
+            "expectancy": -0.004760478300900868
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 96,
+            "net_pnl_brl": -50.54653439933627,
+            "expectancy": -0.0043540907083890554
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "028_mean_regime_validation",
+      "rule": "mean_regime",
+      "period": "validation",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 99,
+        "net_return": -0.09562622554004296,
+        "net_pnl_brl": -47.81311277002146,
+        "ending_brl": 452.18688722997854,
+        "max_drawdown": -0.10047424678445005,
+        "profit_factor": 0.31659815044633133,
+        "expectancy": -0.0042515981122477516,
+        "ci95_block": [
+          -0.006833899932826841,
+          -0.001990454928530641
+        ],
+        "ci_familywise": [
+          -0.008962757681134045,
+          -0.0005322592255621218
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 30,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 41,
+            "net_pnl_brl": -13.772499919962762,
+            "expectancy": -0.002855159075165537
+          },
+          "ETHUSDT": {
+            "n": 30,
+            "net_pnl_brl": -18.491138124416846,
+            "expectancy": -0.005413908604703821
+          },
+          "SOLUSDT": {
+            "n": 28,
+            "net_pnl_brl": -15.549474725643135,
+            "expectancy": -0.005051051174629491
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 99,
+            "net_pnl_brl": -47.813112770022755,
+            "expectancy": -0.0042515981122477516
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "029_mean_regime_retrospective_test",
+      "rule": "mean_regime",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 118,
+        "net_return": -0.09770181272250555,
+        "net_pnl_brl": -48.85090636125278,
+        "ending_brl": 451.1490936387472,
+        "max_drawdown": -0.09770181272250555,
+        "profit_factor": 0.3367958435784293,
+        "expectancy": -0.0037044742227808894,
+        "ci95_block": [
+          -0.005081021585866665,
+          -0.0023127312287174063
+        ],
+        "ci_familywise": [
+          -0.005828825703952029,
+          -0.001289011398915269
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 39,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 37,
+            "net_pnl_brl": -17.371805937884623,
+            "expectancy": -0.0040521665181639955
+          },
+          "ETHUSDT": {
+            "n": 37,
+            "net_pnl_brl": -17.877132523840324,
+            "expectancy": -0.004558233972042876
+          },
+          "SOLUSDT": {
+            "n": 44,
+            "net_pnl_brl": -13.601967899529857,
+            "expectancy": -0.002694162276147515
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 118,
+            "net_pnl_brl": -48.85090636125479,
+            "expectancy": -0.0037044742227808894
+          }
+        },
+        "risk_halted": false
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "030_mean_regime_retrospective_test",
+      "rule": "mean_regime",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {
+        "fee": 0.0015,
+        "spread_half": 0.001,
+        "slippage": 0.001,
+        "fill_fraction": 0.5
+      },
+      "metrics": {
+        "trades": 120,
+        "net_return": -0.0883278644734613,
+        "net_pnl_brl": -44.16393223673066,
+        "ending_brl": 455.83606776326934,
+        "max_drawdown": -0.0883278644734613,
+        "profit_factor": 0.12865079176739977,
+        "expectancy": -0.006700072969545362,
+        "ci95_block": [
+          -0.008052065124887008,
+          -0.00533634936516531
+        ],
+        "ci_familywise": [
+          -0.008797750896520183,
+          -0.004312484165891928
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 27,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 37,
+            "net_pnl_brl": -14.962666273989715,
+            "expectancy": -0.007042050200020369
+          },
+          "ETHUSDT": {
+            "n": 37,
+            "net_pnl_brl": -14.647830963862887,
+            "expectancy": -0.0075468537477063865
+          },
+          "SOLUSDT": {
+            "n": 46,
+            "net_pnl_brl": -14.55343499887831,
+            "expectancy": -0.005743898049555509
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 120,
+            "net_pnl_brl": -44.163932236730915,
+            "expectancy": -0.006700072969545362
+          }
+        },
+        "risk_halted": false
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "031_range_discovery",
+      "rule": "range",
+      "period": "discovery",
+      "variant": 0.9,
+      "scenario": {},
+      "metrics": {
+        "trades": 108,
+        "net_return": -0.09659186683079668,
+        "net_pnl_brl": -48.29593341539834,
+        "ending_brl": 451.70406658460166,
+        "max_drawdown": -0.10148096465038359,
+        "profit_factor": 0.40206802227461,
+        "expectancy": -0.003889255119062041,
+        "ci95_block": [
+          -0.005237231213427144,
+          -0.00273683431316542
+        ],
+        "ci_familywise": [
+          -0.006310913956040973,
+          -0.0020037502236225713
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 35,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 32,
+            "net_pnl_brl": -15.281835071257065,
+            "expectancy": -0.004410847793322712
+          },
+          "ETHUSDT": {
+            "n": 39,
+            "net_pnl_brl": -22.56419867110632,
+            "expectancy": -0.004803723879786735
+          },
+          "SOLUSDT": {
+            "n": 37,
+            "net_pnl_brl": -10.449899673036391,
+            "expectancy": -0.002474248436775433
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 108,
+            "net_pnl_brl": -48.29593341539977,
+            "expectancy": -0.003889255119062041
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "032_range_discovery",
+      "rule": "range",
+      "period": "discovery",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 100,
+        "net_return": -0.09575920706376517,
+        "net_pnl_brl": -47.879603531882594,
+        "ending_brl": 452.1203964681174,
+        "max_drawdown": -0.10018530540624693,
+        "profit_factor": 0.38284961163090026,
+        "expectancy": -0.00415527895660943,
+        "ci95_block": [
+          -0.005741429546988117,
+          -0.0028972278128276217
+        ],
+        "ci_familywise": [
+          -0.007282381155049166,
+          -0.002179925340861777
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 33,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 29,
+            "net_pnl_brl": -13.975655206103713,
+            "expectancy": -0.004562837159531346
+          },
+          "ETHUSDT": {
+            "n": 35,
+            "net_pnl_brl": -21.04915142165915,
+            "expectancy": -0.004986707939020741
+          },
+          "SOLUSDT": {
+            "n": 36,
+            "net_pnl_brl": -12.854796904121113,
+            "expectancy": -0.003018634449133556
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 100,
+            "net_pnl_brl": -47.87960353188399,
+            "expectancy": -0.00415527895660943
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "033_range_discovery",
+      "rule": "range",
+      "period": "discovery",
+      "variant": 1.1,
+      "scenario": {},
+      "metrics": {
+        "trades": 123,
+        "net_return": -0.09662195791721728,
+        "net_pnl_brl": -48.31097895860864,
+        "ending_brl": 451.68902104139136,
+        "max_drawdown": -0.1006438946720235,
+        "profit_factor": 0.41032870977320396,
+        "expectancy": -0.003247586234422227,
+        "ci95_block": [
+          -0.004421598665730723,
+          -0.002033366849451514
+        ],
+        "ci_familywise": [
+          -0.005479947119741581,
+          -0.0013721034177368496
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 40,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 32,
+            "net_pnl_brl": -15.934252962445377,
+            "expectancy": -0.004773385519715962
+          },
+          "ETHUSDT": {
+            "n": 38,
+            "net_pnl_brl": -19.88640453291085,
+            "expectancy": -0.0042282024332132295
+          },
+          "SOLUSDT": {
+            "n": 53,
+            "net_pnl_brl": -12.490321463254231,
+            "expectancy": -0.0016232656177532173
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 123,
+            "net_pnl_brl": -48.310978958610455,
+            "expectancy": -0.003247586234422227
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "034_range_validation",
+      "rule": "range",
+      "period": "validation",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 108,
+        "net_return": -0.09867644838269019,
+        "net_pnl_brl": -49.33822419134509,
+        "ending_brl": 450.6617758086549,
+        "max_drawdown": -0.10022617493692265,
+        "profit_factor": 0.2810138903979369,
+        "expectancy": -0.0036256699531354037,
+        "ci95_block": [
+          -0.004598220582633452,
+          -0.0027492460645962874
+        ],
+        "ci_familywise": [
+          -0.005288902074415593,
+          -0.002062062487088091
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 34,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 37,
+            "net_pnl_brl": -19.2977129894755,
+            "expectancy": -0.0043112812204197624
+          },
+          "ETHUSDT": {
+            "n": 34,
+            "net_pnl_brl": -16.468780921977313,
+            "expectancy": -0.003942618337143943
+          },
+          "SOLUSDT": {
+            "n": 37,
+            "net_pnl_brl": -13.57173027989369,
+            "expectancy": -0.00264880881946482
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 108,
+            "net_pnl_brl": -49.338224191346505,
+            "expectancy": -0.0036256699531354037
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "035_range_retrospective_test",
+      "rule": "range",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {},
+      "metrics": {
+        "trades": 119,
+        "net_return": -0.10141123575167643,
+        "net_pnl_brl": -50.70561787583824,
+        "ending_brl": 449.29438212416176,
+        "max_drawdown": -0.10141123575167643,
+        "profit_factor": 0.1822113950126225,
+        "expectancy": -0.0035706873065096713,
+        "ci95_block": [
+          -0.004816846142552453,
+          -0.0017136658556251635
+        ],
+        "ci_familywise": [
+          -0.005247412441749584,
+          -0.0009832612814221302
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 29,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 45,
+            "net_pnl_brl": -17.698642621637404,
+            "expectancy": -0.003335502022675696
+          },
+          "ETHUSDT": {
+            "n": 39,
+            "net_pnl_brl": -21.36470271907573,
+            "expectancy": -0.004656804412825039
+          },
+          "SOLUSDT": {
+            "n": 35,
+            "net_pnl_brl": -11.64227253512684,
+            "expectancy": -0.0026628236101162274
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 119,
+            "net_pnl_brl": -50.70561787583999,
+            "expectancy": -0.0035706873065096713
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "036_range_retrospective_test",
+      "rule": "range",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {
+        "fee": 0.0015,
+        "spread_half": 0.001,
+        "slippage": 0.001,
+        "fill_fraction": 0.5
+      },
+      "metrics": {
+        "trades": 127,
+        "net_return": -0.10052569879568785,
+        "net_pnl_brl": -50.26284939784392,
+        "ending_brl": 449.7371506021561,
+        "max_drawdown": -0.10052569879568785,
+        "profit_factor": 0.047727947237035044,
+        "expectancy": -0.006701530274660066,
+        "ci95_block": [
+          -0.007901277364781304,
+          -0.005065356472176047
+        ],
+        "ci_familywise": [
+          -0.00830294017052011,
+          -0.003999478215125986
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 12,
+        "intrabar_ambiguous": 1,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 46,
+            "net_pnl_brl": -17.95060869865891,
+            "expectancy": -0.0066318156020398825
+          },
+          "ETHUSDT": {
+            "n": 40,
+            "net_pnl_brl": -18.556104232534032,
+            "expectancy": -0.007972327253201694
+          },
+          "SOLUSDT": {
+            "n": 41,
+            "net_pnl_brl": -13.756136466651316,
+            "expectancy": -0.005539944806339663
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 127,
+            "net_pnl_brl": -50.26284939784426,
+            "expectancy": -0.006701530274660066
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "037_random_discovery",
+      "rule": "random",
+      "period": "discovery",
+      "variant": 1.0,
+      "scenario": {
+        "random_seed": 20261009
+      },
+      "metrics": {
+        "trades": 103,
+        "net_return": -0.09641977423095571,
+        "net_pnl_brl": -48.20988711547784,
+        "ending_brl": 451.79011288452216,
+        "max_drawdown": -0.1011017835426622,
+        "profit_factor": 0.38786167954830747,
+        "expectancy": -0.0037501479143782694,
+        "ci95_block": [
+          -0.0063158531518881225,
+          -0.0013071501266510672
+        ],
+        "ci_familywise": [
+          -0.007693400220345488,
+          0.0007039203511706163
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 35,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 52,
+            "net_pnl_brl": -27.738917647013015,
+            "expectancy": -0.004461230649951671
+          },
+          "ETHUSDT": {
+            "n": 51,
+            "net_pnl_brl": -20.470969468466155,
+            "expectancy": -0.0030251223800681353
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 49,
+            "net_pnl_brl": -25.564745259591295,
+            "expectancy": -0.004401102471285234
+          },
+          "trend_down": {
+            "n": 25,
+            "net_pnl_brl": -16.650336583813097,
+            "expectancy": -0.004632112707184819
+          },
+          "trend_up": {
+            "n": 29,
+            "net_pnl_brl": -5.994805272074776,
+            "expectancy": -0.0018899447037367153
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    },
+    {
+      "id": "038_random_validation",
+      "rule": "random",
+      "period": "validation",
+      "variant": 1.0,
+      "scenario": {
+        "random_seed": 20261009
+      },
+      "metrics": {
+        "trades": 96,
+        "net_return": -0.1010589118911338,
+        "net_pnl_brl": -50.529455945566895,
+        "ending_brl": 449.4705440544331,
+        "max_drawdown": -0.1010589118911338,
+        "profit_factor": 0.30272386385838446,
+        "expectancy": -0.004670912668870843,
+        "ci95_block": [
+          -0.0072445641939459906,
+          -0.002964502438213729
+        ],
+        "ci_familywise": [
+          -0.010096559572526476,
+          -0.0023859923605571163
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 26,
+        "intrabar_ambiguous": 1,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 47,
+            "net_pnl_brl": -25.515060713928804,
+            "expectancy": -0.004616327475806433
+          },
+          "ETHUSDT": {
+            "n": 49,
+            "net_pnl_brl": -25.014395231639494,
+            "expectancy": -0.004723269894871399
+          }
+        },
+        "by_regime": {
+          "range": {
+            "n": 49,
+            "net_pnl_brl": -29.142822923291558,
+            "expectancy": -0.0051335310492394435
+          },
+          "trend_down": {
+            "n": 20,
+            "net_pnl_brl": -11.660255073434703,
+            "expectancy": -0.005144178504848171
+          },
+          "trend_up": {
+            "n": 27,
+            "net_pnl_brl": -9.726377948842039,
+            "expectancy": -0.0034807786926631407
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "INCONCLUSIVO"
+    },
+    {
+      "id": "039_random_retrospective_test",
+      "rule": "random",
+      "period": "retrospective_test",
+      "variant": 1.0,
+      "scenario": {
+        "random_seed": 20261009
+      },
+      "metrics": {
+        "trades": 134,
+        "net_return": -0.10016795803731637,
+        "net_pnl_brl": -50.08397901865817,
+        "ending_brl": 449.91602098134183,
+        "max_drawdown": -0.10016795803731637,
+        "profit_factor": 0.3414814362538226,
+        "expectancy": -0.0033049358208432212,
+        "ci95_block": [
+          -0.004947760999759694,
+          -0.0017096032303411952
+        ],
+        "ci_familywise": [
+          -0.0061700143818231,
+          -0.0006154050657362924
+        ],
+        "p_adjusted_bootstrap": 1,
+        "bootstrap_block_days": 7,
+        "confidence_rule": "IC indisponivel se menos de 28 dias calendarios ou 8 dias com negocios",
+        "wins": 45,
+        "intrabar_ambiguous": 0,
+        "by_symbol": {
+          "BTCUSDT": {
+            "n": 67,
+            "net_pnl_brl": -28.89884798128044,
+            "expectancy": -0.003617787293510501
+          },
+          "ETHUSDT": {
+            "n": 67,
+            "net_pnl_brl": -21.185131037379453,
+            "expectancy": -0.0029920843481759424
+          }
+        },
+        "by_regime": {
+          "anomaly": {
+            "n": 5,
+            "net_pnl_brl": -0.47331135020350545,
+            "expectancy": -0.0009406403398205031
+          },
+          "range": {
+            "n": 71,
+            "net_pnl_brl": -22.197798781114397,
+            "expectancy": -0.002599603385378588
+          },
+          "trend_down": {
+            "n": 35,
+            "net_pnl_brl": -21.761618925288438,
+            "expectancy": -0.005874410948445782
+          },
+          "trend_up": {
+            "n": 23,
+            "net_pnl_brl": -5.651249962053553,
+            "expectancy": -0.002086172814626395
+          }
+        },
+        "risk_halted": true
+      },
+      "status": "REJEITADA"
+    }
+  ],
+  "models": [
+    {
+      "fold": 0,
+      "begin": "2025-01-01",
+      "end": "2025-04-01",
+      "fit_rows": 20000,
+      "calibration_rows": 5000,
+      "test_rows": 10000,
+      "fit_label_end_max": 1729360019999,
+      "calibration_first": 1734185759999,
+      "calibration_label_end_max": 1735687019999,
+      "test_first": 1735689659999,
+      "test_label_end_max": 1738691219999,
+      "brier": 0.08347042116328848,
+      "null_brier": 0.09279696250000001,
+      "multiclass_log_loss": 0.7504020730441545,
+      "predictive_candidates": 0,
+      "model_sha256": "88a5daeef83868d937fe2dcb938f3ef6a8cb4d41ed1f52ee6d2ec4adce07efa4",
+      "status": "INCONCLUSIVE_PREDICTIVE_ONLY",
+      "activation": null
+    },
+    {
+      "fold": 1,
+      "begin": "2025-04-01",
+      "end": "2025-07-01",
+      "fit_rows": 20000,
+      "calibration_rows": 5000,
+      "test_rows": 10000,
+      "fit_label_end_max": 1735580819999,
+      "calibration_first": 1741961759999,
+      "calibration_label_end_max": 1743463019999,
+      "test_first": 1743465659999,
+      "test_label_end_max": 1746467219999,
+      "brier": 0.06789285973710538,
+      "null_brier": 0.07103026999999999,
+      "multiclass_log_loss": 0.7239320998137857,
+      "predictive_candidates": 0,
+      "model_sha256": "e8fde55b0df372c9e62efc7c187ed7ef608776def341167f5ddea53196f48968",
+      "status": "INCONCLUSIVE_PREDICTIVE_ONLY",
+      "activation": null
+    },
+    {
+      "fold": 2,
+      "begin": "2025-07-01",
+      "end": "2026-01-01",
+      "fit_rows": 20000,
+      "calibration_rows": 5000,
+      "test_rows": 10000,
+      "fit_label_end_max": 1741870019999,
+      "calibration_first": 1749824159999,
+      "calibration_label_end_max": 1751325419999,
+      "test_first": 1751328059999,
+      "test_label_end_max": 1754329619999,
+      "brier": 0.052268769073726955,
+      "null_brier": 0.05683271249999998,
+      "multiclass_log_loss": 0.676501952586258,
+      "predictive_candidates": 7,
+      "model_sha256": "d145f3c4cb2958a57abaf97e722abd3bc6116a116f3cb8037ce928f2cf86617a",
+      "status": "INCONCLUSIVE_PREDICTIVE_ONLY",
+      "activation": null
+    }
+  ],
+  "experiments_completed": 39,
+  "audit": {
+    "arithmetic_valid": true,
+    "errors": [],
+    "verification": "Independent cash, fees, drawdown, model hashes and temporal purge check"
+  },
+  "artifact_hashes": {
+    "038_random_validation_trades.parquet": "41c3cd13bb0fb5295aaf8108539616cbe72130b7245f072f3748833ca25fcf4c",
+    "017_compression_retrospective_test_trades.parquet": "39d8b05a0b4330094bf7e0bb8d9caff5a47fa6e72f8b1bc2a6eff8b3b3cbd917",
+    "019_breakout_discovery_trades.parquet": "ff7c0b039b8d1d82317718ae8dc8b53cb59e0488f2116e7025add4bc8695923a",
+    "034_range_validation_trades.parquet": "4212be2d9bfa124b04ea1359f6c48b571453b91927ca4fa3c627613c3a4ea207",
+    "018_compression_retrospective_test_equity.parquet": "66f9cdff4e999816b0464ded280faea13fb2b1c7458d98dc1a4fc6acbf92ae27",
+    "logistic_30m_fold0.joblib": "88a5daeef83868d937fe2dcb938f3ef6a8cb4d41ed1f52ee6d2ec4adce07efa4",
+    "031_range_discovery_equity.parquet": "2272ff7c3be1b1e621355f1a5793d47e653ec43ae680c6ebb8946002195eee6f",
+    "020_breakout_discovery_equity.parquet": "4b067ca0cf6dd614f8a41ce8132f1d4d356d62bb39239c13eab039b3c0578a79",
+    "018_compression_retrospective_test_trades.parquet": "2e6303b74301f7acc588387ce83bac3d59d787966a61b2bbb2e93ed636439383",
+    "004_trend_validation_trades.parquet": "5b492d007adaeeeb5e6c9cfb48f7ddff39d9dbf5e9c199ddbd31d463315de9cc",
+    "028_mean_regime_validation_equity.parquet": "c281c735a193b53f197ea4aa20a7bc9e730ea83d74be9a679f13cb61a882041a",
+    "009_pullback_discovery_trades.parquet": "0c4649405c79e6f606091eb41e37a0fecd6b7bc2a01743b78496289989ba4741",
+    "010_pullback_validation_equity.parquet": "8a49847f52a9d1c6ada7c7119a24574e66727d446ceefb29b97442e72f05c4c1",
+    "035_range_retrospective_test_equity.parquet": "2ed08f20d82d67620eba7415d2d104e9da882a0c2dd5fc51519a36ff14787d6f",
+    "021_breakout_discovery_equity.parquet": "37585700c07d6fe6b389368b5ca8be8debf14ace98fcb293782f344f6f95cbce",
+    "027_mean_regime_discovery_equity.parquet": "041b7b1354ce58835bc5945b4af9013afb97ffb7f5cd34b91ff96decea215ff7",
+    "003_trend_discovery_trades.parquet": "0b3f15403534d8a6bcdeff130369161791b97de0529bf3ebe2dc5c67bfc23615",
+    "017_compression_retrospective_test_equity.parquet": "75c95237107325c1b0ca8bad4a68f34e23b3794d8b93421ac08ae41435d9a7f3",
+    "logistic_30m_fold1_predictions.parquet": "a80540fdc9c7fea7ac45c677eb41afec26a728c2f45fab77d11f20a91a93ec3b",
+    "022_breakout_validation_trades.parquet": "840cd72acdddb19f8f5c001700a988c5c26aebe66c7a51d35dddda6b2412d0c5",
+    "028_mean_regime_validation_trades.parquet": "5605bce16585b3bcd2d22ef08379828e4d85ea0c1adbac2b62a1478385c4a861",
+    "010_pullback_validation_trades.parquet": "39f1574427cfffece05fb7b87b49b9cbee3ada0f83f78a01ed40c321e71f0d5e",
+    "036_range_retrospective_test_trades.parquet": "4187ba862f0aaa38c261bdbb0c13fc3b4c4a9cebb5ffb7d29bf36a21d502cf0a",
+    "016_compression_validation_equity.parquet": "55bad562e473bf9e6a0bc5573761945ca065251efa5c24c194c1a195a9fbea99",
+    "030_mean_regime_retrospective_test_trades.parquet": "ed6d01f9f98250aac023b47a3d52bd077f71e1e62b87cfe04d0ef9950b7e9521",
+    "023_breakout_retrospective_test_trades.parquet": "71bcb3ecbc54d5115b31b91a8c4696601beb90d6580434bc9afbffe8a637f762",
+    "026_mean_regime_discovery_equity.parquet": "b2082dff379b574060bbc7f2896f1e4e590fc2bcaf3c89b348fa0d00c635069f",
+    "033_range_discovery_trades.parquet": "f585bac697b2fd79ba61a46905a56c9082feedf7722f6aa2556e9a6aa64b0385",
+    "008_pullback_discovery_equity.parquet": "d0f81a9d2326fbcef02cac2d9331ba76d818c3c13ed12d15f18c7d539ab32c3f",
+    "025_mean_regime_discovery_equity.parquet": "ddbb982333def04227c711763c69fa96bf40556b0594099467d8acb96b1fb6d9",
+    "022_breakout_validation_equity.parquet": "e016f4f2e6114574b2c9e2ddfba713a2a0dd4e28d1a336335227e0561a97d59a",
+    "007_pullback_discovery_trades.parquet": "74c2ffa7bea3077c928dc76c593eef3efb6c933da14a442e2432fb8276e30b24",
+    "024_breakout_retrospective_test_equity.parquet": "cd3ab6e2f5838bcb8bff72e12071044ec8f52517384dbe04e715f87dda54a583",
+    "019_breakout_discovery_equity.parquet": "904d047a3b3b5be305dc0ec692f4bf45e760d49653be3be372bad6d066f059e0",
+    "021_breakout_discovery_trades.parquet": "3e9fa568c7cbfd9b6f97f2e1a35e47aab854f360b82d616b38ab064f2ffc1db6",
+    "029_mean_regime_retrospective_test_equity.parquet": "dc1da2a804b516ba99719ce68ee09c64d4a8f38f803045d3e0439adc8dee71b9",
+    "034_range_validation_equity.parquet": "c7a2e33767c699e721574f238b06ab7444e7e97f29439440d1570d5b012e8e65",
+    "011_pullback_retrospective_test_trades.parquet": "8e6b738376c527f656ea7e034ce900c0355d068c998055de652f2ef5638f76bb",
+    "006_trend_retrospective_test_trades.parquet": "baea2addc910677079361d8763aa8cee7617817df9fe2870cc953b65357ca6ab",
+    "020_breakout_discovery_trades.parquet": "86a4010f433df81885b2c4ab1dba5159fb92f61797ac1b1de6520a830d3a4d90",
+    "005_trend_retrospective_test_trades.parquet": "98c86f999ee05320044af6d8741c0a7ffc4deada199fdd41a1741285216c0dd3",
+    "023_breakout_retrospective_test_equity.parquet": "53118587bda0c98a70042f26aab6fb64e58f2012b802c2f150f586cf95bae595",
+    "026_mean_regime_discovery_trades.parquet": "e721ca408894fdfac11ac93fccc1f41c3b8415932975120cef531d90a33188f6",
+    "039_random_retrospective_test_trades.parquet": "865db1ab85f8a5b183798ae2b9d97f755b7b592ef62144f197640fb5d51c7698",
+    "031_range_discovery_trades.parquet": "9ff3e822260ea8d9dde5f43f21ce148393da83685948a4e133ac3687a65a9a2e",
+    "037_random_discovery_equity.parquet": "bc9b912ae06a5fca71d43b2f07f9bf4501fd4d7380c160fc2314e668b0fe1290",
+    "014_compression_discovery_equity.parquet": "27feea02cead2e802e98f3c1b0cd6a4101ae3db218b1f31ea397369b9c056e93",
+    "013_compression_discovery_trades.parquet": "28dab0a7b55ffb5048199d837fc59bc25ba7765cc817a2ae280845accfc3cdad",
+    "032_range_discovery_equity.parquet": "1cd7f3c33570727f3c381fb4d414183a1654cea6410c869987cfefc6d701ad30",
+    "buy_hold_validation.parquet": "23b74182364944830d4518523e5def39cc3d71d6dd40d3d2f3e65fa7121fc673",
+    "032_range_discovery_trades.parquet": "b2e757d1caeb496f17ffa7016d6c7169e7e54906e59e378e23cbf541b363635f",
+    "001_trend_discovery_equity.parquet": "0e7abdaf85fe30f5e17ebebf7b819ef753dd31b1fff8d0d34c44e201a9cfd137",
+    "014_compression_discovery_trades.parquet": "842a6537baee57381d9c4ccfbd596005a453521aaec1a9b30878076692a416d8",
+    "007_pullback_discovery_equity.parquet": "d0f81a9d2326fbcef02cac2d9331ba76d818c3c13ed12d15f18c7d539ab32c3f",
+    "027_mean_regime_discovery_trades.parquet": "1755cbdf82cf66c409afba88bddb52eda2f6ef42c3821c41e278e06d8677d1c6",
+    "013_compression_discovery_equity.parquet": "8cf0f34b08e31e3f40cad4e51d6b557323dc74b8f474a4ff872cffc305197f69",
+    "012_pullback_retrospective_test_equity.parquet": "8df23604d227295b981856aadf8890c5687f1205656bdc8a04e80294853dbfcb",
+    "016_compression_validation_trades.parquet": "66ed0079da46d1ffaad862569a7c5c771311e2457e6d9963f75353e78ec6fa36",
+    "036_range_retrospective_test_equity.parquet": "e51da1032caf79a1d6e83998b0e19d3b2cb7aa13c9b96ba62153c4615fd57d83",
+    "003_trend_discovery_equity.parquet": "09423284584bacf8a6f2a87617c9fb7a0e4176cf7de4b1ab9a527bdca56f8cec",
+    "011_pullback_retrospective_test_equity.parquet": "641f7798e6b3a524848d9bfb8c0c28ddea36b1c71cb88b350937f49d6bc7e3f7",
+    "030_mean_regime_retrospective_test_equity.parquet": "9ca179d7daaa22bcf893efb5ce1b3320c7f7bece4927a9fa7e8ac91da666986c",
+    "012_pullback_retrospective_test_trades.parquet": "8a68b167afdd995f4776a5d28d792b4ee15a012c31104c525a4cb249dcb61d11",
+    "038_random_validation_equity.parquet": "53caf64d8c7f027a9a8e3f585d336ec36c9f9fa7bb816295a803c12baa906998",
+    "015_compression_discovery_equity.parquet": "3429a45cf03cc115a1463b0bc12cbfa5ca816c600f5a17fa8bce1a79b2f4b195",
+    "008_pullback_discovery_trades.parquet": "74c2ffa7bea3077c928dc76c593eef3efb6c933da14a442e2432fb8276e30b24",
+    "001_trend_discovery_trades.parquet": "45d4415cd1be0f2c1c1dbe54f077fd0ea5b7d6115130a75ab706094cb8bf9f0a",
+    "logistic_30m_fold1.joblib": "e8fde55b0df372c9e62efc7c187ed7ef608776def341167f5ddea53196f48968",
+    "002_trend_discovery_equity.parquet": "cc4696770512f38363366f308c091f0f7a81885444865d04fde78f294b75632c",
+    "039_random_retrospective_test_equity.parquet": "d65245c19f6bb4486ab4250232555ea9325e648c2c4e42727c783089b85e7a61",
+    "009_pullback_discovery_equity.parquet": "86be36e11c95adcb67dce34fa5be9d41765538ce566638ff7cf9033861d66aa2",
+    "033_range_discovery_equity.parquet": "4fa6bee98629a5668dac7846604523231329ccb7aebddbcdaaf92f91d524c832",
+    "buy_hold_discovery.parquet": "1244350f6e6ff52a5edb436ca2541b664c8811d5d5cc5e6e3ececa16eec80ba0",
+    "015_compression_discovery_trades.parquet": "c7ba9f0be6da0c77930a205f9ed26e69bee44e7a6079231a66fb1a319034421f",
+    "004_trend_validation_equity.parquet": "537d25fa346278d3b06fcf2b09b21c5616c520879fd3f7f67e2557111b604c3f",
+    "029_mean_regime_retrospective_test_trades.parquet": "ee449254e9d5c8ec96a60609e5727edc67abedc8e0ae49f852fa2dbc43a496c4",
+    "logistic_30m_fold2.joblib": "d145f3c4cb2958a57abaf97e722abd3bc6116a116f3cb8037ce928f2cf86617a",
+    "005_trend_retrospective_test_equity.parquet": "89c5ab6c35ab4ededa9f2e8799b502d99a13c17ff1e8826e7656a979b170607b",
+    "024_breakout_retrospective_test_trades.parquet": "6a85112abadc4b286bd84a38e24520dcf9d9223bb4f7e13bd16d19c5f0f58f42",
+    "logistic_30m_fold0_predictions.parquet": "1c624611d4763d7a51b81e29273af6dbfc8cbc55e92587f2a3f538e310491a44",
+    "037_random_discovery_trades.parquet": "0ff4f3321358d79a9a4e61e2638922a010121bb361c99d926c24e362d629838f",
+    "025_mean_regime_discovery_trades.parquet": "e27e1aea533d625d0d1afa8ca7d11dcce764c67efde62a4ebe12caf92972c8e8",
+    "006_trend_retrospective_test_equity.parquet": "137e826b7a1414bde66ac1e457af757ac661575d130e559f15899c8a6896f740",
+    "logistic_30m_fold2_predictions.parquet": "3c78b10846b5c873b9e222b30e004442689cef56c1308b70931cbbfb892b597b",
+    "002_trend_discovery_trades.parquet": "0ab0fc98b9db8838d925ee4e3b8f049ba723b4451975728447230666cad8cc7e",
+    "035_range_retrospective_test_trades.parquet": "4603b68381f8f8089d1ca7250c8ea4c51c8c8284c2cbc273aeedad7766d47eb1",
+    "buy_hold_retrospective_test.parquet": "df7f8c7eb3fb264b5f47cdc0ba987fd92ca08716645a405919fccf43f464d244"
+  }
+}

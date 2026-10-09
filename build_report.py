@@ -8,7 +8,7 @@ def read(p,default):
 def pct(x):return 'indisponível' if x is None else f'{x*100:.3f}%'
 def portable_files(root=ROOT):
     """Only project artifacts; never walk environments, credentials or Git metadata."""
-    fixed={'README.md','run.py','audit_v2.py','audit_data.py','audit_results.py',
+    fixed={'README.md','run.py','audit_v2.py','audit_rebuild.py','audit_data.py','audit_results.py',
            'annotate_models.py','recompute_metrics.py','build_report.py','config.json',
            'requirements.txt','requirements-lock.txt','Dockerfile','railway.toml',
            'pytest.ini','BASELINE_V1_manifest.json','.gitignore','.dockerignore','.gitattributes',
@@ -22,6 +22,7 @@ def portable_files(root=ROOT):
     for directory,allowed in suffixes.items():
         selected.extend(p for p in (root/directory).rglob('*') if p.suffix in allowed)
     selected.extend([root/'models/registry.json',root/'reports/v3_audit.json',
+                     root/'reports/v3_rebuild_summary.json',root/'reports/v3_research_pilot.json',root/'reports/v3_opportunities.json',
                      root/'reports/results_audit.json',root/'reports/data_audit.json'])
     for p in sorted(set(selected)):
         if p.is_file() and not p.is_symlink() and p.resolve().is_relative_to(root.resolve()) and '__pycache__' not in p.parts:
