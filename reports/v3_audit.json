@@ -1,0 +1,41 @@
+{
+  "generated": "2026-10-09T10:17:28.767788+00:00",
+  "status": "PARTIAL_AUDIT",
+  "source_hashes": {
+    "audit_v2.py": "63b5e7c7c3424af27e8ed516156ef10bc13dc8bb6b664878d7d897a575ebb30a",
+    "lab/features.py": "3751f6f41086b00c0a9bd73f699b17a5da4413c775f92eda05e6c7990dbad816",
+    "lab/models.py": "bbb82d73528181639af9f9842d962ee1ecf45971e9cb950ba48710101fcf1d94",
+    "lab/execution.py": "816808e76d08aea3b9ae04ff516702884626379b946761a7f4e10d54be197eba",
+    "lab/backtest.py": "0c15e9ec5dcdb53ae0529dcb701f4360ca6c0c2b8d1f92cd6c97122155207d9b",
+    "config.json": "82989d60a6f96a06de358b5f9467390df94fd06da29a9368796f422838d60b9a"
+  },
+  "arithmetic_valid": true,
+  "errors": [],
+  "backtests_reconciled": 80,
+  "model_versions_verified": 36,
+  "statuses": {
+    "REJEITADA": 44,
+    "INCONCLUSIVO": 36
+  },
+  "permanent_risk_halts": 69,
+  "exit_reasons": {
+    "stop": 3871,
+    "target": 1806,
+    "time": 2307,
+    "circuit_recovery": 227,
+    "risk_open": 5
+  },
+  "brier_improved_models": 36,
+  "predictive_candidates": 25,
+  "holdout_predictive_candidates": 0,
+  "historical_candles_verified_in_cloud": 0,
+  "strategy_approval": "NONE",
+  "real_capital_used_brl": 0,
+  "pending": [
+    "Rebuild and verify original candle hashes",
+    "Measure the impact of integrity corrections on reruns",
+    "Current account fee, historical filters and order book are unverified",
+    "Unseen prospective observations and paper eligibility are pending"
+  ],
+  "interpretation": "Arithmetic consistency does not prove fills or profitability"
+}

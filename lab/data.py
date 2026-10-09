@@ -53,7 +53,7 @@ def validate(df, step):
     if df.empty: return {'rows':0,'valid':False,'errors':['empty'],'gaps':0}
     if df.t.duplicated().any(): errors.append('duplicate timestamps')
     if not df.t.is_monotonic_increasing: errors.append('unsorted')
-    if not np.isfinite(df[['o','h','l','c','v','qv']].to_numpy()).all(): errors.append('nonfinite')
+    if not np.isfinite(df[['t','ct','o','h','l','c','v','qv','n','tbv','tbqv']].to_numpy()).all(): errors.append('nonfinite')
     if (df[['o','h','l','c']]<=0).any().any(): errors.append('nonpositive price')
     if (df[['v','qv','n','tbv','tbqv']]<0).any().any(): errors.append('negative volume/trades')
     if ((df.h<df[['o','c','l']].max(axis=1))|(df.l>df[['o','c','h']].min(axis=1))).any(): errors.append('OHLC inconsistent')
@@ -72,13 +72,15 @@ def parse_archive(raw):
         df[col]=np.where(df[col]>10**14,df[col]//1000,df[col]).astype('int64')
     df['n']=df.n.astype('int64')
     return df.drop(columns='ignore')
-def acquire():
+def acquire(end_exclusive=None):
     start=time.monotonic(); (ROOT/'data/archives').mkdir(parents=True,exist_ok=True)
     try: catalog()
     except Exception as e: dump(ROOT/'data/catalog_error.json',{'error':str(e)})
     try: dump(ROOT/'data/exchange_snapshot.json',{'retrieved':utc(),'data':public_json('/api/v3/exchangeInfo')})
     except Exception as e: dump(ROOT/'data/exchange_error.json',{'error':str(e)})
-    months=pd.period_range(CFG['start'], pd.Timestamp(CFG['end_exclusive'])-pd.Timedelta(days=1),freq='M')
+    until=end_exclusive or CFG['end_exclusive']
+    if pd.Timestamp(until)<=pd.Timestamp(CFG['start']):raise ValueError('End date must follow start')
+    months=pd.period_range(CFG['start'], pd.Timestamp(until)-pd.Timedelta(days=1),freq='M')
     jobs=[(s,str(m)) for s in CFG['symbols'] for m in months]
     downloaded=[0]; records=[]
     import threading
@@ -87,7 +89,20 @@ def acquire():
         symbol,month=job; name=f'{symbol}-1m-{month}.zip'
         out=ROOT/f'data/parquet/{symbol}/1m/{month}.parquet'
         meta=out.with_suffix('.json')
-        if out.exists() and meta.exists(): return json.loads(meta.read_text())
+        if out.exists() and meta.exists():
+            try:
+                cached=json.loads(meta.read_text())
+                archive=ROOT/'data/archives'/name
+                if cached.get('status')!='OK' or sha(out)!=cached.get('parquet_sha256'):
+                    raise ValueError('cached parquet checksum failure')
+                if not archive.exists() or sha(archive)!=cached.get('archive_sha256'):
+                    raise ValueError('cached archive checksum failure')
+                quality=validate(pd.read_parquet(out),60000)
+                if not quality['valid']:raise ValueError(str(quality['errors']))
+                return {**cached,'quality':quality,'cache_reverified':utc()}
+            except Exception as e:
+                # Keep suspect files for diagnosis; never silently reuse or delete them.
+                return {'symbol':symbol,'month':month,'status':'ERROR','error':str(e)}
         if time.monotonic()-start>CFG['max_download_seconds']: return {'symbol':symbol,'month':month,'status':'TIME_BUDGET'}
         # Conservative upper bound per in-flight archive prevents overrun of byte budget.
         with lock:
@@ -117,6 +132,7 @@ def acquire():
             records.append(r)
             if (i+1)%24==0: print(f'Archives {i+1}/{len(jobs)}: {r["symbol"]}',flush=True)
     dump(ROOT/'data/download_manifest.json',{'generated':utc(),'records':records,'bytes_this_run':downloaded[0],
+         'requested_period':{'start':CFG['start'],'end_exclusive':until},
          'candidate_selection':'manual historical candidates; survivors and delisted examples; incomplete universe',
          'elapsed_s':time.monotonic()-start})
     aggregate()

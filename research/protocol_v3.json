@@ -1,0 +1,31 @@
+{
+  "version": "3.0-research-draft-1",
+  "state": "BLOCKED_PENDING_CANDLE_REBUILD",
+  "capital_virtual_brl": 500,
+  "capital_real_brl": 0,
+  "prior_exposed_periods": [
+    {"start": "2024-01-01", "end_exclusive": "2026-01-01", "source": "V1/V2 reports; retrospective holdout already observed"}
+  ],
+  "additional_exposure_rule": "Every discovery run records source hashes and actual first/last outcome timestamps. No post-2025 data are declared virgin by default.",
+  "families": [
+    {"name": "CONDITIONAL_MOMENTUM", "baseline_v2": ["trend", "pullback", "relative_btc"], "hypothesis": "Continuation may exceed friction when volatility-adjusted momentum and relative strength agree"},
+    {"name": "COMPRESSION_BREAKOUT", "baseline_v2": ["compression", "breakout"], "hypothesis": "Closed-bar expansion after past volatility compression may yield executable continuation"},
+    {"name": "CONDITIONAL_REVERSION", "baseline_v2": ["mean_regime", "range"], "hypothesis": "A closed-bar reversal in a range regime may yield net mean reversion without assuming a fill at the candle extreme"}
+  ],
+  "max_new_strategy_specifications": 18,
+  "parameter_search": "Predefine variants on discovery only; freeze before validation; never optimize on the external test",
+  "controls": ["CASH", "EXECUTABLE_BUY_AND_HOLD", "PREDECLARED_RANDOM"],
+  "evaluation_requirements": ["CAUSAL_FEATURES", "PURGING_AND_EMBARGO", "TEMPORAL_BLOCK_BOOTSTRAP", "MULTIPLE_COMPARISON_CONTROL", "REGIME_AND_ASSET_ROBUSTNESS", "COST_STRESS", "PROSPECTIVE_OBSERVATIONS"],
+  "statuses": {
+    "INVALID": "Integrity or chronology failure",
+    "REJECTED": "Failed economic or robustness criteria",
+    "INCONCLUSIVE": "Insufficient effective sample or uncertainty",
+    "PAPER_CANDIDATE": "Promising version frozen for prospective simulation; never authorizes real orders"
+  },
+  "minimum_closed_trades": 100,
+  "minimum_profit_factor": 1.3,
+  "positive_corrected_lower_confidence_bound_required": true,
+  "new_training_started": false,
+  "paper_candidates": [],
+  "real_order_submission_supported": false
+}

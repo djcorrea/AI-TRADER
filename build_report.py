@@ -1,11 +1,31 @@
 """Generate readable delivery from measured artifacts. Never invent missing metrics."""
 import json,datetime,collections,zipfile
 from pathlib import Path
-from lab.common import ROOT,dump,sha,utc
+from lab.common import ROOT,dump,sha,utc,state_path
 from lab.paper import Store
 def read(p,default):
     f=ROOT/p;return json.loads(f.read_text(encoding='utf-8')) if f.exists() else default
 def pct(x):return 'indisponível' if x is None else f'{x*100:.3f}%'
+def portable_files(root=ROOT):
+    """Only project artifacts; never walk environments, credentials or Git metadata."""
+    fixed={'README.md','run.py','audit_v2.py','audit_data.py','audit_results.py',
+           'annotate_models.py','recompute_metrics.py','build_report.py','config.json',
+           'requirements.txt','requirements-lock.txt','Dockerfile','railway.toml',
+           'pytest.ini','BASELINE_V1_manifest.json','.gitignore','.dockerignore','.gitattributes',
+           'data/catalog.json','data/quality.json','data/exchange_snapshot.json',
+           'data/download_manifest.json','research/strategy_registry.json','research/protocol_v3.json'}
+    selected=[root/name for name in fixed]
+    suffixes={'lab':{'.py'},'tests':{'.py'},'dashboard':{'.html','.css','.js'},
+              'docs':{'.md'},'baseline_v1':{'.py','.html','.md','.json'},
+              'models':{'.joblib','.parquet'},'results':{'.json','.parquet'},
+              'reports':{'.md'},'.github/workflows':{'.yml','.yaml'}}
+    for directory,allowed in suffixes.items():
+        selected.extend(p for p in (root/directory).rglob('*') if p.suffix in allowed)
+    selected.extend([root/'models/registry.json',root/'reports/v3_audit.json',
+                     root/'reports/results_audit.json',root/'reports/data_audit.json'])
+    for p in sorted(set(selected)):
+        if p.is_file() and not p.is_symlink() and p.resolve().is_relative_to(root.resolve()) and '__pycache__' not in p.parts:
+            yield p
 def run():
     report=read('results/report.json',{});exp=read('results/experiments.json',[]);models=read('results/models.json',{});q=read('data/quality.json',{})
     manifest=read('data/download_manifest.json',{});counts=collections.Counter(r['status'] for r in manifest.get('records',[]))
@@ -46,23 +66,17 @@ def run():
         '\n## Próximo teste válido',
         'Congelar parâmetros, modelos e custos; manter observação prospectiva sem alterações; obter cotações públicas de execução, registrar todos os sinais elegíveis e recusados. Para validar estratégia ativa, primeiro resolver bloqueios de universo/filtros e demonstrar vantagem histórica robusta; só então simular a versão congelada em paper, sem dinheiro real. Exigir amostra suficiente em diferentes regimes, intervalo líquido positivo e estabilidade ao elevar custos. Se nenhuma hipótese passar, permanecer em caixa. Retreinar cria uma nova versão e uma nova avaliação, nunca apaga perdas anteriores.',
         '\n## Paper observado nesta entrega']
-    s=Store(ROOT/'paper/paper.sqlite');service=s.get('service',{});conn=s.get('connectivity');events=s.db.execute("SELECT kind,count(*) FROM events GROUP BY kind").fetchall();s.close()
+    s=Store(state_path('paper.sqlite'));service=s.get('service',{});conn=s.get('connectivity');events=s.db.execute("SELECT kind,count(*) FROM events GROUP BY kind").fetchall();s.close()
     text += [f'Estado no snapshot: `{json.dumps(service,ensure_ascii=False)}`',f'Conectividade: {conn}; eventos retidos: {dict(events)}.',
         'O corretor virtual está funcional e foi exercitado em testes sintéticos. Ao vivo, nenhuma hipótese foi aprovada, portanto não houve estratégia ativada nem negócios atribuídos a lucro real. Serviço local exige PC/rede/processo ligados.']
     (ROOT/'reports/RESULTADOS.md').write_text('\n'.join(text),encoding='utf-8')
     dump(ROOT/'reports/paper_observation_snapshot.json',{'at':utc(),'service':service,'connectivity':conn,'events_retained':dict(events)})
-    sources={str(p.relative_to(ROOT)):sha(p) for p in ROOT.rglob('*') if p.is_file() and (p.suffix in ('.py','.html','.ini') or p.name in ['README.md','COBERTURA.md','AUDITORIA_V1.md','config.json','requirements-lock.txt']) and '__pycache__' not in p.parts}
+    sources={str(p.relative_to(ROOT)):sha(p) for p in portable_files()}
     dump(ROOT/'reports/source_manifest.json',sources)
     # Portable source, reports, experiment evidence and model registry, excluding bulky public cache.
     dest=ROOT.parent/'quant-ai-v2-source.zip'
     with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED) as z:
-        baseline=ROOT.parent/'BASELINE_V1.zip'
-        if not baseline.exists():baseline=ROOT/'BASELINE_V1.zip'
-        if baseline.exists():z.write(baseline,'quant-ai-v2/BASELINE_V1.zip')
-        for p in ROOT.rglob('*'):
-            if not p.is_file() or any(k in p.parts for k in ('__pycache__','.pytest_cache','archives','parquet','derived')):continue
-            if p.suffix in ('.sqlite','.duckdb') or p.name.endswith(('-wal','-shm','.log','.tmp')):continue
-            if p.name=='BASELINE_V1.zip':continue
+        for p in portable_files():
             z.write(p,'quant-ai-v2/'+str(p.relative_to(ROOT)))
     print(f'Report and portable source: {dest}',flush=True)
 if __name__=='__main__':run()

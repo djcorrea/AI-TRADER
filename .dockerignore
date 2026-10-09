@@ -19,7 +19,8 @@ data/derived
 **/*.zip
 tests
 baseline_v1
-reports
+reports/*
+!reports/v3_audit.json
 models/*_predictions.parquet
 results/*.parquet
 research/checkpoint.json

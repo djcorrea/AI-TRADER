@@ -1,7 +1,7 @@
 import json,time,asyncio,os
 from fastapi import FastAPI,WebSocket,HTTPException,Request
 from fastapi.responses import FileResponse
-from .common import ROOT,state_path
+from .common import ROOT,CFG,state_path
 from .paper import Store
 app=FastAPI(title='QUANT AI V2 • local public data laboratory')
 def read(relative,default=None):
@@ -15,8 +15,13 @@ def paper_state():
             from datetime import datetime
             if time.time()-datetime.fromisoformat(service['updated']).timestamp()>30:service['status']='stale_or_offline'
         events=[{'received':r[0],'kind':r[1],'payload':json.loads(r[2])} for r in store.db.execute("SELECT received,kind,payload FROM events WHERE kind!='raw_feed' ORDER BY id DESC LIMIT 25")]
+        symbols=store.get('monitor_symbols',service.get('symbols',CFG['symbols']))
+        scanner=[store.get('scanner_'+s) for s in symbols if store.get('scanner_'+s)]
+        scanner.sort(key=lambda row: (row.get('quote_volume_candle') or 0),reverse=True)
+        for row in scanner:
+            row['stale']=time.time()*1000-row['candle_close_ms']>120000
         return {'service':service,'broker':store.get('broker',{}),'kill':store.get('kill',False),'connectivity':store.get('connectivity','unavailable'),
-            'clock_drift_ms':store.get('clock_drift_ms'), 'scanner':[store.get('scanner_'+s) for s in ['BTCUSDT','ETHUSDT','SOLUSDT'] if store.get('scanner_'+s)],'events':events,
+            'clock_drift_ms':store.get('clock_drift_ms'), 'scanner':scanner,'events':events,
             'raw_messages_retained':store.db.execute("SELECT count(*) FROM events WHERE kind='raw_feed'").fetchone()[0]}
     finally:store.close()
 @app.get('/')
@@ -31,6 +36,12 @@ def experiments():return read('results/experiments.json',[])
 def models():return read('results/models.json',{'status':'NOT_TRAINED'})
 @app.get('/api/quality')
 def quality():return read('data/quality.json',{})
+@app.get('/api/audit')
+def audit():return read('reports/v3_audit.json',{'status':'NOT_RUN','pending':['V2 audit not run in this environment']})
+@app.get('/api/opportunities')
+def opportunities(symbol:str|None=None,horizon:int|None=None,regime:str|None=None,limit:int=100):
+    from .market_opportunity_discovery import read_map
+    return read_map(symbol,horizon,regime,limit)
 @app.get('/api/paper')
 def paper():return paper_state()
 @app.post('/api/kill')

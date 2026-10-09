@@ -22,7 +22,15 @@ def labels(x,horizon):
     x=x.copy();entry=x.o.shift(-2)*(1+impact);last=x.c.shift(-(horizon+1))*(1-impact)
     net=last/entry*(1-fee)/(1+fee)-1
     x['forward_net']=net;x['label_end']=x.ct.shift(-(horizon+1))
-    x['label']=np.select([net>.002,net<-.002],[1,-1],default=0)
+    x['label']=np.select([net>.002,net<-.002],[1,-1],default=0).astype(float)
+    # Positional shifts are not elapsed time when a minute is missing. Require
+    # every bar through the outcome, including the full minute of latency.
+    contiguous=pd.Series(True,index=x.index)
+    for j in range(horizon+2):
+        contiguous &= x.t.shift(-j).eq(x.t+j*60000)
+        contiguous &= x.ct.shift(-j).eq(x.t.shift(-j)+59999)
+    valid=contiguous & np.isfinite(net)
+    x.loc[~valid,['forward_net','label_end','label']]=np.nan
     # Barrier first-touch labels; adverse tie, future label data never features.
     upper=x.o.shift(-2)*1.006;lower=x.o.shift(-2)*.994
     hit=np.zeros(len(x),dtype=int);touch=np.full(len(x),horizon+1,dtype=int)
@@ -30,12 +38,14 @@ def labels(x,horizon):
         high=x.h.shift(-j).to_numpy();low=x.l.shift(-j).to_numpy()
         active=(hit==0);down=active&(low<=lower.to_numpy());up=active&(high>=upper.to_numpy())&~down
         hit[down]=-1;hit[up]=1;touch[down|up]=j
-    x['barrier_label']=hit
+    x['barrier_label']=pd.Series(hit,index=x.index).where(valid)
     x['available_t']=x.ct
     return x
 def purge_train(df,cutoff,embargo_ms):
     return df[(df.available_t<cutoff-embargo_ms)&(df.label_end<cutoff-embargo_ms)]
 def fit_calibrated(factory,fit,cal,test):
+    if sorted(cal.label.dropna().astype(int).unique())!=[-1,0,1]:
+        raise ValueError('Three label classes required in chronological calibration sample')
     model=factory();model.fit(fit[FEATURES],fit.label.astype(int))
     classes=list(model.classes_)
     if classes!=[-1,0,1]:raise ValueError('Three label classes required; insufficient sample')

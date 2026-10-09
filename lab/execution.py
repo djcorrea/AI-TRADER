@@ -35,14 +35,20 @@ def floor(value,step):
 def ceil(value,step):
     if not step:return value
     d=Decimal(str(value));s=Decimal(str(step));return float((d/s).to_integral_value(rounding=ROUND_CEILING)*s)
+def quantity_step(*steps):
+    """Smallest quantity grid satisfying every active lot-size filter."""
+    values=[Decimal(str(step)) for step in steps if step]
+    if not values:return 0.
+    scale=10**max(0,max(-value.as_tuple().exponent for value in values))
+    units=[int(value*scale) for value in values]
+    return float(Decimal(math.lcm(*units))/scale)
 def size(cash,equity,exposure,open_risk,price,stop,previous_volume,f,cfg=CFG):
     dist=price-stop+price*cfg['fee']+stop*(cfg['fee']+cfg['spread_half']+cfg['slippage'])
     if dist<=0:return 0.,'invalid_stop'
     amount=min(equity*cfg['position_cap'],max(0,equity*cfg['aggregate_cap']-exposure),cash/(1+cfg['fee']),f.max_notional)
     qty=min(amount/price,equity*cfg['risk']/dist,max(0,equity*cfg['aggregate_risk']-open_risk)/dist,
             previous_volume*cfg['participation_cap'],f.max_qty,f.market_max)
-    qty=floor(qty*cfg['fill_fraction'],f.step)
-    if f.market_step:qty=floor(qty,f.market_step);qty=floor(qty,f.step)
+    qty=floor(qty*cfg['fill_fraction'],quantity_step(f.step,f.market_step))
     if price<f.min_price or price>f.max_price:return 0.,'price_filter'
     if qty<=0 or qty<max(f.min_qty,f.market_min) or qty*price<f.min_notional:return 0.,'min_filter_or_balance'
     return qty,'partial' if cfg['fill_fraction']<1 else 'filled'

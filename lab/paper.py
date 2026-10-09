@@ -10,6 +10,7 @@ from .data import public_json,validate
 from .execution import Risk,Filters,size,ceil,floor,net_pnl,snapshot_filters
 from .features import make
 from .features import FEATURES
+from .scanner import monitor_symbols,observation
 def shadow_predict(bundle,feature):
     """Research inference only. This function cannot submit or approve an order."""
     import numpy as np
@@ -46,7 +47,7 @@ class Store:
     def trim(self,limit=100000):
         with self.db:
             self.db.execute("DELETE FROM events WHERE kind='raw_feed' AND id <= (SELECT COALESCE(MAX(id),0)-? FROM events)",(limit,))
-            self.db.execute("DELETE FROM events WHERE received<? AND kind IN ('scanner','shadow_prediction','closed_candle','raw_feed')",(time.time()-90*86400,))
+            self.db.execute("DELETE FROM events WHERE received<? AND kind!='paper_fill'",(time.time()-90*86400,))
             self.db.execute('DELETE FROM processed WHERE t<?',(int((time.time()-7*86400)*1000),))
     def close(self):self.db.close()
 class PaperBroker:
@@ -110,7 +111,8 @@ def parse_kline(k):
     return {'t':int(k['t']),'ct':int(k['T']),'o':float(k['o']),'h':float(k['h']),'l':float(k['l']),'c':float(k['c']),
         'v':float(k['v']),'qv':float(k['q']),'n':int(k['n']),'tbv':float(k['V']),'tbqv':float(k['Q'])}
 async def collect(duration=0,symbols=None):
-    symbols=symbols or CFG['ml_symbols'];store=Store(state_path('paper.sqlite'));broker=PaperBroker(store)
+    candidates=list(symbols or CFG.get('scanner_symbols',CFG['symbols']))[:100]
+    symbols=list(candidates);store=Store(state_path('paper.sqlite'));broker=PaperBroker(store)
     quotes={};bars={s:deque(maxlen=500) for s in symbols};start=time.monotonic();attempt=0;received=0;last_flush=0
     shadow=None;shadow_version='logistic_60m_fold2';shadow_loaded=False
     if (ROOT/'models/registry.json').exists():
@@ -123,6 +125,11 @@ async def collect(duration=0,symbols=None):
             shadow=joblib.load(path);shadow_loaded=True
     # REST warmup is public; a gap never silently carries signals into a reconnect.
     async def warmup():
+        nonlocal symbols
+        exchange=await asyncio.to_thread(public_json,'/api/v3/exchangeInfo')
+        symbols=monitor_symbols(exchange['symbols'],candidates)
+        if not symbols:raise RuntimeError('No currently listed public Spot candidates')
+        store.put('monitor_symbols',symbols)
         samples=[]
         for _ in range(3):
             before=time.time()*1000;clock=await asyncio.to_thread(public_json,'/api/v3/time');after=time.time()*1000
@@ -139,13 +146,13 @@ async def collect(duration=0,symbols=None):
             bars[s].clear()
             for k in rows:
                 if int(k[6])<clock['serverTime']:bars[s].append(dict(zip(['t','o','h','l','c','v','ct','qv','n','tbv','tbqv'],[int(k[0]),*map(float,k[1:6]),int(k[6]),float(k[7]),int(k[8]),float(k[9]),float(k[10])])))
-    stream='/'.join(f'{s.lower()}@bookTicker/{s.lower()}@kline_1m' for s in symbols)
-    url='wss://data-stream.binance.vision/stream?streams='+stream
     store.put('service',{'status':'starting','started':utc(),'symbols':symbols,'real_orders':False})
     try:
         while not duration or time.monotonic()-start<duration:
             try:
                 store.put('connectivity','recovering');await warmup()
+                stream='/'.join(f'{s.lower()}@bookTicker/{s.lower()}@kline_1m' for s in symbols)
+                url='wss://data-stream.binance.vision/stream?streams='+stream
                 async with websockets.connect(url,ping_interval=20,ping_timeout=20,close_timeout=5,max_queue=64) as ws:
                     store.log('connected',{'timestamp':utc(),'attempt':attempt});store.put('connectivity','connected');attempt=0
                     force_recovery=set(broker.state['positions'])
@@ -172,13 +179,15 @@ async def collect(duration=0,symbols=None):
                             store.log('closed_candle',{'symbol':s,'received':utc(),'candle':r})
                             if len(bars[s])<200:continue
                             f=make(pd.DataFrame(list(bars[s])),1).iloc[-1]
-                            scan={'symbol':s,'available_utc':utc(),'candle_close_ms':r['ct'],'price':r['c'],'regime':f['regime'],
-                                'rsi':float(f.rsi),'atrn':float(f.atrn),'decision':'NO_TRADE','reason':'No strategy approved; prospective observation only'}
+                            previous_volume=float(pd.DataFrame(list(bars[s]))['v'].iloc[-21:-1].mean())
+                            scan=observation(s,r,f,previous_volume,quotes.get(s),time.time())
+                            scan['available_utc']=utc()
                             store.put('scanner_'+s,scan);store.log('scanner',scan)
                             # Infer only when every asset's CLOSED candle has the same timestamp.
-                            if shadow_loaded and all(bars[z] and bars[z][-1]['t']==r['t'] for z in symbols):
+                            shadow_symbols=[z for z in CFG['ml_symbols'] if z in symbols]
+                            if shadow_loaded and {'BTCUSDT','ETHUSDT'}.issubset(shadow_symbols) and len(shadow_symbols)==len(CFG['ml_symbols']) and all(bars[z] and bars[z][-1]['t']==r['t'] for z in shadow_symbols):
                                 if store.claim('SHADOW_MODEL',r['t']):
-                                    fs={z:make(pd.DataFrame(list(bars[z])),1).iloc[-1].copy() for z in symbols}
+                                    fs={z:make(pd.DataFrame(list(bars[z])),1).iloc[-1].copy() for z in shadow_symbols}
                                     for z,fz in fs.items():
                                         fz['btc_relative']=fz.ret16-fs['BTCUSDT'].ret16
                                         fz['eth_relative']=fz.ret16-fs['ETHUSDT'].ret16

@@ -3,6 +3,9 @@ import pandas as pd
 from .common import CFG
 FEATURES=['ret1','ret4','ret16','atrn','rv','slope','adx','z','rsi','volume_z','taker_ratio','autocorr','btc_relative','eth_relative']
 def make(df, minutes=15):
+    if (df.t.diff().dropna()!=minutes*60000).any():
+        segments=(df.t.diff()!=minutes*60000).cumsum()
+        return pd.concat([make(part,minutes) for _,part in df.groupby(segments,sort=False)])
     x=df.copy(); c=x.c; ret=np.log(c).diff()
     x['ret1']=ret; x['ret4']=np.log(c/c.shift(4));x['ret16']=np.log(c/c.shift(16))
     x['ema20']=c.ewm(span=20,adjust=False,min_periods=20).mean()
