@@ -20,6 +20,21 @@ def shadow_predict(bundle,feature):
     p=bundle['calibrator'].predict_proba(np.log(raw))[0]
     net=float(p@np.array([bundle['mu_negative'],bundle['mu_neutral'],bundle['mu_positive']]))
     return {'p_negative':float(p[0]),'p_no_opportunity':float(p[1]),'p_positive':float(p[2]),'estimated_ev_net':net}
+def load_shadow():
+    """Only the predeclared inactive, config-matched and hash-verified version."""
+    choices=[('v3_registry.json','v3_logistic_30m_fold2'),('registry.json','logistic_60m_fold2')]
+    for registry_name,version in choices:
+        registry_path=ROOT/'models'/registry_name
+        if not registry_path.exists():continue
+        registry=json.loads(registry_path.read_text())
+        entry=next((m for m in registry if m['version']==version),None)
+        path=ROOT/f'models/{version}.joblib'
+        if entry and entry.get('activation') is None and entry.get('config_hash')==config_hash() and path.exists() and sha(path)==entry['model_sha256']:
+            import joblib
+            return joblib.load(path),version
+        # A tampered preferred artifact must not silently switch model versions.
+        raise RuntimeError(f'Inactive shadow registry/config/hash check failed: {version}')
+    return None,None
 class Store:
     def __init__(self,path):
         Path(path).parent.mkdir(parents=True,exist_ok=True)
@@ -114,15 +129,7 @@ async def collect(duration=0,symbols=None):
     candidates=list(symbols or CFG.get('scanner_symbols',CFG['symbols']))[:100]
     symbols=list(candidates);store=Store(state_path('paper.sqlite'));broker=PaperBroker(store)
     quotes={};bars={s:deque(maxlen=500) for s in symbols};start=time.monotonic();attempt=0;received=0;last_flush=0
-    shadow=None;shadow_version='logistic_60m_fold2';shadow_loaded=False
-    if (ROOT/'models/registry.json').exists():
-        # Predeclared model, not selected by most profitable holdout result.
-        registry=json.loads((ROOT/'models/registry.json').read_text(encoding='utf-8'))
-        entry=next((m for m in registry if m['version']==shadow_version),None)
-        path=ROOT/f'models/{shadow_version}.joblib'
-        if entry and path.exists() and sha(path)==entry['model_sha256']:
-            import joblib
-            shadow=joblib.load(path);shadow_loaded=True
+    shadow,shadow_version=load_shadow();shadow_loaded=shadow is not None
     # REST warmup is public; a gap never silently carries signals into a reconnect.
     async def warmup():
         nonlocal symbols
@@ -186,7 +193,7 @@ async def collect(duration=0,symbols=None):
                             # Infer only when every asset's CLOSED candle has the same timestamp.
                             shadow_symbols=[z for z in CFG['ml_symbols'] if z in symbols]
                             if shadow_loaded and {'BTCUSDT','ETHUSDT'}.issubset(shadow_symbols) and len(shadow_symbols)==len(CFG['ml_symbols']) and all(bars[z] and bars[z][-1]['t']==r['t'] for z in shadow_symbols):
-                                if store.claim('SHADOW_MODEL',r['t']):
+                                if store.claim('SHADOW_MODEL_'+shadow_version,r['t']):
                                     fs={z:make(pd.DataFrame(list(bars[z])),1).iloc[-1].copy() for z in shadow_symbols}
                                     for z,fz in fs.items():
                                         fz['btc_relative']=fz.ret16-fs['BTCUSDT'].ret16

@@ -21,8 +21,8 @@ def portable_files(root=ROOT):
               'reports':{'.md'},'.github/workflows':{'.yml','.yaml'}}
     for directory,allowed in suffixes.items():
         selected.extend(p for p in (root/directory).rglob('*') if p.suffix in allowed)
-    selected.extend([root/'models/registry.json',root/'reports/v3_audit.json',
-                     root/'reports/v3_rebuild_summary.json',root/'reports/v3_research_pilot.json',root/'reports/v3_opportunities.json',
+    selected.extend([root/'models/registry.json',root/'models/v3_registry.json',root/'reports/v3_audit.json',
+                     root/'reports/v3_rebuild_summary.json',root/'reports/v3_research_pilot.json',root/'reports/v3_research_full.json',root/'reports/v3_opportunities.json',
                      root/'reports/results_audit.json',root/'reports/data_audit.json'])
     for p in sorted(set(selected)):
         if p.is_file() and not p.is_symlink() and p.resolve().is_relative_to(root.resolve()) and '__pycache__' not in p.parts:

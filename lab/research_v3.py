@@ -26,16 +26,18 @@ PERIODS = {'discovery': ('2024-03-01','2025-01-01'),
            'retrospective_test': ('2025-07-01','2026-01-01')}
 
 
-def prepare():
+def prepare(universe=None):
     audit_pointer = state_path('rebuild-audits/latest.json')
     audit = json.loads(__import__('pathlib').Path(json.loads(audit_pointer.read_text())['report_path']).read_text())
     checked = {(r['symbol'],r['month']) for r in audit['verified']
                if r['baseline_archive_match'] and not r['quality']['gaps']}
     sources, minutes, bars = {}, {}, {}
-    for symbol in CFG['ml_symbols']:
+    reference={(r['symbol'],r['month']):r['status'] for r in json.loads((ROOT/'data/download_manifest.json').read_text())['records']}
+    for symbol in universe or CFG['ml_symbols']:
         frames, provenance = [], []
         for month in pd.period_range(CFG['start'],pd.Timestamp(CFG['end_exclusive'])-pd.Timedelta(days=1),freq='M'):
             month = str(month)
+            if universe and reference.get((symbol,month))=='NOT_AVAILABLE':continue
             if (symbol,month) not in checked:
                 raise RuntimeError(f'Unaudited required pilot source: {symbol} {month}')
             p = ROOT/f'data/parquet/{symbol}/1m/{month}.parquet'
@@ -48,7 +50,7 @@ def prepare():
         q = validate(frame,60000)
         if not q['valid'] or q['gaps']:
             raise RuntimeError(f'Non-contiguous pilot history: {symbol}')
-        minutes[symbol] = make(frame,1)
+        if symbol in CFG['ml_symbols']:minutes[symbol] = make(frame,1)
         grouped = frame.assign(bucket=frame.t//900000*900000).groupby('bucket',sort=True)
         coarse = grouped.agg(o=('o','first'),h=('h','max'),l=('l','min'),c=('c','last'),v=('v','sum'),qv=('qv','sum'),
                              n=('n','sum'),tbv=('tbv','sum'),tbqv=('tbqv','sum'),count=('t','size'))
@@ -59,20 +61,21 @@ def prepare():
     return minutes,bars,sources
 
 
-def run(max_seconds=900):
+def run(max_seconds=900,full_universe=False):
     if not 1<=max_seconds<=CFG['max_research_seconds']:
         raise ValueError('Research budget exceeds frozen configuration')
     started=time.monotonic()
-    minutes,bars,sources=prepare()
+    minutes,bars,sources=prepare(CFG['symbols']) if full_universe else prepare()
     directory=state_path('v3-research')/str(time.time_ns());directory.mkdir(parents=True)
     manifest={'status':'RUNNING','created':utc(),'sources':sources,
               'source_hashes':{p:sha(ROOT/p) for p in ('lab/research_v3.py','lab/backtest.py','lab/models.py','lab/features.py','lab/execution.py','lab/strategies.py','config.json')},
-              'universe':list(bars),'periods':PERIODS,'rules':list(RULES),'discovery_variants':[.9,1.,1.1],
+              'universe':list(bars),'scope':'MANUAL_FULL_UNIVERSE' if full_universe else 'BTC_ETH_SOL_PILOT',
+              'periods':PERIODS,'rules':list(RULES),'discovery_variants':[.9,1.,1.1],
               'validation_and_test_variant':1.,'ml_horizon_minutes':30,'ml_model':'standardized_logistic_C_0.1',
               'ml_max_fit_rows':20000,'ml_max_calibration_rows':5000,'ml_max_test_rows':10000,
               'maximum_tests':120,'max_seconds':max_seconds,'final_virgin_test':False,
               'strategy_approval':'NONE','paper_candidates':[],'real_orders':False,
-              'limitations':['Pilot universe restricted to BTC/ETH/SOL, not a historical full-market universe.',
+              'limitations':['Manual V2 universe, not a complete historical market universe.' if full_universe else 'Pilot universe restricted to BTC/ETH/SOL, not a historical full-market universe.',
                              '2024-2025 already exposed in V1/V2; chronological out-of-sample is retrospective.',
                              'Historical filters, spreads, queue and account fees are assumptions.',
                              'Predictive label outcomes overlap and are not portfolio PNL.',
@@ -154,7 +157,7 @@ def run(max_seconds=900):
                        'predictive_candidates':int(candidate.sum()),'model_sha256':sha(bundle),
                        'status':'INCONCLUSIVE_PREDICTIVE_ONLY','activation':None})
             checkpoint();print(f'V3 ML fold {fold}: {candidate.sum()} predictive candidates, inactive',flush=True)
-        manifest['status']='RETROSPECTIVE_PILOT_COMPLETED'
+        manifest['status']='RETROSPECTIVE_FULL_UNIVERSE_COMPLETED' if full_universe else 'RETROSPECTIVE_PILOT_COMPLETED'
     except TimeoutError as error:
         manifest.update(status='PARTIAL_TIME_OR_EXPERIMENT_BUDGET',stopped_reason=str(error))
     checkpoint()

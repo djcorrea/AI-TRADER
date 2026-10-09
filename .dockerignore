@@ -23,6 +23,7 @@ reports/*
 !reports/v3_audit.json
 !reports/v3_rebuild_summary.json
 !reports/v3_research_pilot.json
+!reports/v3_research_full.json
 !reports/v3_opportunities.json
 models/*_predictions.parquet
 results/*.parquet

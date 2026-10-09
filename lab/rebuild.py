@@ -18,16 +18,19 @@ from .common import CFG, ROOT, dump, sha, state_path, utc
 from .data import parse_archive, validate, NETWORK_GATE
 
 
-def rebuild(max_archives=24, max_seconds=300, end_date=None, symbols=None):
+def rebuild(max_archives=24, max_seconds=300, end_date=None, symbols=None, start_date=None):
     if not 1 <= max_archives <= 720 or not 1 <= max_seconds <= CFG['max_download_seconds']:
         raise ValueError('Archive or time limit outside configured budget')
     selected = symbols or CFG['symbols']
     if not selected or any(s not in CFG['symbols'] for s in selected):
         raise ValueError('Select only configured public symbols')
     until = pd.Timestamp(end_date or CFG['end_exclusive'])
+    since = pd.Timestamp(start_date or CFG['start'])
+    if since.day != 1 or since < pd.Timestamp(CFG['start']):
+        raise ValueError('Start date must be a month boundary at or after the frozen start')
     if until.day != 1 or until > pd.Timestamp.now(tz='UTC').tz_localize(None).normalize().replace(day=1):
         raise ValueError('Exclusive end date must be the first of a completed month')
-    if until <= pd.Timestamp(CFG['start']):
+    if until <= since:
         raise ValueError('End date must follow start')
     baseline = json.loads((ROOT/'data/download_manifest.json').read_text())
     reference = {(r['symbol'], r['month']): r for r in baseline['records']}
@@ -77,7 +80,7 @@ def rebuild(max_archives=24, max_seconds=300, end_date=None, symbols=None):
 
     def save(status):
         report = {'status': status, 'generated': utc(), 'baseline_manifest_sha256': sha(ROOT/'data/download_manifest.json'),
-                  'requested_period': {'start': CFG['start'], 'end_exclusive': str(until.date())},
+                  'requested_period': {'start': str(since.date()), 'end_exclusive': str(until.date())},
                   'records': records, 'bytes_this_run': downloaded, 'attempts': attempts,
                   'elapsed_seconds': time.monotonic()-started, 'disk_bytes': disk_bytes(),
                   'limits': {'seconds': max_seconds, 'archives': max_archives, 'bytes': byte_limit, 'disk_bytes': disk_limit,
@@ -88,7 +91,7 @@ def rebuild(max_archives=24, max_seconds=300, end_date=None, symbols=None):
         return report
 
     for symbol in selected:
-        for month in pd.period_range(CFG['start'], until-pd.Timedelta(days=1), freq='M'):
+        for month in pd.period_range(since, until-pd.Timedelta(days=1), freq='M'):
             month = str(month)
             record = {'symbol': symbol, 'month': month}
             name = f'{symbol}-1m-{month}.zip'

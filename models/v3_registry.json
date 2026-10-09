@@ -1,0 +1,34 @@
+[
+  {
+    "version": "v3_logistic_30m_fold2",
+    "created": "2026-10-09T11:45:27.575294+00:00",
+    "activation": null,
+    "promotion": "BLOCKED",
+    "mode": "SHADOW_ONLY",
+    "config_hash": "82989d60a6f96a06de358b5f9467390df94fd06da29a9368796f422838d60b9a",
+    "model_sha256": "d145f3c4cb2958a57abaf97e722abd3bc6116a116f3cb8037ce928f2cf86617a",
+    "train_end": "2025-07-01",
+    "metrics": {
+      "fold": 2,
+      "begin": "2025-07-01",
+      "end": "2026-01-01",
+      "fit_rows": 20000,
+      "calibration_rows": 5000,
+      "test_rows": 10000,
+      "fit_label_end_max": 1741870019999,
+      "calibration_first": 1749824159999,
+      "calibration_label_end_max": 1751325419999,
+      "test_first": 1751328059999,
+      "test_label_end_max": 1754329619999,
+      "brier": 0.052268769073726955,
+      "null_brier": 0.05683271249999998,
+      "multiclass_log_loss": 0.676501952586258,
+      "predictive_candidates": 7,
+      "model_sha256": "d145f3c4cb2958a57abaf97e722abd3bc6116a116f3cb8037ce928f2cf86617a",
+      "status": "INCONCLUSIVE_PREDICTIVE_ONLY",
+      "activation": null
+    },
+    "selection": "Predeclared final temporal fold, not chosen by profitability",
+    "limitations": "Known retrospective history; no statistical or paper approval"
+  }
+]
