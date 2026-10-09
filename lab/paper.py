@@ -125,6 +125,19 @@ class PaperBroker:
 def parse_kline(k):
     return {'t':int(k['t']),'ct':int(k['T']),'o':float(k['o']),'h':float(k['h']),'l':float(k['l']),'c':float(k['c']),
         'v':float(k['v']),'qv':float(k['q']),'n':int(k['n']),'tbv':float(k['V']),'tbqv':float(k['Q'])}
+def closed_rest_bars(rows,cutoff):
+    bars=[]
+    for k in rows:
+        if int(k[6])<=cutoff:
+            bars.append(dict(zip(['t','o','h','l','c','v','ct','qv','n','tbv','tbqv'],
+                [int(k[0]),*map(float,k[1:6]),int(k[6]),float(k[7]),int(k[8]),float(k[9]),float(k[10])])))
+    if bars and not validate(pd.DataFrame(bars),60000)['valid']:raise ValueError('Invalid public REST warmup candles')
+    return bars
+def recover_closed_history(symbol,candle):
+    rows=public_json(f'/api/v3/klines?symbol={symbol}&interval=1m&endTime={candle["ct"]}&limit=500')
+    # Never include a candle later than the event being processed. The current
+    # event is appended once by the collector, not duplicated from REST.
+    return [bar for bar in closed_rest_bars(rows,candle['ct']) if bar['t']<candle['t']]
 async def collect(duration=0,symbols=None):
     candidates=list(symbols or CFG.get('scanner_symbols',CFG['symbols']))[:100]
     symbols=list(candidates);store=Store(state_path('paper.sqlite'));broker=PaperBroker(store)
@@ -181,6 +194,10 @@ async def collect(duration=0,symbols=None):
                             if bars[s] and r['t']<=bars[s][-1]['t']:continue
                             if bars[s] and r['t']-bars[s][-1]['t']!=60000:
                                 bars[s].clear();store.log('gap',{'symbol':s,'t':r['t']})
+                                recovered=await asyncio.to_thread(recover_closed_history,s,r)
+                                bars[s].extend(recovered)
+                                store.log('closed_history_recovered',{'symbol':s,'through_t':r['t'],'bars':len(recovered),
+                                    'source':'PUBLIC_REST','future_candles_used':False})
                             bars[s].append(r)
                             if not store.claim(s,r['t']):continue
                             store.log('closed_candle',{'symbol':s,'received':utc(),'candle':r})

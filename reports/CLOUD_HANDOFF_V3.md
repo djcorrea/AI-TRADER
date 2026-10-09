@@ -51,7 +51,7 @@ em `reports/v3_rebuild_summary.json`.
 
 ## 4. Verificações
 
-92 testes passaram. Há um aviso de depreciação Starlette/httpx, sem falha.
+96 testes passaram. Há um aviso de depreciação Starlette/httpx, sem falha.
 Reconciliação independente V2: 80 backtests e 36 modelos preservados.
 Piloto e comparação V3: saldo, taxas, drawdown, Brier, candidatos, hashes e purga
 temporal conferidos. JavaScript passou na verificação de sintaxe.
@@ -79,7 +79,7 @@ pode desligar outros serviços e não deve ser alterado sem concordância.
 ## 6. Funcionalidades operacionais
 
 - Scanner público de 27 pares atualmente listados; dados de candles fechados e
-  cotações, detecção de frescor e reconexão. Todos `NO_TRADE`.
+  cotações, detecção de frescor e reconexão. Lacunas na retomada buscam apenas histórico REST anterior ao candle processado; lacunas reais continuam visíveis. Todos `NO_TRADE`.
 - `/health` distingue API disponível de feed saudável; `/api/paper` expõe estado,
   idade das mensagens e cobertura de cotações. Pares com cotação antiga não são
   tratados como preços executáveis.

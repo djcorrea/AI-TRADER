@@ -59,3 +59,5 @@ python run.py research-v3 --full-universe --max-seconds 900
 ```
 
 `rebuild` aceita início por mês para evitar reprocessar todo o cache em extensões. O comparativo amplo continua sendo retrospectivo, sobre universo manual incompleto e execução hipotética. Manter carteira em caixa até vantagem estatística e elegibilidade prospectiva comprovadas.
+
+O coletor recupera candles públicos já fechados se o aquecimento/reconexão perder um minuto. A consulta REST é limitada pelo close time do evento processado e exclui o próprio candle antes de adicioná-lo uma única vez. Isso evita usar futuro; lacunas reais na fonte continuam visíveis e reiniciam features.
