@@ -65,6 +65,8 @@ def test_feed_health_reports_stale_connection(tmp_path,monkeypatch):
     store.put('service',{'status':'running','updated':'2099-01-01T00:00:00+00:00','last_message_epoch':time.time(),'fresh_quotes':1})
     with TestClient(api.app) as c:
         assert c.get('/health').json()['feed']['healthy'] is True
+        store.put('service',{'status':'running','updated':'2099-01-01T00:00:00+00:00','last_message_epoch':time.time(),'fresh_quotes':0})
+        assert c.get('/health').json()['feed']['healthy'] is False
         store.put('service',{'status':'running','updated':'2099-01-01T00:00:00+00:00','last_message_epoch':time.time()-60,'fresh_quotes':0})
         assert c.get('/health').json()['feed']['healthy'] is False
     store.close()

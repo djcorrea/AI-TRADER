@@ -22,7 +22,7 @@ def paper_state():
             row['stale']=time.time()*1000-row['candle_close_ms']>120000
         connectivity=store.get('connectivity','unavailable')
         age=time.time()-service.get('last_message_epoch',0)
-        feed={'healthy':connectivity=='connected' and service.get('status')=='running' and 0<=age<=30,
+        feed={'healthy':connectivity=='connected' and service.get('status')=='running' and 0<=age<=30 and service.get('fresh_quotes',0)>0,
               'last_message_age_seconds':round(age,3) if service.get('last_message_epoch') else None,
               'fresh_quotes':service.get('fresh_quotes',0),'monitored_symbols':len(symbols),
               'fully_fresh':service.get('fresh_quotes',0)==len(symbols) and bool(symbols)}
